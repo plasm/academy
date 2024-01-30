@@ -1,0 +1,9 @@
+.push-enter-active, .push-leave-active {
+  transition: all 0.5s theme('transitionTimingFunction.cubic-bezier');
+}
+.push-enter {
+  transform: translateX(-100%);
+}
+.push-leave-to {
+  transform: translateX(100%);
+}

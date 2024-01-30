@@ -1,0 +1,7 @@
+.bounce-enter-active, .bounce-leave-active{
+  transition: transform .25s cubic-bezier(0.24, 0.22, 0.015, 1.56), opacity .1s ease-in-out;
+}
+.bounce-enter-from, .bounce-leave-to{ /* .fade-leave-active below version 2.1.8 */
+  transform: translateY(-25px) scale(0.85);
+  opacity: 0;
+}

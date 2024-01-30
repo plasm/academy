@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300;400;600;800&family=Public+Sans:wght@200;300;600;800;900&display=swap'); */
+@import '../animations/index.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-base;
+}
+
+::-moz-selection { /* Code for Firefox */
+  @apply text-black bg-white;
+}
+
+::selection {
+  @apply text-black bg-white;
+}
+
+.tiny-v-scrollbar{
+  overflow-y: scroll;
+  scrollbar-width: 0px;
+  -ms-overflow-style: none;
+}
+.tiny-v-scrollbar{
+  scrollbar-width: thin;
+}
+.tiny-v-scrollbar::-webkit-scrollbar{
+  width: 0px;
+}
+.tiny-v-scrollbar::-webkit-scrollbar-thumb{
+  background: #88888888;
+}
+
+.tiny-h-scrollbar{
+  overflow-x: scroll;
+  scrollbar-height: 1px;
+  -ms-overflow-style: none;
+}
+.tiny-h-scrollbar{
+  scrollbar-height: thin;
+}
+.tiny-h-scrollbar::-webkit-scrollbar{
+  height: 1px;
+}
+.tiny-h-scrollbar::-webkit-scrollbar-thumb{
+  background: #88888888;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: transform .6s cubic-bezier(0.29,0,0.01,1), opacity .3s cubic-bezier(0.29,0,0.01,1);
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+}

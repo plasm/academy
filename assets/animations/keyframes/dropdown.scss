@@ -1,0 +1,20 @@
+@keyframes dropdownMenuAnimation{
+  0%{
+    transform: scale(.95);
+    opacity: .6;
+  }
+  to{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes dropdownMenuOutAnimation{
+  0%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  to{
+    transform: scale(.95);
+    opacity: .6;
+  }
+}

@@ -1,0 +1,7 @@
+.slide-left-enter-active, .slide-left-leave-active{
+  transition: transform .3s theme('transitionTimingFunction.cubic-bezier'), opacity .2s theme('transitionTimingFunction.cubic-bezier');
+}
+.slide-left-enter-from, .slide-left-leave-to{
+  transform: translateX(-30px);
+  opacity: 0;
+}
