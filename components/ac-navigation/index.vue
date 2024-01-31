@@ -1,6 +1,6 @@
 <template>
-  <div data-name="ac-navigation" class="sticky top-0 z-40 mx-auto w-full border-b bg-white 2xl:max-w-7xl">
-    <div class="relative mx-auto flex w-full flex-col bg-white p-5 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
+  <div data-name="ac-navigation" class="sticky top-0 z-40 mx-auto w-full border-b bg-base 2xl:max-w-7xl">
+    <div class="relative mx-auto flex w-full flex-col p-5 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
       <div class="flex flex-row items-center justify-between lg:justify-start">
         <nuxt-link title="Aiges Academy" class="flex items-center justify-start gap-2 text-lg tracking-tight text-black focus:outline-none focus:ring" to="/">
           <ac-logo />
@@ -14,14 +14,14 @@
         </button>
       </div>
       <nav :class="{ 'flex': menuIsOpen, 'hidden': !menuIsOpen }" class="grow flex-col items-center md:flex md:flex-row md:justify-end md:pb-0">
-        <a class="p-2 text-sm text-neutral-500 hover:text-blue-600 md:px-3 lg:ml-auto lg:px-6" href="#">
+        <a class="p-2 text-sm text-neutral-500 hover:text-primary md:px-3 lg:ml-auto lg:px-6" href="#">
           About
         </a>
-        <a class="p-2 text-sm text-neutral-500 hover:text-blue-600 md:px-3 lg:px-6" href="#">
+        <a class="p-2 text-sm text-neutral-500 hover:text-primary md:px-3 lg:px-6" href="#">
           Contact
         </a>
         <div ref="dropdown" class="relative w-full md:w-auto">
-          <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-500 hover:text-blue-600 focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">
+          <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-500 hover:text-primary focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">
             <span>
               Dropdown List
             </span>
@@ -76,28 +76,28 @@
                         </div>
                       </a>
                     </div>
-                    <div class="grid grid-cols-1 gap-3 rounded-2xl bg-neutral-50 p-2 lg:p-0">
+                    <div class="grid grid-cols-1 gap-3 rounded-2xl bg-base-hover p-2 lg:p-0">
                       <div class="grid h-full items-start gap-6 px-5 py-6 sm:gap-8 sm:p-8">
-                        <h3 class="text-base font-medium text-blue-400">
+                        <h3 class="text-base font-medium text-primary">
                           Getting started
                         </h3>
                         <div class="space-y-2">
-                          <a href="#" class="flex items-start rounded-lg text-sm font-medium transition duration-150 ease-in-out hover:text-blue-500">
+                          <a href="#" class="flex items-start rounded-lg text-sm font-medium transition duration-150 ease-in-out hover:text-primary">
                             Explore design work
                           </a>
-                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-blue-500">
+                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-primary">
                             Register
                           </a>
-                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-blue-500">
+                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-primary">
                             Adding users
                           </a>
-                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-blue-500">
+                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-primary">
                             Video Tutorials
                           </a>
-                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-blue-500">
+                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-primary">
                             Libraries and SDKs
                           </a>
-                          <a href="#" class="inline-flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-blue-500">
+                          <a href="#" class="inline-flex items-start rounded-lg text-sm text-neutral-500 transition duration-150 ease-in-out hover:text-primary">
                             Adding Plugins
                           </a>
                         </div>
@@ -111,7 +111,7 @@
         </div>
 
         <div class="flex list-none items-center gap-2 lg:ml-auto">
-          <button class="focus:shadow-outline mt-2 block px-4 py-2 text-sm text-neutral-500 hover:text-blue-600 focus:outline-none md:mt-0">
+          <button class="focus:shadow-outline mt-2 block px-4 py-2 text-sm text-neutral-500 hover:text-primary focus:outline-none md:mt-0">
             Sign in
           </button>
           <button class="mt-2 rounded-full bg-black  px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-700 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0">

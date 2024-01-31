@@ -18,12 +18,12 @@ module.exports = {
       },
       colors: {
         base: {
-          DEFAULT: '#F8F7F4',
-          hover: '#f0efe9',
+          DEFAULT: '#fbfcfd',
+          hover: '#f7f9fb',
         },
         primary: {
-          DEFAULT: '#6A5FE2',
-          hover: '#6A5FE2',
+          DEFAULT: '#212126',
+          hover: '#212126',
         },
       },
     }

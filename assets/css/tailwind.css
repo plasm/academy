@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body{
-  @apply bg-white;
+  @apply bg-base;
 }
 
 ::-moz-selection {
