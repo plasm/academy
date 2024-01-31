@@ -14,14 +14,14 @@
         </button>
       </div>
       <nav :class="{ 'flex': menuIsOpen, 'hidden': !menuIsOpen }" class="grow flex-col items-center md:flex md:flex-row md:justify-end md:pb-0">
-        <a class="p-2 text-sm text-neutral-300 hover:text-neutral-100 md:px-3 lg:ml-auto lg:px-6" href="#">
+        <a class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:ml-auto lg:px-6" href="#">
           About
         </a>
-        <a class="p-2 text-sm text-neutral-300 hover:text-neutral-100 md:px-3 lg:px-6" href="#">
+        <a class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:px-6" href="#">
           Contact
         </a>
         <div ref="dropdown" class="relative w-full md:w-auto">
-          <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-300 hover:text-neutral-100 focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">
+          <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-300 hover:text-primary focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">
             <span>
               Dropdown List
             </span>
@@ -82,22 +82,22 @@
                           Getting started
                         </h3>
                         <div class="space-y-2">
-                          <a href="#" class="flex items-start rounded-lg  text-sm font-medium text-neutral-300 transition duration-150 ease-in-out hover:text-neutral-100">
+                          <a href="#" class="flex items-start rounded-lg  text-sm font-medium text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
                             Explore design work
                           </a>
-                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-neutral-100">
+                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
                             Register
                           </a>
-                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-neutral-100">
+                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
                             Adding users
                           </a>
-                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-neutral-100">
+                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
                             Video Tutorials
                           </a>
-                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-neutral-100">
+                          <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
                             Libraries and SDKs
                           </a>
-                          <a href="#" class="inline-flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-neutral-100">
+                          <a href="#" class="inline-flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
                             Adding Plugins
                           </a>
                         </div>
@@ -111,7 +111,7 @@
         </div>
 
         <div class="flex list-none items-center gap-2 lg:ml-auto">
-          <button class="focus:shadow-outline mt-2 block px-4 py-2 text-sm text-neutral-300 hover:text-neutral-100 focus:outline-none md:mt-0">
+          <button class="focus:shadow-outline mt-2 block px-4 py-2 text-sm text-neutral-300 hover:text-primary focus:outline-none md:mt-0">
             Sign in
           </button>
           <button class="mt-2 rounded-full bg-black  px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-700 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0">
