@@ -7,15 +7,15 @@
 @tailwind utilities;
 
 body{
-  @apply bg-base;
+  @apply bg-white;
 }
 
-::-moz-selection { /* Code for Firefox */
-  @apply text-black bg-white;
+::-moz-selection {
+  @apply text-black bg-yellow-200;
 }
 
 ::selection {
-  @apply text-black bg-white;
+  @apply text-black bg-yellow-200;
 }
 
 .tiny-v-scrollbar{

@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   ssr: true,
   spaLoadingTemplate: false,
   devtools: { enabled: false },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module', 'nuxt-simple-sitemap'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module', 'nuxt-simple-sitemap', '@vueuse/nuxt'],
   app: {
     pageTransition: {
       name: 'page', mode: 'out-in'

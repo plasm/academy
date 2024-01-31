@@ -1,6 +1,7 @@
 <template>
   <div data-name="default-layout">
-    <main class="relative flex-1 focus:outline-none">
+    <ac-navigation />
+    <main class="relative flex-1 py-4 focus:outline-none">
       <slot />
     </main>
   </div>

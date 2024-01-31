@@ -1,8 +1,9 @@
 /* Scale */
 .scale-enter-active, .scale-leave-active{
-  transition: transform .3s theme('transitionTimingFunction.cubic-bezier-elastic'), opacity .1s cubic-bezier(0.1, 0, 0, 1);
+  transition: transform .2s theme('transitionTimingFunction.cubic-bezier'), opacity .1s cubic-bezier(0.1, 0, 0, 1);
+  transform-origin: 50% 0;
 }
 .scale-enter-from, .scale-leave-to{
-  transform: scale(0.4);
+  transform: translateY(-30px) scale(0.8);
   opacity: 0;
 }
