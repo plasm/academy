@@ -125,6 +125,8 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+import { onClickOutside } from '@vueuse/core'
 
 const dropdown = ref(null)
 const hamburger = ref(null)
@@ -144,6 +146,9 @@ onClickOutside(dropdown, () => {
 }, { ignore: [hamburger] })
 </script>
 <script>
+export default {
+  name: 'ac-navigation',
+}
 </script>
 
 <style lang="scss" scoped>
