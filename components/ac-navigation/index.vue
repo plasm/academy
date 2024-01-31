@@ -31,11 +31,11 @@
           </button>
           <div class="relative mt-3 max-w-3xl px-2 sm:px-0 md:fixed md:left-1/2 md:z-10 md:w-screen md:-translate-x-1/2" :class="{ 'pointer-events-none invisible opacity-0':!dropdownIsOpen }">
             <transition name="scale" mode="in-out">
-              <div v-show="dropdownIsOpen" class=" overflow-hidden rounded-lg ring ring-white/20 ring-1  md:shadow-lg">
+              <div v-show="dropdownIsOpen" class="overflow-hidden rounded-lg ring-1 ring-white/20  md:shadow-lg">
                 <div class="relative grid gap-6 bg-neutral-800 px-5 py-6 sm:gap-8 sm:p-8">
                   <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
                     <div class="grid grid-cols-1 gap-8">
-                      <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-900">
+                      <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-700/50">
                         <div class="ml-4">
                           <p class="text-base font-medium text-white">
                             Explore design work
@@ -45,7 +45,7 @@
                           </p>
                         </div>
                       </a>
-                      <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-900">
+                      <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-700/50">
                         <div class="ml-4">
                           <p class="text-base font-medium text-white">
                             Blog
@@ -55,7 +55,7 @@
                           </p>
                         </div>
                       </a>
-                      <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-900">
+                      <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-700/50">
                         <div class="ml-4">
                           <p class="text-base font-medium text-white">
                             Secure
@@ -65,7 +65,7 @@
                           </p>
                         </div>
                       </a>
-                      <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-900">
+                      <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-700/50">
                         <div class="ml-4">
                           <p class="text-base font-medium text-white">
                             Users
