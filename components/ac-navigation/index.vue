@@ -1,5 +1,5 @@
 <template>
-  <div data-name="ac-navigation" class="mx-auto w-full border-b bg-white 2xl:max-w-7xl">
+  <div data-name="ac-navigation" class="sticky top-0 z-40 mx-auto w-full border-b bg-white 2xl:max-w-7xl">
     <div class="relative mx-auto flex w-full flex-col bg-white p-5 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
       <div class="flex flex-row items-center justify-between lg:justify-start">
         <a class="text-lg uppercase tracking-tight text-black focus:outline-none focus:ring lg:text-2xl" href="/">
