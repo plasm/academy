@@ -2,11 +2,10 @@
   <div data-name="ac-navigation" class="sticky top-0 z-40 mx-auto w-full border-b bg-white 2xl:max-w-7xl">
     <div class="relative mx-auto flex w-full flex-col bg-white p-5 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
       <div class="flex flex-row items-center justify-between lg:justify-start">
-        <a class="text-lg uppercase tracking-tight text-black focus:outline-none focus:ring lg:text-2xl" href="/">
-          <span class="uppecase focus:ring-0 lg:text-lg">
-            academy
-          </span>
-        </a>
+        <nuxt-link title="Aiges Academy" class="flex items-center justify-start gap-2 text-lg tracking-tight text-black focus:outline-none focus:ring" to="/">
+          <ac-logo />
+          <span class="hidden md:block">academy</span>
+        </nuxt-link>
         <button ref="hamburger" class="inline-flex items-center justify-center p-2 text-neutral-400 hover:text-black focus:text-black focus:outline-none md:hidden" @click="toggleMenu()">
           <svg class="size-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
             <path :class="{ 'hidden': menuIsOpen, 'inline-flex': !menuIsOpen }" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
