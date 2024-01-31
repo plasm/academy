@@ -11,11 +11,11 @@ body{
 }
 
 ::-moz-selection {
-  @apply text-black bg-yellow-200;
+  @apply text-black bg-primary;
 }
 
 ::selection {
-  @apply text-black bg-yellow-200;
+  @apply text-black bg-primary;
 }
 
 .tiny-v-scrollbar{
