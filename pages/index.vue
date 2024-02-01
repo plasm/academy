@@ -3,8 +3,8 @@
     <div class="py-10">
       <ac-heading description="Kickstart your next project and grow your revenue with this high-converting, beautiful template that you will love.">
         <template #title>
-          <div class="leading-tight">
-            Aiges <span class="font-light text-primary underline">Academy</span><br>Scopri, Apprendi, Eccelli.
+          <div class="leading-none ">
+            Fai dell'eccellenza<br>il tuo standard <span class="text-primary">Sempre</span>
           </div>
         </template>
       </ac-heading>

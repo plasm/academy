@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
-        // sans: ["Roboto"],
+        serif: ['Playfair'],
       },
       transitionTimingFunction: {
         'cubic-bezier': 'cubic-bezier(0.29, 0, 0.01, 1)',
