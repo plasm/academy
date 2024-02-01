@@ -15,15 +15,15 @@
       </div>
       <nav :class="{ 'flex': menuIsOpen, 'hidden': !menuIsOpen }" class="grow flex-col items-center md:flex md:flex-row md:justify-end md:pb-0">
         <a class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:ml-auto lg:px-6" href="#">
-          About
+          Scuola
         </a>
         <a class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:px-6" href="#">
-          Contact
+          Contatti
         </a>
         <div ref="dropdown" class="relative w-full md:w-auto">
           <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-300 hover:text-primary focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">
             <span>
-              Dropdown List
+              Offerta formativa
             </span>
             <svg fill="currentColor" viewBox="0 0 20 20" :class="{ 'rotate-180': dropdownIsOpen, 'rotate-0': !dropdownIsOpen }" class="ml-1 mt-1 inline size-4 rotate-0 transition-transform duration-200 md:-mt-1">
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -38,40 +38,40 @@
                       <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-700/50">
                         <div class="ml-4">
                           <p class="text-base font-medium text-white">
-                            Explore design work
+                            Master Experience
                           </p>
                           <p class="mt-1 text-sm text-neutral-300">
-                            Trending designs to inspire you
+                            DESCRIZIONE
                           </p>
                         </div>
                       </a>
                       <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-700/50">
                         <div class="ml-4">
                           <p class="text-base font-medium text-white">
-                            Blog
+                            Alta formazione
                           </p>
                           <p class="mt-1 text-sm text-neutral-300">
-                            Interviews, tutorials and more
+                            DESCRIZIONE
                           </p>
                         </div>
                       </a>
                       <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-700/50">
                         <div class="ml-4">
                           <p class="text-base font-medium text-white">
-                            Secure
+                            Aggiornamento professionale
                           </p>
                           <p class="mt-1 text-sm text-neutral-300">
-                            Interviews, tutorials and more
+                            DESCRIZIONE
                           </p>
                         </div>
                       </a>
                       <a href="#" class="-m-3 inline-flex items-start rounded-xl p-3 transition duration-150 ease-in-out hover:bg-neutral-700/50">
                         <div class="ml-4">
                           <p class="text-base font-medium text-white">
-                            Users
+                            Supervisione di gruppo
                           </p>
                           <p class="mt-1 text-sm text-neutral-300">
-                            Trending designs to inspire you
+                            DESCRIZIONE
                           </p>
                         </div>
                       </a>
