@@ -1,6 +1,6 @@
 <template>
   <div data-name="ac-heading" class="mx-auto max-w-3xl p-6 text-center lg:p-10">
-    <div class="text-5xl font-semibold tracking-tight text-white lg:text-7xl">
+    <div class="text-5xl font-semibold tracking-tight text-white lg:text-7xl ">
       <slot name="title">
         <div v-html="title" />
       </slot>
