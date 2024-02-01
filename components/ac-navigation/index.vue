@@ -1,5 +1,5 @@
 <template>
-  <div data-name="ac-navigation" class="sticky top-0 z-40 mx-auto w-full border-b border-b-neutral-800 bg-neutral-900  2xl:max-w-7xl">
+  <div data-name="ac-navigation" class="sticky top-0 z-40 mx-auto w-full border-b border-b-neutral-800 bg-neutral-900/70 backdrop-blur-md 2xl:max-w-7xl">
     <div class="relative mx-auto flex w-full flex-col p-5 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
       <div class="flex flex-row items-center justify-between lg:justify-start">
         <nuxt-link title="Aiges Academy" class="flex items-center justify-start gap-2 text-lg tracking-tight text-white focus:outline-none focus:ring" to="/">
