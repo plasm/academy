@@ -10,12 +10,12 @@
       </ac-heading>
 
       <div class="mx-auto grid max-w-6xl grid-cols-4 gap-2">
-        <div class="col-span-2 h-60 rounded-lg bg-neutral-800 " />
-        <div class="rounded-lg  bg-neutral-800" />
-        <div class="rounded-lg  bg-primary" />
-        <div class="rounded-lg  bg-primary" />
-        <div class="col-span-2 h-60 rounded-lg bg-neutral-800" />
-        <div class="rounded-lg  bg-neutral-800" />
+        <div class="col-span-2  rounded-lg bg-neutral-800 " />
+        <div class="aspect-square rounded-lg bg-neutral-800" />
+        <div class="aspect-square  rounded-lg bg-primary" />
+        <div class="aspect-square  rounded-lg bg-primary" />
+        <div class="col-span-2  rounded-lg bg-neutral-800" />
+        <div class="aspect-square  rounded-lg bg-neutral-800" />
       </div>
     </div>
     <div class="text-4xl text-white">
