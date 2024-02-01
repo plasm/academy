@@ -8,6 +8,15 @@
           </div>
         </template>
       </ac-heading>
+
+      <div class="mx-auto grid max-w-6xl grid-cols-4 gap-2">
+        <div class="col-span-2 h-60 rounded-lg bg-neutral-800 " />
+        <div class="rounded-lg  bg-neutral-800" />
+        <div class="rounded-lg  bg-primary" />
+        <div class="rounded-lg  bg-primary" />
+        <div class="col-span-2 h-60 rounded-lg bg-neutral-800" />
+        <div class="rounded-lg  bg-neutral-800" />
+      </div>
     </div>
     <div class="text-4xl text-white">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, harum ullam, velit, minima nam <span class="text-primary">accusantium</span> voluptas ducimus non quam distinctio sint nihil voluptatibus adipisci aut facilis minus natus nostrum quo?
