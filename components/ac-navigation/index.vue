@@ -2,9 +2,9 @@
   <div data-name="ac-navigation" class="sticky top-0 z-40 mx-auto w-full border-b border-b-neutral-800 bg-neutral-900/70 backdrop-blur-md 2xl:max-w-7xl">
     <div class="relative mx-auto flex w-full flex-col p-5 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
       <div class="flex flex-row items-center justify-between lg:justify-start">
-        <nuxt-link title="Aiges Academy" class="flex items-center justify-start gap-2 text-lg tracking-tight text-white focus:outline-none focus:ring" to="/">
-          <ac-logo />
-          <span class="hidden md:block">academy</span>
+        <nuxt-link title="Aiges Academy" class="flex items-center justify-start gap-2 text-lg tracking-tight text-white outline-none" to="/">
+          <ac-logo class="text-white" />
+          <span class="hidden text-white md:block">academy</span>
         </nuxt-link>
         <button ref="hamburger" class="inline-flex items-center justify-center p-2 text-neutral-400 hover:text-white focus:text-white focus:outline-none md:hidden" @click="toggleMenu()">
           <svg class="size-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -15,21 +15,21 @@
       </div>
       <nav :class="{ 'flex': menuIsOpen, 'hidden': !menuIsOpen }" class="grow flex-col items-center md:flex md:flex-row md:justify-end md:pb-0">
         <nuxt-link
-          class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:ml-auto lg:px-6"
+          class="p-2 text-sm text-neutral-300 hover:text-white md:px-3 lg:ml-auto lg:px-6"
           to="/scuola"
           title="Scuola"
         >
           Scuola
         </nuxt-link>
         <nuxt-link
-          class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:px-6"
+          class="p-2 text-sm text-neutral-300 hover:text-white md:px-3 lg:px-6"
           to="/governance"
           title="Governance"
         >
           Governance
         </nuxt-link>
         <div ref="dropdown" class="relative w-full md:w-auto">
-          <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-300 hover:text-primary focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">
+          <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-300 hover:text-white focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">
             <span>
               Offerta formativa
             </span>
@@ -118,7 +118,7 @@
           </div>
         </div>
         <nuxt-link
-          class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:px-6"
+          class="p-2 text-sm text-neutral-300 hover:text-white md:px-3 lg:px-6"
           to="/sessioni"
           title="Sessioni"
         >
@@ -174,4 +174,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.router-link-exact-active{
+  @apply text-primary;
+}
 </style>
