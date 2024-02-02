@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
     <div class="gradient py-10">
-      <ac-heading description="Con AIGES Academy acquisisci il know-how necessario per padroneggiare la gestione del conflitto familiare.">
+      <ac-heading description="Con AIGES Academy, acquisisci il know-how necessario per padroneggiare la gestione del conflitto familiare.">
         <template #title>
           <div class="leading-none ">
             <span class="text-primary">Trasforma</span><br> la tua passione<br> in una professione
