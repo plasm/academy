@@ -14,12 +14,20 @@
         </button>
       </div>
       <nav :class="{ 'flex': menuIsOpen, 'hidden': !menuIsOpen }" class="grow flex-col items-center md:flex md:flex-row md:justify-end md:pb-0">
-        <a class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:ml-auto lg:px-6" href="#">
+        <nuxt-link
+          class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:ml-auto lg:px-6"
+          to="/scuola"
+          title="Scuola"
+        >
           Scuola
-        </a>
-        <a class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:px-6" href="#">
-          Contatti
-        </a>
+        </nuxt-link>
+        <nuxt-link
+          class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:px-6"
+          to="/governance"
+          title="Governance"
+        >
+          Governance
+        </nuxt-link>
         <div ref="dropdown" class="relative w-full md:w-auto">
           <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-300 hover:text-primary focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">
             <span>
@@ -109,14 +117,29 @@
             </transition>
           </div>
         </div>
+        <nuxt-link
+          class="p-2 text-sm text-neutral-300 hover:text-primary md:px-3 lg:px-6"
+          to="/sessioni"
+          title="Sessioni"
+        >
+          Sessioni
+        </nuxt-link>
 
         <div class="flex list-none items-center gap-2 lg:ml-auto">
-          <button class="focus:shadow-outline mt-2 block px-4 py-2 text-sm text-neutral-300 hover:text-primary focus:outline-none md:mt-0">
-            Sign in
-          </button>
-          <button class="mt-2 rounded-full bg-black  px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-700 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0">
-            Sign up
-          </button>
+          <nuxt-link
+            to="/contatti"
+            title="Contatti"
+            class="rounded-xl border border-white/20 bg-white/10 p-0.5 transition-transform hover:-translate-y-1  focus:outline-none focus-visible:outline-2
+          focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0
+          "
+          >
+            <div
+              class="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-black
+          "
+            >
+              Contatti
+            </div>
+          </nuxt-link>
         </div>
       </nav>
     </div>
