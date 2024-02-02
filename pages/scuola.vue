@@ -3,7 +3,7 @@
     <ac-heading description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error blanditiis earum accusamus amet minus quas asperiores!">
       <template #title>
         <div class="leading-none ">
-          Scuola<br>dolor sit amet.
+          Specialisti<br> del conflitto<br> familiare
         </div>
       </template>
     </ac-heading>
