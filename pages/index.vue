@@ -1,10 +1,10 @@
 <template>
   <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
     <div class="gradient py-10">
-      <ac-heading description="Kickstart your next project and grow your revenue with this high-converting, beautiful template that you will love.">
+      <ac-heading description="Con AIGES Academy acquisisci il know-how necessario per padroneggiare la gestione del conflitto familiare.">
         <template #title>
           <div class="leading-none ">
-            Fai dell'eccellenza<br>il tuo standard <span class="text-primary">Sempre</span>
+            <span class="text-primary">Trasforma</span><br> la tua passione<br> in una professione
           </div>
         </template>
       </ac-heading>
