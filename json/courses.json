@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Master Experience",
+    "description": "Lorem ipsum dolor sit amet consectetur",
+    "route": "/corsi/master-experience"
+  },
+  {
+    "title": "Alta formazione",
+    "description": "Lorem ipsum dolor sit amet consectetur",
+    "route": "/corsi/alta-formazione"
+  },
+  {
+    "title": "Aggiornamento professionale",
+    "description": "Lorem ipsum dolor sit amet consectetur",
+    "route": "/corsi/aggiornamento-professionale"
+  },
+  {
+    "title": "Supervisione di gruppo",
+    "description": "Lorem ipsum dolor sit amet consectetur",
+    "route": "/corsi/supervisione-di-gruppo"
+  }
+]

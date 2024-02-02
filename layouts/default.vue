@@ -4,6 +4,7 @@
     <main class="relative flex-1 py-4 focus:outline-none">
       <slot />
     </main>
+    <ac-footer />
   </div>
 </template>
 

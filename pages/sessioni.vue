@@ -7,12 +7,22 @@
         </div>
       </template>
     </ac-heading>
+
+    <div class="mt-20 mx-auto flex max-w-5xl flex-col items-start justify-start gap-12 px-4 sm:px-6 md:px-8">
+      <ac-session-stack v-for="(session, index) in sessions" :key="index" :session="session" />
+    </div>
   </div>
 </template>
 
 <script>
+import sessions from '@/json/sessions.json'
 export default {
-  name: 'page-sessioni'
+  name: 'page-sessioni',
+  data () {
+    return {
+      sessions
+    }
+  }
 }
 </script>
 
