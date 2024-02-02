@@ -3,7 +3,7 @@
     <ac-heading description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error blanditiis earum accusamus amet minus quas asperiores!">
       <template #title>
         <div class="leading-none ">
-          Governance<br>dolor sit amet.
+          Qui, governa<br> l’eccellenza
         </div>
       </template>
     </ac-heading>
