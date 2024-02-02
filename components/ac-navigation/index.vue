@@ -3,8 +3,8 @@
     <div class="relative mx-auto flex w-full flex-col p-5 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
       <div class="flex flex-row items-center justify-between lg:justify-start">
         <nuxt-link title="Aiges Academy" class="flex items-center justify-start gap-2 text-lg tracking-tight text-white outline-none" to="/">
-          <ac-logo />
-          <span class="hidden md:block">academy</span>
+          <ac-logo class="text-white" />
+          <span class="hidden text-white md:block">academy</span>
         </nuxt-link>
         <button ref="hamburger" class="inline-flex items-center justify-center p-2 text-neutral-400 hover:text-white focus:text-white focus:outline-none md:hidden" @click="toggleMenu()">
           <svg class="size-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
