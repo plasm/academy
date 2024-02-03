@@ -1,9 +1,9 @@
 <template>
   <div data-name="page-scuola" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error blanditiis earum accusamus amet minus quas asperiores!">
+    <ac-heading description="Ti insegniamo le conoscenze, le abilità e le competenze necessarie per eccellere nella gestione del conflitto familiare.">
       <template #title>
         <div class="leading-none ">
-          Specialisti<br> del conflitto<br> familiare
+          Formiamo persone,<br> creiamo specialisti
         </div>
       </template>
     </ac-heading>
