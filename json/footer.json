@@ -5,8 +5,8 @@
       "route": "/scuola"
     },
     {
-      "title": "Governance",
-      "route": "/governance"
+      "title": "Organizzazione",
+      "route": "/organizzazione"
     },
     {
       "title": "Corsi",

@@ -23,10 +23,10 @@
         </nuxt-link>
         <nuxt-link
           class="navigation-link"
-          to="/governance"
-          title="Governance"
+          to="/organizzazione"
+          title="Organizzazione"
         >
-          Governance
+          Organizzazione
         </nuxt-link>
         <div ref="dropdown" class="relative w-full md:w-auto">
           <button class="focus:shadow-outline mt-2 flex w-full flex-row items-center  justify-center px-4 py-2 text-left text-sm text-neutral-300 hover:text-white focus:outline-none md:mt-0 md:inline md:w-auto" @click="toggleDropdown()">

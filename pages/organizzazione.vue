@@ -1,9 +1,9 @@
 <template>
-  <div data-name="page-governance" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+  <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
     <ac-heading description="Aspiriamo all’eccellenza in ogni aspetto del nostro operato: leadership, formazione, assistenza, ricerca e sviluppo, sostenibilità.">
       <template #title>
         <div class="leading-none ">
-          Al top,<br> in tutti gli elementi
+          Siamo al top<br> in tutti gli elementi
         </div>
       </template>
     </ac-heading>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'page-governance'
+  name: 'page-organizzazione'
 }
 </script>
 
