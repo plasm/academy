@@ -10,6 +10,7 @@
         <div v-html="description" />
       </slot>
     </div>
+    <slot></slot>
   </div>
 </template>
 
