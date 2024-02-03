@@ -3,7 +3,7 @@
     <ac-heading description="Perché andiamo sempre alla radice del significato della parola “insegnare”: lasciare il segno. È questo che facciamo.">
       <template #title>
         <div class="leading-none">
-          Ci amerai,<br> corso dopo corso
+          Migliorerai,<br> corso dopo corso
         </div>
       </template>
     </ac-heading>
