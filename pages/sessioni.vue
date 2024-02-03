@@ -3,7 +3,7 @@
     <ac-heading description="Come ci riusciremo? Andando alla radice del significato della parola “insegnare”: lasciando il segno.">
       <template #title>
         <div class="leading-none">
-          Ti innamorerai,<br> corso dopo corso
+          Ci amerai,<br> corso dopo corso
         </div>
       </template>
     </ac-heading>
