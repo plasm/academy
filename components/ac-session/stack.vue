@@ -1,5 +1,5 @@
 <template>
-  <div data-name="ac-session-stack">
+  <div data-name="ac-session-stack" class="w-full rounded-xl border border-transparent p-8 transition-colors duration-300 hover:border-neutral-700">
     <div class="text-6xl font-bold  text-primary">
       {{ session.date }}
     </div>
