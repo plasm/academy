@@ -4,7 +4,7 @@
       <ac-heading description="DESCRIZIONE">
         <template #title>
           <div class="leading-none ">
-            <span class="text-primary">Trasforma</span><br> la tua passione<br> in una professione
+            <span class="text-primary">Trasforma</span><br> la tua passione<br> in un lavoro
           </div>
         </template>
       </ac-heading>

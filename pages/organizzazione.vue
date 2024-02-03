@@ -1,9 +1,9 @@
 <template>
   <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Aspiriamo all’eccellenza in ogni aspetto del nostro operato: leadership, formazione, assistenza, ricerca e sviluppo, sostenibilità.">
+    <ac-heading description="Leadership, formazione, ricerca, sviluppo e networking: il nostro team è stato costruito per eccellere in ogni ambito.">
       <template #title>
         <div class="leading-none ">
-          Siamo al top<br> in tutti gli elementi
+          In classe e fuori,<br> solo “fuoriclasse”
         </div>
       </template>
     </ac-heading>
