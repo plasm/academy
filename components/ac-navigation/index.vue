@@ -57,7 +57,7 @@
                     <div class="grid grid-cols-1 gap-3 rounded-2xl bg-neutral-900/50 p-2 lg:p-0">
                       <div class="grid h-full items-start gap-6 px-5 py-6 sm:gap-8 sm:p-8">
                         <h3 class="text-base font-medium text-white">
-                          Getting started
+                          Inizia da qui
                         </h3>
                         <div class="space-y-2">
                           <a href="#" class="flex items-start rounded-lg  text-sm font-medium text-neutral-300 transition duration-150 ease-in-out hover:text-primary">

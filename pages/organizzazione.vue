@@ -3,7 +3,7 @@
     <ac-heading description="Leadership, formazione, ricerca, sviluppo e networking: il nostro team è stato costruito per eccellere in ogni ambito.">
       <template #title>
         <div class="leading-none ">
-          In classe e fuori,<br> solo “fuoriclasse”
+          In classe e fuori,<br> solo fuoriclasse
         </div>
       </template>
     </ac-heading>
