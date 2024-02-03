@@ -23,16 +23,16 @@
   ],
   "social": [
     {
-      "title": "title",
-      "route": "#/"
+      "title": "Facebook",
+      "route": "https://www.facebook.com/aigesacademy"
     },
     {
-      "title": "title",
-      "route": "#/"
+      "title": "LinkedIn",
+      "route": "https://www.linkedin.com/company/aigesacademy"
     },
     {
-      "title": "title",
-      "route": "#/"
+      "title": "Telegram",
+      "route": "https://t.me/aigesacademy"
     }
   ],
   "legal": [
