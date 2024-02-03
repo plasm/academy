@@ -1,9 +1,9 @@
 <template>
-  <div data-name="page-supervisione-di-gruppo" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+  <div data-name="page-supervisione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
     <ac-heading description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error blanditiis earum accusamus amet minus quas asperiores!">
       <template #title>
         <div class="leading-none ">
-          Lorem ipsum dolor sit amet consectetur
+          Supervisione
         </div>
       </template>
     </ac-heading>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'page-supervisione-di-gruppo'
+  name: 'page-supervisione'
 }
 </script>
 

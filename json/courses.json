@@ -1,6 +1,6 @@
 [
   {
-    "title": "Master",
+    "title": "Master Experience",
     "description": "Percorsi di qualifica professionale",
     "route": "/corsi/master-experience"
   },
@@ -17,6 +17,6 @@
   {
     "title": "Supervisione",
     "description": "Sessioni di confronto collegiale guidato",
-    "route": "/corsi/supervisione-di-gruppo"
+    "route": "/corsi/supervisione"
   }
 ]

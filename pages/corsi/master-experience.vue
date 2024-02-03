@@ -3,7 +3,7 @@
     <ac-heading description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error blanditiis earum accusamus amet minus quas asperiores!">
       <template #title>
         <div class="leading-none ">
-          Lorem ipsum dolor sit amet consectetur
+          Master <span class="text-primary">Experience</span>
         </div>
       </template>
     </ac-heading>
