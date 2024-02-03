@@ -1,6 +1,6 @@
 <template>
   <div data-name="page-sessioni" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Come ci riusciremo? Andando alla radice del significato della parola “insegnare”: lasciando il segno.">
+    <ac-heading description="Perché abbiamo un segreto: andiamo alla radice del significato della parola “insegnare”, lasciando il segno.">
       <template #title>
         <div class="leading-none">
           Ci amerai,<br> corso dopo corso
