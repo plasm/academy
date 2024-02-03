@@ -55,6 +55,7 @@
               <ul role="list" class="mt-4 space-y-2">
                 <li v-for="(item, index) in footer.social" :key="index">
                   <nuxt-link
+                    target="_blank"
                     class="navigation-link"
                     :to="item.route"
                     :title="item.title"
