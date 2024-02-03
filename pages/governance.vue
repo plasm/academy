@@ -3,7 +3,7 @@
     <ac-heading description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error blanditiis earum accusamus amet minus quas asperiores!">
       <template #title>
         <div class="leading-none ">
-          Da noi, l’eccellenza<br> è al comando
+          Al top,<br> in tutti gli elementi
         </div>
       </template>
     </ac-heading>
