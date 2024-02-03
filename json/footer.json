@@ -1,0 +1,44 @@
+{
+  "academy": [
+    {
+      "title": "Scuola",
+      "route": "/scuola"
+    },
+    {
+      "title": "Governance",
+      "route": "/governance"
+    },
+    {
+      "title": "Corsi",
+      "route": "/corsi"
+    },
+    {
+      "title": "Sessioni",
+      "route": "/sessioni"
+    },
+    {
+      "title": "Contatti",
+      "route": "/contatti"
+    }
+  ],
+  "social": [
+    {
+      "title": "title",
+      "route": "#/"
+    },
+    {
+      "title": "title",
+      "route": "#/"
+    },
+    {
+      "title": "title",
+      "route": "#/"
+    }
+  ],
+  "legal": [
+    {
+      "title": "Privacy policy",
+      "route": "#/"
+    }
+  ]
+}
