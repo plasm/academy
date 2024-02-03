@@ -3,7 +3,7 @@
     <ac-heading description="Vuoi sapere come ci riusciamo? Andando alla radice della parola “insegnare”. In altre parole, lasciando il segno.">
       <template #title>
         <div class="leading-none">
-          Un evento<br> tira l’altro
+          Un corso<br> tira l’altro
         </div>
       </template>
     </ac-heading>
