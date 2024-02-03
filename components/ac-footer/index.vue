@@ -50,7 +50,7 @@
             </div>
             <div class="mt-12 md:mt-0">
               <h3 class="font-semibold uppercase leading-6 text-white">
-                Socials
+                Social
               </h3>
               <ul role="list" class="mt-4 space-y-2">
                 <li v-for="(item, index) in footer.social" :key="index">
