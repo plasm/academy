@@ -64,10 +64,10 @@
                             Perché le ADR per la famiglia?
                           </a>
                           <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
-                            Scegliere la mediazione familiare
+                            La mediazione familiare
                           </a>
                           <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
-                            Scegliere la coordinazione genitoriale
+                            La coordinazione genitoriale
                           </a>
                           <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
                             Dalla formazione alla professione
