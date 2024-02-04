@@ -61,22 +61,22 @@
                         </h3>
                         <div class="space-y-2">
                           <a href="#" class="flex items-start rounded-lg  text-sm font-medium text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
-                            Explore design work
+                            Perché le ADR per la famiglia?
                           </a>
                           <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
-                            Register
+                            Scegliere la mediazione familiare
                           </a>
                           <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
-                            Adding users
+                            Scegliere la coordinazione genitoriale
                           </a>
                           <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
-                            Video Tutorials
+                            Dalla formazione alla professione
                           </a>
                           <a href="#" class="flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
-                            Libraries and SDKs
+                            Il network di AIGES Academy
                           </a>
                           <a href="#" class="inline-flex items-start rounded-lg text-sm text-neutral-300 transition duration-150 ease-in-out hover:text-primary">
-                            Adding Plugins
+                            FAQ
                           </a>
                         </div>
                       </div>
