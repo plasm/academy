@@ -1,8 +1,8 @@
 {
   "academy": [
     {
-      "title": "Scuola",
-      "route": "/scuola"
+      "title": "Identità",
+      "route": "/identita"
     },
     {
       "title": "Organizzazione",
@@ -13,8 +13,8 @@
       "route": "/corsi"
     },
     {
-      "title": "Sessioni",
-      "route": "/sessioni"
+      "title": "Calendario",
+      "route": "/calendario"
     },
     {
       "title": "Contatti",

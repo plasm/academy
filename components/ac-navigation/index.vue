@@ -16,10 +16,10 @@
       <nav :class="{ 'flex': menuIsOpen, 'hidden': !menuIsOpen }" class="grow flex-col items-center md:flex md:flex-row md:justify-end md:pb-0">
         <nuxt-link
           class="navigation-link lg:ml-auto"
-          to="/scuola"
-          title="Scuola"
+          to="/identita"
+          title="Identità"
         >
-          Scuola
+          Identità
         </nuxt-link>
         <nuxt-link
           class="navigation-link"
@@ -89,10 +89,10 @@
         </div>
         <nuxt-link
           class="navigation-link"
-          to="/sessioni"
-          title="Sessioni"
+          to="/calendario"
+          title="Calendario"
         >
-          Sessioni
+          Calendario
         </nuxt-link>
 
         <div class="flex list-none items-center gap-2 md:ml-4 lg:ml-auto">

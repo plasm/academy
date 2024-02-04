@@ -9,7 +9,7 @@
     </ac-heading>
 
     <div class="mx-auto mt-20 flex w-full max-w-5xl flex-col items-start justify-start gap-2 px-4 sm:px-6 md:px-8">
-      <nuxt-link v-for="(session, index) in sessions" :key="index" class="w-full" :to="session.route" target="_blank">
+      <nuxt-link v-for="(session, index) in calendar" :key="index" class="w-full" :to="session.route" target="_blank">
         <ac-session-stack :session="session" />
       </nuxt-link>
     </div>
@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import sessions from '@/json/sessions.json'
+import calendar from '@/json/calendar.json'
 export default {
   name: 'page-sessioni',
   data () {
     return {
-      sessions
+      calendar
     }
   }
 }
