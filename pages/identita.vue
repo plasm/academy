@@ -8,37 +8,69 @@
       </template>
     </ac-heading>
 
-    1W (Chi siamo)
+    <div class="mt-2 text-white">
+      1W (Chi siamo)
+    </div>
 
-    Siamo l’academy per specialisti del conflitto familiare.
+    <div class="mt-2 text-white">
+      Siamo l’academy per specialisti del conflitto familiare.
+    </div>
 
-    La nostra attività è totalmente dedicata alla formazione specialistica nell’ambito delle ADR per la famiglia, con un focus specifico sulla mediazione familiare e sulla coordinazione genitoriale.
+    <div class="mt-2 text-white">
+      La nostra attività è totalmente dedicata alla formazione specialistica nell’ambito delle ADR per la famiglia, con un focus specifico sulla mediazione familiare e sulla coordinazione genitoriale.
+    </div>
 
-    Con noi, lavorano ogni giorno docenti e relatori di altissimo profilo, che hanno alle spalle anni di ricerca, studio ed esperienza, oltre a una naturale propensione per l’insegnamento di nuova generazione.
+    <div class="mt-2 text-white">
+      Con noi, lavorano ogni giorno docenti e relatori di altissimo profilo, che hanno alle spalle anni di ricerca, studio ed esperienza, oltre a una naturale propensione per l’insegnamento di nuova generazione.
+    </div>
 
-    2W (Cosa facciamo)
+    <div class="mt-2 text-white">
+      2W (Cosa facciamo)
+    </div>
 
-    Promuoviamo programmi di Master Experience, alta formazione, aggiornamento professionale e supervisione nelle discipline di riferimento, ponendoci come trendsetter nello sviluppo e nel potenziamento delle conoscenze, delle abilità e delle competenze necessarie per eccellere nella gestione delle dinamiche familiari complesse.
+    <div class="mt-2 text-white">
+      Promuoviamo programmi di Master Experience, alta formazione, aggiornamento professionale e supervisione nelle discipline di riferimento, ponendoci come trendsetter nello sviluppo e nel potenziamento delle conoscenze, delle abilità e delle competenze necessarie per eccellere nella gestione delle dinamiche familiari complesse.
+    </div>
 
-    3W (Dove ci troviamo)
+    <div class="mt-2 text-white">
+      3W (Dove ci troviamo)
+    </div>
 
-    Ci troviamo in un luogo moderno, accogliente e di facile accesso per i professionisti desiderosi di arricchire le proprie conoscenze, abilità e competenze: siamo online, nel cuore del World Wide Web. E, di tanto in tanto, anche in presenza.
+    <div class="mt-2 text-white">
+      Ci troviamo in un luogo moderno, accogliente e di facile accesso per i professionisti desiderosi di arricchire le proprie conoscenze, abilità e competenze: siamo online, nel cuore del World Wide Web. E, di tanto in tanto, anche in presenza.
+    </div>
 
-    4W (Quando possiamo aiutarti)
+    <div class="mt-2 text-white">
+      4W (Quando possiamo aiutarti)
+    </div>
 
-    Possiamo aiutarti sia nell’acquisizione di nuove competenze, sia nel perfezionamento di quelle già acquisite.
+    <div class="mt-2 text-white">
+      Possiamo aiutarti sia nell’acquisizione di nuove competenze, sia nel perfezionamento di quelle già acquisite.
+    </div>
 
-    5W (Perché sceglierci)
+    <div class="mt-2 text-white">
+      5W (Perché sceglierci)
+    </div>
 
-    Immagina che, in un triangolo, ciascun vertice rappresenti un elemento fondamentale per il successo professionale: la formazione, la tutela di categoria e il lavoro.
+    <div class="mt-2 text-white">
+      Immagina che, in un triangolo, ciascun vertice rappresenti un elemento fondamentale per il successo professionale: la formazione, la tutela di categoria e il lavoro.
+    </div>
 
-    Il primo vertice rappresenta AIGES Academy, il punto di partenza per una formazione di eccellenza, con un’ampia gamma di corsi progettati per diventare specialisti del settore.
+    <div class="mt-2 text-white">
+      Il primo vertice rappresenta AIGES Academy, il punto di partenza per una formazione di eccellenza, con un’ampia gamma di corsi progettati per diventare specialisti del settore.
+    </div>
 
-    Il secondo vertice rappresenta MediaCoor, il partner affidabile per un’efficace tutela di categoria, con servizi pensati per proteggere gli interessi dei mediatori familiari e dei coordinatori genitoriali.
+    <div class="mt-2 text-white">
+      Il secondo vertice rappresenta MediaCoor, il partner affidabile per un’efficace tutela di categoria, con servizi pensati per proteggere gli interessi dei mediatori familiari e dei coordinatori genitoriali.
+    </div>
 
-    Il terzo vertice rappresenta l’Agenzia Italiana Genitori Separati, la possibile porta di accesso al lavoro, con il supporto indispensabile per individuare opportunità in linea con le aspirazioni professionali.
+    <div class="mt-2 text-white">
+      Il terzo vertice rappresenta l’Agenzia Italiana Genitori Separati, la possibile porta di accesso al lavoro, con il supporto indispensabile per individuare opportunità in linea con le aspirazioni professionali.
+    </div>
 
-    Insieme, questi tre vertici formano il paradigma del successo, offrendoti un ambiente arricchente, sicuro e collaborativo per perseguire con serenità tutti i tuoi obiettivi.
+    <div class="mt-2 text-white">
+      Insieme, questi tre vertici formano il paradigma del successo, offrendoti un ambiente arricchente, sicuro e collaborativo per perseguire con serenità tutti i tuoi obiettivi.
+    </div>
   </div>
 </template>
 
