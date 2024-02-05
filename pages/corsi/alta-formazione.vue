@@ -1,6 +1,6 @@
 <template>
   <div data-name="page-alta-formazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error blanditiis earum accusamus amet minus quas asperiores!">
+    <ac-heading description="È paradossale pensare che attraverso una Full Immersion si possano scalare le vette del sapere. Eppure, è proprio così.">
       <template #title>
         <div class="leading-none ">
           Alta formazione
