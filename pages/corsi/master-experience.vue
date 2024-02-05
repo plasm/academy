@@ -1,6 +1,6 @@
 <template>
   <div data-name="page-master-experience" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error blanditiis earum accusamus amet minus quas asperiores!">
+    <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per un'esperienza trasformativa senza precedenti.">
       <template #title>
         <div class="leading-none ">
           Master <span class="text-primary">Experience</span>
