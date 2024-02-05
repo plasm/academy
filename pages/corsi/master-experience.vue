@@ -10,7 +10,17 @@
   </div>
 </template>
 
-Il Master Experience è un percorso di qualifica professionale, rivolto a studenti e professionisti desiderosi di crescita personale e professionale. È strutturato in primo e secondo livello e richiede specifiche lauree e/o documentata esperienza settoriale. La durata minima è di un anno, con requisiti di ammissione variabili. Il numero di allievi è limitato, a garanzia di un insegnamento personalizzato. La selezione avviene attraverso un colloquio motivazionale online. Gli obiettivi e i programmi sono definiti dalla direzione scientifica di AIGES Academy. Le lezioni si svolgono online, in presenza e/o in modalità blended. Al fine di monitorare i progressi, oltre alla prova finale, possono essere previste verifiche intermedie. Al termine, gli allievi conseguono…
+I Master Experience sono percorsi di qualifica professionale, rivolti a studenti e professionisti desiderosi di crescita personale e professionale. Sono strutturati in primo e secondo livello e richiedono lauree specifiche e/o esperienze settoriali documentate. Hanno una durata minima di un anno e prevedono requisiti di ammissione variabili. Il numero di allievi è limitato, a garanzia di un insegnamento personalizzato. La selezione avviene attraverso un colloquio motivazionale online. Gli obiettivi e i programmi sono definiti dalla direzione scientifica di AIGES Academy. Le lezioni si svolgono con varie modalità. Oltre alla prova finale, possono essere previste verifiche intermedie. Al termine, gli allievi conseguono…
+
+I Master Experience danno agli allievi l’opportunità unica di immergersi in una vera e propria esperienza formativa. La formula Experience si basa su tre pilastri fondamentali: il SAPERE, il SAPER FARE e il SAPER ESSERE.
+
+Il SAPERE rappresenta la base della conoscenza teorica. Gli allievi hanno accesso a contenuti curriculari ricchi e aggiornati, creati da specialisti del settore, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
+
+Il SAPER FARE si concentra sull’applicazione pratica delle conoscenze acquisite. Gli stage intensivi permettono agli allievi di mettere in pratica ciò che hanno imparato, acquisendo capacità operative essenziali per il successo nella loro carriera professionale.
+
+Il SAPER ESSERE è un elemento distintivo dei Master Experience. Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili non solo ad affrontare le sfide professionali, ma anche a diventare individui consapevoli e responsabili nella società.
+
+In sintesi, la formula Experience rappresenta un approccio olistico alla formazione, che unisce conoscenza teorica, applicazione pratica e sviluppo personale.
 
 <script>
 export default {
