@@ -7,6 +7,8 @@
         </div>
       </template>
     </ac-heading>
+
+    L’Alta formazione di AIGES Academy comprende corsi professionalizzanti, di durata compresa tra SPECIFICARE e SPECIFICARE, progettati per fornire a professionisti e laureati conoscenze, abilità e competenze avanzate in specifiche discipline. I requisiti di ammissione sono variabili. Il numero di allievi è limitato per garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo. I programmi sono definiti dalla direzione scientifica. Le lezioni si svolgono online, in presenza e/o in modalità blended. Non sono previste né verifiche intermedie né prova finale. Al termine dell’impegno didattico, viene rilasciato un attestato di partecipazione.
   </div>
 </template>
 
