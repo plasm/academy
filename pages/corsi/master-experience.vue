@@ -1,28 +1,31 @@
 <template>
-  <div data-name="page-master-experience" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per un'esperienza trasformativa senza precedenti.">
-      <template #title>
-        <div class="leading-none ">
-          Master <span class="text-primary">Experience</span>
-        </div>
-      </template>
-    </ac-heading>
-    <div class="text-white">
-      I Master Experience sono percorsi di qualifica professionale, rivolti a studenti e professionisti desiderosi di crescita personale e professionale. Sono strutturati in primo e secondo livello e richiedono lauree specifiche e/o esperienze settoriali documentate. Hanno una durata minima di un anno e prevedono requisiti di ammissione variabili. Il numero di allievi è limitato, a garanzia di un insegnamento personalizzato. La selezione avviene attraverso un colloquio motivazionale online. Gli obiettivi e i programmi sono definiti dalla direzione scientifica di AIGES Academy. Le lezioni si svolgono con varie modalità. Oltre alla prova finale, possono essere previste verifiche intermedie. Al termine, gli allievi conseguono…
+  <div data-name="page-master-experience">
+    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per un'esperienza trasformativa senza precedenti.">
+        <template #title>
+          <div class="leading-none ">
+            Master <span class="text-primary">Experience</span>
+          </div>
+        </template>
+      </ac-heading>
+      <div class="text-white">
+        I Master Experience sono percorsi di qualifica professionale, rivolti a studenti e professionisti desiderosi di crescita personale e professionale. Sono strutturati in primo e secondo livello e richiedono lauree specifiche e/o esperienze settoriali documentate. Hanno una durata minima di un anno e prevedono requisiti di ammissione variabili. Il numero di allievi è limitato, a garanzia di un insegnamento personalizzato. La selezione avviene attraverso un colloquio motivazionale online. Gli obiettivi e i programmi sono definiti dalla direzione scientifica di AIGES Academy. Le lezioni si svolgono con varie modalità. Oltre alla prova finale, possono essere previste verifiche intermedie. Al termine, gli allievi conseguono…
+      </div>
     </div>
-    <div class="text-white">
-      I Master Experience danno agli allievi l’opportunità unica di immergersi in una vera e propria esperienza formativa. La formula Experience si basa su tre pilastri fondamentali: il SAPERE, il SAPER FARE e il SAPER ESSERE.
-      <div class="text-white">
-        Il SAPERE rappresenta la base della conoscenza teorica. Gli allievi hanno accesso a contenuti curriculari ricchi e aggiornati, creati da specialisti del settore, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
+
+    <div class="mx-auto my-10 bg-neutral-800 px-4  py-10 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <div class=" text-center text-4xl leading-tight text-white">
+        I Master Experience danno agli allievi l’opportunità unica di immergersi in una vera e propria esperienza formativa. La formula Experience si basa su tre pilastri fondamentali: il <span class="text-primary">SAPERE</span>, il <span class="text-primary">SAPER FARE</span> e il <span class="text-primary">SAPER ESSERE</span>.
       </div>
-      <div class="text-white">
-        Il SAPER FARE si concentra sull’applicazione pratica delle conoscenze acquisite. Gli stage intensivi permettono agli allievi di mettere in pratica ciò che hanno imparato, acquisendo capacità operative essenziali per il successo nella loro carriera professionale.
-      </div>
-      <div class="text-white">
-        Il SAPER ESSERE è un elemento distintivo dei Master Experience. Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili non solo ad affrontare le sfide professionali, ma anche a diventare individui consapevoli e responsabili nella società.
-        <div class="text-white">
-          In sintesi, la formula Experience rappresenta un approccio olistico alla formazione, che unisce conoscenza teorica, applicazione pratica e sviluppo personale.
-        </div>
+    </div>
+
+    <ac-sticky-lists />
+
+    <ac-separator />
+
+    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <div class="my-10 text-center text-4xl leading-tight text-white">
+        In sintesi, la formula Experience rappresenta un approccio olistico alla formazione, che unisce conoscenza teorica, applicazione pratica e sviluppo personale.
       </div>
     </div>
   </div>
