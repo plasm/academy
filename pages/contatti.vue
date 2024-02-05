@@ -1,9 +1,9 @@
 <template>
   <div data-name="page-contatti" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Esplora i nuovi orizzonti della carriera professionale ed entra in contatto con la tua nuova dimensione.">
+    <ac-heading description="Non troverai modo migliore per avvicinarti alle ADR per la famiglia e valorizzare la tua carriera professionale.">
       <template #title>
         <div class="leading-none ">
-          Il futuro ti aspetta,<br> chiama
+          Aggiungici<br> ai tuoi contatti
         </div>
       </template>
     </ac-heading>
