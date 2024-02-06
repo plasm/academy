@@ -16,7 +16,7 @@
               </div>
             </div>
             <div class="lg:w-3/5">
-              <div class="shrink-0 text-2xl font-semibold uppercase leading-relaxed text-primary" v-html="section.subtitle" />
+              <div :class="`theme-${theme}`" class="shrink-0 text-2xl font-semibold uppercase leading-relaxed" v-html="section.subtitle" />
               <div class="shrink-0 text-xl leading-relaxed text-white" v-html="section.description" />
             </div>
           </div>
@@ -33,6 +33,10 @@ export default {
     align: {
       type: String,
       default: 'left'
+    },
+    theme: {
+      type: String,
+      default: 'default'
     },
     resources: {
       type: Array,
@@ -59,6 +63,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.theme-default{
+  @apply text-primary;
+}
+.theme-gold{
+  @apply text-[#e1b970];
+}
 .beforeBorder{
   &:before{
     content: '';

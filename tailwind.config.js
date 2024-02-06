@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
         serif: ['Playfair'],

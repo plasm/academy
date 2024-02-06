@@ -1,10 +1,11 @@
 <template>
   <div data-name="page-master-experience">
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <ac-shield class="top-4" />
       <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
         <template #title>
           <div class="leading-none ">
-            Master <span class="text-primary">Experience</span>
+            Master <span class="gold">Experience</span>
           </div>
         </template>
       </ac-heading>
@@ -18,22 +19,22 @@
         <div class="font-semibold text-white">
           I PLUS
         </div>
-        <div class="font-semibold text-4xl text-primary">
+        <div class="gold text-4xl font-semibold">
           SAPERE, SAPER FARE, SAPER ESSERE
         </div>
-        <div class="text-xl mt-2">
+        <div class="mt-2 text-xl">
           Grazie ai suoi plus, il Master Experience trasforma la formazione in una vera e propria esperienza.
         </div>
       </div>
     </div>
 
-    <ac-sticky-lists />
+    <ac-sticky-lists theme="gold" />
 
     <ac-separator />
 
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="my-10 text-center text-4xl leading-tight text-white">
-        La formula Experience abbraccia un <span class="text-primary">approccio olistico</span> alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
+        La formula Experience abbraccia un <span class="gold">approccio olistico</span> alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
       </div>
     </div>
   </div>
@@ -44,7 +45,8 @@ export default {
   name: 'page-master-experience'
 }
 </script>
-
 <style lang="scss" scoped>
-
+.gold{
+  @apply text-[#e1b970];
+}
 </style>
