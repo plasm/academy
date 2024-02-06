@@ -15,8 +15,15 @@
 
     <div class="mx-auto my-10 bg-neutral-800 px-4  py-10 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class=" text-center text-4xl leading-tight text-white">
-        <span class="text-primary font-bold">IL VALORE AGGIUNTO</span><br>
-        SAPERE, SAPER FARE, SAPER ESSERE:<br> grazie ai suoi tre elementi chiave, la formula Experience trasforma la formazione in una vera e propria esperienza.
+        <div class="font-semibold text-primary">
+          IL VALORE AGGIUNTO
+        </div>
+        <div class="font-semibold text-4xl">
+          SAPERE, SAPER FARE, SAPER ESSERE
+        </div>
+        <div class="text-xl mt-2">
+          grazie ai suoi tre elementi chiave, la formula Experience trasforma la formazione in una vera e propria esperienza.
+        </div>
       </div>
     </div>
 

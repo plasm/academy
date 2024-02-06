@@ -10,13 +10,14 @@
               >
                 <div>
                   <div class="mb-4 lg:mb-0">
-                    <div class="text-6xl font-semibold uppercase text-white" v-html="section.title" />
+                    <div class="text-5xl font-semibold uppercase text-white" v-html="section.title" />
                   </div>
                 </div>
               </div>
             </div>
             <div class="lg:w-3/5">
-              <div class="shrink-0 text-2xl leading-relaxed text-white" v-html="section.description" />
+              <div class="shrink-0 text-2xl font-semibold uppercase leading-relaxed text-primary" v-html="section.subtitle" />
+              <div class="shrink-0 text-xl leading-relaxed text-white" v-html="section.description" />
             </div>
           </div>
         </div>
@@ -38,15 +39,18 @@ export default {
       default: () => [
         {
           title: 'SAPERE',
-          description: '<span class="text-primary">–</span> <span class="text-primary font-bold">La conoscenza teorica</span><br> Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.'
+          subtitle: 'La conoscenza teorica',
+          description: 'Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.'
         },
         {
           title: 'SAPER<br>FARE',
-          description: '<span class="text-primary">–</span> <span class="text-primary font-bold">L’applicazione pratica</span><br> Attraverso gli stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.'
+          subtitle: 'L’applicazione pratica',
+          description: 'Attraverso gli stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.'
         },
         {
           title: 'SAPER<br>ESSERE',
-          description: '<span class="text-primary">–</span> <span class="text-primary font-bold">Lo sviluppo personale</span><br> Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.'
+          subtitle: 'Lo sviluppo personale',
+          description: 'Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.'
         }
       ]
     }
