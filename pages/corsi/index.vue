@@ -14,7 +14,8 @@
             title="Calendario"
             class="rounded-2xl border border-white/20 bg-white/10 p-1 transition-transform duration-300 ease-out hover:-translate-y-1 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0"
           >
-            <div class="rounded-xl bg-primary px-6 py-4 text-xl font-medium text-black">
+          <!-- bg-primary  -->
+            <div class="rounded-xl px-6 py-4 text-xl font-medium text-black bg-gradient-to-br from-primary to-primary-hover">
               Calendario
             </div>
           </nuxt-link>
