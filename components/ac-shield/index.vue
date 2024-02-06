@@ -67,6 +67,11 @@ export default {
     component () {
       return this.experience ? 'ac-formula-experience' : 'ac-formula-full-immersion'
     }
+  },
+  watch: {
+    persistent (v) {
+      this.hover = v
+    }
   }
 }
 </script>
