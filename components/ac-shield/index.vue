@@ -3,13 +3,13 @@
     data-name="ac-shield"
     class="group relative mx-auto size-28 rounded-full bg-black outline transition-all duration-300"
     :class="{
-      'p-1 outline-[#e1b970]/20':!hover,
-      'scale-125 p-2 outline-[#e1b970]/5':hover,
+      'p-1 outline-neutral-200/20':!hover,
+      'scale-125 p-2 outline-neutral-200/5':hover,
     }"
     @mouseover="hover = true"
     @mouseleave="hover = persistent"
   >
-    <div class="gradient-gold blend absolute left-0 top-0 z-10 flex size-full items-center justify-center rounded-full" />
+    <div :class="`gradient-${theme}`" class="blend absolute left-0 top-0 z-10 flex size-full items-center justify-center rounded-full" />
     <div class="relative size-full rounded-full bg-gray-500 p-1">
       <div class="relative size-full rounded-full bg-black">
         <div class="relative size-full overflow-hidden rounded-full opacity-50 invert">
@@ -49,6 +49,13 @@ export default {
     experience: {
       type: Boolean,
       default: false
+    },
+    theme: {
+      type: String,
+      default: 'academy',
+      validator: (v) => {
+        return ['academy', 'gold', 'silver'].includes(v)
+      }
     }
   },
   data () {
@@ -79,7 +86,13 @@ export default {
   overflow: hidden;
 }
 .gradient-gold{
-  // @apply bg-primary;
   background: conic-gradient(from 0deg at 50% 50%, rgb(254, 229, 163) 0deg, #e1b970 90.8108deg, rgb(209, 161, 78) 115.217deg, rgb(255, 236, 162) 178.144deg, rgb(208, 140, 33) 217.297deg, rgb(255, 227, 164) 269.861deg, rgb(210, 159, 78) 308.425deg, rgb(254, 229, 163) 360deg);
+}
+.gradient-silver{
+  background: conic-gradient(from 0deg at 50% 50%, rgb(255, 255, 255) 0deg, rgb(235, 189, 215) 90.8108deg, rgb(196, 189, 228) 115.217deg, rgb(183, 230, 247) 178.144deg, rgb(233, 224, 185) 217.297deg, rgb(235, 195, 188) 284.202deg, rgb(255, 255, 255) 360deg);
+}
+.gradient-academy{
+  // @apply bg-primary;
+  background: conic-gradient(from 0deg at 50% 50%, #e3fa99 0deg, #fbfe25 90.8108deg, #F2FE71 115.217deg, #e3fa99 178.144deg, #F2FE71 217.297deg, #e3fa99 269.861deg, #d1ff2b 308.425deg, #e3fa99 360deg);
 }
 </style>
