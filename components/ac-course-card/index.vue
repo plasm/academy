@@ -1,5 +1,5 @@
 <template>
-  <div data-name="ac-cousre-card" class="relative cursor-pointer rounded-xl border border-neutral-800 p-8 text-white transition-colors duration-500 hover:border-neutral-600 hover:bg-neutral-800" @mouseover="$emit('over')" @mouseleave="$emit('leave')">
+  <div data-name="ac-cousre-card" class="relative cursor-pointer rounded-xl border border-neutral-700 p-8 text-white transition-colors duration-500 hover:border-neutral-800 hover:bg-neutral-800" @mouseover="$emit('over')" @mouseleave="$emit('leave')">
     <div
       class="absolute z-10 -translate-y-1/2 translate-x-1/2 transition-all duration-200"
       :class="{
