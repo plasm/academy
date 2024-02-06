@@ -1,5 +1,5 @@
 <template>
-  <div data-name="ac-shield" class="group relative mx-auto size-28 rounded-full outline outline-[#e1b970]/20 hover:outline-[#e1b970]/5 bg-black p-1 transition-all duration-300 hover:scale-125 hover:p-2">
+  <div data-name="ac-shield" class="group relative mx-auto size-28 rounded-full bg-black p-1 outline outline-[#e1b970]/20 transition-all duration-300 hover:scale-125 hover:p-2 hover:outline-[#e1b970]/5">
     <div class="gradient-gold blend absolute left-0 top-0 z-10 flex size-full items-center justify-center rounded-full" />
     <div class="relative size-full rounded-full bg-gray-500 p-1">
       <div class="relative size-full rounded-full bg-black">
