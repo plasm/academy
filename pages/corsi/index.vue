@@ -23,29 +23,33 @@
     </div>
     <div class="mx-auto my-10 max-w-4xl">
       <div class="grid grid-cols-2 gap-6">
-        <ac-course-card v-model="activeCourse" type="master" @over="activeCourse='master'" @leave="activeCourse=null">
-          <template #logo>
-            <ac-shield experience theme="gold" :persistent="activeCourse==='master'" />
-          </template>
-          <div class="mb-4 text-3xl font-semibold">
-            Master
-          </div>
-          <div class="leading-normal text-neutral-300">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tempore maxime exercitationem sit, non delectus possimus quis reiciendis expedita repudiandae, molestiae praesentium laboriosam in neque nam quo quam doloremque dolorem!
-          </div>
-        </ac-course-card>
+        <nuxt-link to="/corsi/master-experience" title="Master experience">
+          <ac-course-card v-model="activeCourse" type="master" @over="activeCourse='master'" @leave="activeCourse=null">
+            <template #logo>
+              <ac-shield experience theme="gold" :persistent="activeCourse==='master'" />
+            </template>
+            <div class="mb-4 text-3xl font-semibold">
+              Master experience
+            </div>
+            <div class="leading-normal text-neutral-300">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tempore maxime exercitationem sit, non delectus possimus quis reiciendis expedita repudiandae, molestiae praesentium laboriosam in neque nam quo quam doloremque dolorem!
+            </div>
+          </ac-course-card>
+        </nuxt-link>
 
-        <ac-course-card v-model="activeCourse" type="alta-formazione" @over="activeCourse='alta-formazione'" @leave="activeCourse=null">
-          <template #logo>
-            <ac-shield theme="silver" :persistent="activeCourse==='alta-formazione'" />
-          </template>
-          <div class="mb-4 text-3xl font-semibold">
-            Alta formazione
-          </div>
-          <div class="leading-normal text-neutral-300">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tempore maxime exercitationem sit, non delectus possimus quis reiciendis expedita repudiandae, molestiae praesentium laboriosam in neque nam quo quam doloremque dolorem!
-          </div>
-        </ac-course-card>
+        <nuxt-link to="/corsi/alta-formazione" title="Alta formazione">
+          <ac-course-card v-model="activeCourse" type="alta-formazione" @over="activeCourse='alta-formazione'" @leave="activeCourse=null">
+            <template #logo>
+              <ac-shield theme="silver" :persistent="activeCourse==='alta-formazione'" />
+            </template>
+            <div class="mb-4 text-3xl font-semibold">
+              Alta formazione
+            </div>
+            <div class="leading-normal text-neutral-300">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tempore maxime exercitationem sit, non delectus possimus quis reiciendis expedita repudiandae, molestiae praesentium laboriosam in neque nam quo quam doloremque dolorem!
+            </div>
+          </ac-course-card>
+        </nuxt-link>
 
         <ac-course-card v-model="activeCourse" type="aggiornamento-professionale" @over="activeCourse='aggiornamento-professionale'" @leave="activeCourse=null">
           <template #logo>
