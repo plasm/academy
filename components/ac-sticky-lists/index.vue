@@ -38,15 +38,15 @@ export default {
       default: () => [
         {
           title: 'SAPERE',
-          description: '– <span class="font-bold">La conoscenza teorica</span><br> Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.'
+          description: '<span class="text-primary">–</span> <span class="text-primary font-bold">La conoscenza teorica</span><br> Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.'
         },
         {
           title: 'SAPER<br>FARE',
-          description: '– <span class="font-bold">L’applicazione pratica</span><br> Attraverso stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.'
+          description: '<span class="text-primary">–</span> <span class="text-primary font-bold">L’applicazione pratica</span><br> Attraverso gli stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.'
         },
         {
           title: 'SAPER<br>ESSERE',
-          description: '– <span class="font-bold">Lo sviluppo personale</span><br> Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.'
+          description: '<span class="text-primary">–</span> <span class="text-primary font-bold">Lo sviluppo personale</span><br> Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.'
         }
       ]
     }

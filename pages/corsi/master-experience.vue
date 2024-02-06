@@ -26,7 +26,7 @@
 
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="my-10 text-center text-4xl leading-tight text-white">
-        La formula Experience abbraccia un approccio olistico alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
+        La formula Experience abbraccia un <span class="text-primary">approccio olistico</span> alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
       </div>
     </div>
   </div>
