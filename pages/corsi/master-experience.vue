@@ -1,7 +1,7 @@
 <template>
   <div data-name="page-master-experience">
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-shield class="top-4" />
+      <ac-shield class="top-4" persistent experience />
       <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
         <template #title>
           <div class="leading-none ">

@@ -1,15 +1,36 @@
 <template>
-  <div data-name="ac-shield" class="group relative mx-auto size-28 rounded-full bg-black p-1 outline outline-[#e1b970]/20 transition-all duration-300 hover:scale-125 hover:p-2 hover:outline-[#e1b970]/5">
+  <div
+    data-name="ac-shield"
+    class="group relative mx-auto size-28 rounded-full bg-black outline transition-all duration-300"
+    :class="{
+      'p-1 outline-[#e1b970]/20':!hover,
+      'scale-125 p-2 outline-[#e1b970]/5':hover,
+    }"
+    @mouseover="hover = true"
+    @mouseleave="hover = persistent"
+  >
     <div class="gradient-gold blend absolute left-0 top-0 z-10 flex size-full items-center justify-center rounded-full" />
     <div class="relative size-full rounded-full bg-gray-500 p-1">
       <div class="relative size-full rounded-full bg-black">
-        <div class="relative   size-full overflow-hidden rounded-full opacity-50 invert">
+        <div class="relative size-full overflow-hidden rounded-full opacity-50 invert">
           <div class="filigrana" />
         </div>
-        <div class="absolute left-0 top-0 flex  size-full items-center justify-center text-neutral-500 transition-all duration-300 group-hover:scale-[80%] ">
+        <div
+          class="absolute left-0 top-0 flex  size-full items-center justify-center text-neutral-500 transition-all duration-300"
+          :class="{
+            'scale-[80%]': hover
+          }"
+        >
           <ac-logo size="large" />
           <div class="absolute size-full animate-spin-slow">
-            <ac-payoff class=" absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-0 transition-all delay-100 duration-200 group-hover:scale-[220%] group-hover:opacity-100 " />
+            <component
+              :is="component"
+              class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-all delay-100 duration-200"
+              :class="{
+                'scale-100 opacity-0':!hover,
+                'scale-[220%] opacity-100':hover
+              }"
+            />
           </div>
         </div>
       </div>
@@ -19,7 +40,27 @@
 
 <script>
 export default {
-  name: 'ac-shield'
+  name: 'ac-shield',
+  props: {
+    persistent: {
+      type: Boolean,
+      default: false
+    },
+    experience: {
+      type: Boolean,
+      default: false
+    }
+  },
+  data () {
+    return {
+      hover: this.persistent
+    }
+  },
+  computed: {
+    component () {
+      return this.experience ? 'ac-formula-experience' : 'ac-formula-full-immersion'
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
