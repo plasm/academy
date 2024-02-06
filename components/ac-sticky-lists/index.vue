@@ -38,15 +38,15 @@ export default {
       default: () => [
         {
           title: 'SAPERE',
-          description: '– rappresenta la base della conoscenza teorica. Gli allievi hanno accesso a contenuti curriculari ricchi e aggiornati, creati da specialisti del settore, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.'
+          description: '– <span class="font-bold">La conoscenza teorica</span><br> Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.'
         },
         {
           title: 'SAPER<br>FARE',
-          description: '– si concentra sull’applicazione pratica delle conoscenze acquisite. Gli stage intensivi permettono agli allievi di mettere in pratica ciò che hanno imparato, acquisendo capacità operative essenziali per il successo nella loro carriera professionale.'
+          description: '– <span class="font-bold">L’applicazione pratica</span><br> Attraverso stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.'
         },
         {
           title: 'SAPER<br>ESSERE',
-          description: '– è un elemento distintivo dei Master Experience. Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili non solo ad affrontare le sfide professionali, ma anche a diventare individui consapevoli e responsabili nella società.'
+          description: '– <span class="font-bold">Lo sviluppo personale</span><br> Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.'
         }
       ]
     }

@@ -9,13 +9,14 @@
         </template>
       </ac-heading>
       <div class="text-white">
-        I Master Experience sono percorsi di qualifica professionale, rivolti a studenti e professionisti desiderosi di crescita personale e professionale. Sono strutturati in primo e secondo livello e richiedono lauree specifiche e/o esperienze settoriali documentate. Hanno una durata minima di un anno e prevedono requisiti di ammissione variabili. Il numero di allievi è limitato, a garanzia di un insegnamento personalizzato. La selezione avviene attraverso un colloquio motivazionale online. Gli obiettivi e i programmi sono definiti dalla direzione scientifica di AIGES Academy. Le lezioni si svolgono con varie modalità. Oltre alla prova finale, possono essere previste verifiche intermedie. Al termine, gli allievi conseguono…
+        I Master Experience di AIGES Academy sono percorsi accademici di qualifica, strutturati in primo e secondo livello, della durata minima di un anno, progettati per fornire… a professionisti e laureati. I requisiti di ammissione variano in base alla disciplina e sono soggetti a valutazione. Il numero di allievi è limitato per garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo. I programmi sono definiti dalla direzione scientifica. Le lezioni si svolgono online, in presenza e/o in modalità blended. È previsto un esame per ciascun livello. Il numero di attestati rilasciati varia a seconda degli obiettivi prefissati.
       </div>
     </div>
 
     <div class="mx-auto my-10 bg-neutral-800 px-4  py-10 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class=" text-center text-4xl leading-tight text-white">
-        I Master Experience danno agli allievi l’opportunità unica di immergersi in una vera e propria esperienza formativa. La formula Experience si basa su tre pilastri fondamentali: il <span class="text-primary">SAPERE</span>, il <span class="text-primary">SAPER FARE</span> e il <span class="text-primary">SAPER ESSERE</span>.
+        <span class="text-primary font-bold">IL VALORE AGGIUNTO</span><br>
+        SAPERE, SAPER FARE, SAPER ESSERE:<br> grazie ai suoi tre elementi chiave, la formula Experience trasforma la formazione in una vera e propria esperienza.
       </div>
     </div>
 
@@ -25,7 +26,7 @@
 
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="my-10 text-center text-4xl leading-tight text-white">
-        In sintesi, la formula Experience rappresenta un approccio olistico alla formazione, che unisce conoscenza teorica, applicazione pratica e sviluppo personale.
+        La formula Experience abbraccia un approccio olistico alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
       </div>
     </div>
   </div>
