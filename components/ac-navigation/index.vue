@@ -101,7 +101,7 @@
             title="Contatti"
             class="rounded-xl border border-white/20 bg-white/10 p-0.5 transition-transform duration-300 ease-out hover:-translate-y-1  focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0"
           >
-            <div class="rounded-lg bg-white px-4 py-2 text-sm font-semibold text-black">
+            <div class="rounded-lg bg-gradient-to-tr from-blue-200 to-white px-4 py-2 text-sm font-semibold text-black">
               Contatti
             </div>
           </nuxt-link>

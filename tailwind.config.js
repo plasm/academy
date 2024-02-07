@@ -29,7 +29,7 @@ module.exports = {
           hover: '#F2FE71',
         },
         gold: {
-          DEFAULT: '#e1b970',
+          DEFAULT: '#c5a366',
           hover: '#e1b970',
         },
         silver: {

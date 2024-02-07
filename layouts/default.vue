@@ -1,7 +1,7 @@
 <template>
   <div data-name="default-layout">
     <ac-navigation />
-    <main class="relative flex-1 py-4 focus:outline-none">
+    <main class="relative flex-1 focus:outline-none">
       <slot />
     </main>
     <ac-footer />

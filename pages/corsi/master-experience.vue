@@ -1,11 +1,11 @@
 <template>
   <div data-name="page-master-experience">
-    <div class="mx-auto mt-10 px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+    <div class=" mx-auto px-4 pt-10 sm:px-6 md:px-8 2xl:max-w-7xl">
       <ac-shield class="top-4" persistent experience theme="gold" />
       <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
         <template #title>
           <div class="leading-none ">
-            <span class="gold">Master Experience</span>
+            <span class="text-gold">Master Experience</span>
           </div>
         </template>
       </ac-heading>
@@ -16,7 +16,7 @@
           title="Calendario"
           class="rounded-2xl border border-white/20 bg-white/10 p-1 transition-transform duration-300 ease-out hover:-translate-y-1 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0"
         >
-          <div class="rounded-xl bg-gold px-6 py-4 text-xl font-medium text-black ">
+          <div class="rounded-xl bg-gradient-to-tr from-blue-200 to-white px-6 py-2 text-xl font-medium text-black ">
             Calendario
           </div>
         </nuxt-link>
@@ -31,7 +31,7 @@
       </div>
 
       <div class="mx-auto grid max-w-6xl grid-cols-2 gap-6">
-        <div class="group relative mx-auto overflow-hidden rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
+        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
           <div class="absolute right-2 top-2 scale-75">
             <ac-shield experience :persistent="hover==='box-1'" theme="gold" />
           </div>
@@ -56,7 +56,7 @@
           </div>
         </div>
 
-        <div class="group relative mx-auto overflow-hidden rounded-xl bg-gradient-to-br from-gold/80  to-gold/30 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
+        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-gold/80  to-gold/30 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
           <div class="p-8">
             <div class="mb-4 text-xl font-medium">
               Online o in presenza
@@ -66,11 +66,11 @@
             </p>
           </div>
 
-          <div class="relative -bottom-24 -right-20 -mt-28 w-full rounded-xl bg-white p-8 text-sm text-neutral-800 transition-transform duration-500 ease-cubic-bezier group-hover:-translate-x-4 group-hover:-translate-y-4">
+          <div class="relative -bottom-24 -right-20 -mt-28 w-[90%] rounded-xl bg-white p-8 text-sm text-neutral-800 transition-transform duration-500 ease-cubic-bezier group-hover:-translate-x-4 group-hover:-translate-y-4">
             <div class="mb-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur nesciunt ea quia vel quod.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="text-gold">Doloribus consequuntur nesciunt ea quia vel quod.</span>
             </div>
-            <img src="https://i.ytimg.com/vi_webp/EQUoimenMAg/maxresdefault.webp">
+            <img class="overflow-hidden rounded-xl" src="https://i.ytimg.com/vi_webp/EQUoimenMAg/maxresdefault.webp">
           </div>
         </div>
       </div>
@@ -78,73 +78,59 @@
 
     <ac-separator class="mb-8 mt-20" />
 
-    <ac-heading description="Grazie ai suoi tre plus, il Master Experience trasforma la formazione in una vera e propria esperienza.">
-      <template #title>
-        <div class="leading-none ">
-          <span class="gold">SAPERE, SAPER FARE, SAPER ESSERE</span>
-        </div>
-      </template>
-    </ac-heading>
+    <div class="gradient  pb-20">
+      <ac-heading description="Grazie ai suoi tre plus, il Master Experience trasforma la formazione in una vera e propria esperienza.">
+        <template #title>
+          <div class="leading-none ">
+            <span class="text-gold">SAPERE, SAPER FARE, SAPER ESSERE</span>
+          </div>
+        </template>
+      </ac-heading>
 
-    <div class="mx-auto grid max-w-6xl grid-cols-3 gap-4">
-      <div>
-        <div class="text-lg font-medium text-neutral-700/70">
-          SAPERE
+      <div class="mx-auto grid max-w-6xl grid-cols-3 gap-4">
+        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
+          <div class="text-lg font-medium text-neutral-700/70">
+            SAPERE
+          </div>
+          <div class="mb-2 text-lg font-semibold  text-gold">
+            LA CONOSCENZA TEORICA
+          </div>
+          <div class="text-base font-light text-white">
+            Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
+          </div>
         </div>
-        <div class="mb-2 text-lg font-semibold  text-gold">
-          LA CONOSCENZA TEORICA
-        </div>
-        <div class="text-base font-light text-white">
-          Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
-        </div>
-      </div>
 
-      <div>
-        <div class="text-lg font-medium text-neutral-700/70">
-          SAPER FARE
+        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
+          <div class="text-lg font-medium text-neutral-700/70">
+            SAPER FARE
+          </div>
+          <div class="mb-2 text-lg font-semibold  text-gold">
+            L’APPLICAZIONE PRATICA
+          </div>
+          <div class="text-base font-light text-white">
+            Attraverso gli stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.
+          </div>
         </div>
-        <div class="mb-2 text-lg font-semibold  text-gold">
-          L’APPLICAZIONE PRATICA
-        </div>
-        <div class="text-base font-light text-white">
-          Attraverso gli stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.
-        </div>
-      </div>
 
-      <div>
-        <div class="text-lg font-medium text-neutral-700/70">
-          SAPER ESSERE
-        </div>
-        <div class="mb-2 text-lg font-semibold  text-gold">
-          LO SVILUPPO PERSONALE
-        </div>
-        <div class="text-base font-light text-white">
-          Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
+        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
+          <div class="text-lg font-medium text-neutral-700/70">
+            SAPER ESSERE
+          </div>
+          <div class="mb-2 text-lg font-semibold  text-gold">
+            LO SVILUPPO PERSONALE
+          </div>
+          <div class="text-base font-light text-white">
+            Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
+          </div>
         </div>
       </div>
     </div>
-    <!--
-    <div class="mx-auto my-6 max-w-6xl rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 px-4 py-14 sm:px-6 md:px-12">
-      <div class=" text-center text-4xl leading-tight text-white">
-        <div class="font-semibold text-white">
-          I PLUS
-        </div>
-        <div class="gold text-4xl font-semibold">
-          SAPERE, SAPER FARE, SAPER ESSERE
-        </div>
-        <div class="mt-2 text-xl">
-          Grazie ai suoi tre plus, il Master Experience trasforma la formazione in una vera e propria esperienza.
-        </div>
-      </div>
-    </div> -->
 
-    <!-- <ac-sticky-lists theme="gold" /> -->
-
-    <ac-separator class="mb-28 mt-20" />
+    <ac-separator class="mb-20" />
 
     <div class="mx-auto max-w-6xl  px-4">
       <div class="my-10 text-center text-4xl leading-tight text-white">
-        La <span class="gold">Formula Experience</span> abbraccia un approccio olistico alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
+        La <span class="text-gold">Formula Experience</span> abbraccia un approccio olistico alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
       </div>
     </div>
   </div>
@@ -161,7 +147,10 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.gold{
-  @apply text-[#e1b970];
+.gradient-top{
+  background: radial-gradient(50.9% 35.5% at 50% 8%, rgba(200, 200, 255, .16) 0%, #17171700 100%);
+}
+.gradient{
+  background: radial-gradient(50.9% 35.5% at 50% 78%, rgba(200, 200, 255, .16) 0%, #17171700 100%);
 }
 </style>

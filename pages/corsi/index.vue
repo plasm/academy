@@ -14,7 +14,7 @@
             title="Calendario"
             class="rounded-2xl border border-white/20 bg-white/10 p-1 transition-transform duration-300 ease-out hover:-translate-y-1 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0"
           >
-            <div class="rounded-xl bg-gradient-to-tr from-blue-200 to-white px-6 py-4 text-xl font-medium text-black ">
+            <div class="rounded-xl bg-gradient-to-tr from-blue-200 to-white px-6 py-2 text-xl font-medium text-black ">
               Calendario
             </div>
           </nuxt-link>
@@ -72,10 +72,6 @@
           </div>
         </ac-course-card>
       </div>
-    </div>
-
-    <div class="text-4xl text-white">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, harum ullam, velit, minima nam <span class="text-primary">accusantium</span> voluptas ducimus non quam distinctio sint nihil voluptatibus adipisci aut facilis minus natus nostrum quo?
     </div>
   </div>
 </template>
