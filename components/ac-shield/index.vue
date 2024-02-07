@@ -81,7 +81,7 @@ export default {
   border-radius: inherit;
   inset: 0px;
   background-size: 25px;
-  background-image: url(https://framerusercontent.com/images/L9gN6bRCSKWIBJkYc7iGxMOn07w.svg);
+  background-image: url('/filigrana.svg');
   border: 0px;
   background-repeat: repeat;
   background-position: center center;
