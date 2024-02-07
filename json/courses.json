@@ -6,12 +6,12 @@
   },
   {
     "title": "Alta formazione",
-    "description": "Corsi professionalizzanti",
+    "description": "Corsi di specializzazione",
     "route": "/corsi/alta-formazione"
   },
   {
     "title": "Aggiornamento professionale",
-    "description": "Piani di formazione continua",
+    "description": "Corsi di perfezionamento",
     "route": "/corsi/aggiornamento-professionale"
   },
   {
