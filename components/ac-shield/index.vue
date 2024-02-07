@@ -22,15 +22,19 @@
           }"
         >
           <ac-logo size="large" />
-          <div class="absolute size-full animate-spin-slow">
-            <component
-              :is="component"
-              class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-all delay-100 duration-200"
+          <div class="absolute  size-full  animate-spin-slow">
+            <div
               :class="{
                 'scale-100 opacity-0':!hover,
                 'scale-[220%] opacity-100':hover
               }"
-            />
+              class="absolute  size-full origin-center  transition-all delay-100 duration-200"
+            >
+              <component
+                :is="component"
+                class="absolute left-0 top-0 size-[44px] translate-x-1/2 translate-y-1/2 "
+              />
+            </div>
           </div>
         </div>
       </div>
