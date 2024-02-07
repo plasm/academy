@@ -22,7 +22,7 @@
         </nuxt-link>
       </div>
 
-      <div class="mx-auto max-w-6xl p-20 pt-0">
+      <div class="mx-auto max-w-5xl p-20 pt-0">
         <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
           <div>Il Master Experience di <span class="text-gold">AIGES Academy</span> è un format strutturato in percorsi di qualifica professionale di durata non inferiore a un anno, progettati per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.</div>
 
@@ -31,9 +31,9 @@
       </div>
 
       <div class="mx-auto grid max-w-6xl grid-cols-2 gap-6">
-        <div class="group relative mx-auto overflow-hidden rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 text-lg text-white ">
+        <div class="group relative mx-auto overflow-hidden rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
           <div class="absolute right-2 top-2 scale-75">
-            <ac-shield experience theme="gold" />
+            <ac-shield experience :persistent="hover==='box-1'" theme="gold" />
           </div>
           <div class="p-8 pr-32 ">
             <div class="mb-4 text-xl font-medium">
@@ -46,7 +46,7 @@
             </div>
           </div>
 
-          <div class="relative -bottom-20 left-4 -mt-32 size-full rounded-xl bg-black p-8 text-sm text-neutral-800">
+          <div class="relative -bottom-20 left-4 -mt-32 size-full rounded-xl  p-8 text-sm text-neutral-800">
             <div class="absolute flex gap-2">
               <div class="h-[300px] w-[240px] rounded-xl bg-neutral-200 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0" />
               <div class="h-[300px] w-[240px] -translate-x-20 rounded-xl bg-neutral-300 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0" />
@@ -56,7 +56,7 @@
           </div>
         </div>
 
-        <div class="group relative mx-auto overflow-hidden rounded-xl bg-gradient-to-br from-gold/80  to-gold/30 text-white ">
+        <div class="group relative mx-auto overflow-hidden rounded-xl bg-gradient-to-br from-gold/80  to-gold/30 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
           <div class="p-8">
             <div class="mb-4 text-xl font-medium">
               Online o in presenza
@@ -76,6 +76,54 @@
       </div>
     </div>
 
+    <ac-separator class="mb-8 mt-20" />
+
+    <ac-heading description="Grazie ai suoi tre plus, il Master Experience trasforma la formazione in una vera e propria esperienza.">
+      <template #title>
+        <div class="leading-none ">
+          <span class="gold">SAPERE, SAPER FARE, SAPER ESSERE</span>
+        </div>
+      </template>
+    </ac-heading>
+
+    <div class="mx-auto grid max-w-6xl grid-cols-3 gap-4">
+      <div>
+        <div class="text-lg font-medium text-neutral-700/70">
+          SAPERE
+        </div>
+        <div class="mb-2 text-lg font-semibold  text-gold">
+          LA CONOSCENZA TEORICA
+        </div>
+        <div class="text-base font-light text-white">
+          Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
+        </div>
+      </div>
+
+      <div>
+        <div class="text-lg font-medium text-neutral-700/70">
+          SAPER FARE
+        </div>
+        <div class="mb-2 text-lg font-semibold  text-gold">
+          L’APPLICAZIONE PRATICA
+        </div>
+        <div class="text-base font-light text-white">
+          Attraverso gli stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.
+        </div>
+      </div>
+
+      <div>
+        <div class="text-lg font-medium text-neutral-700/70">
+          SAPER ESSERE
+        </div>
+        <div class="mb-2 text-lg font-semibold  text-gold">
+          LO SVILUPPO PERSONALE
+        </div>
+        <div class="text-base font-light text-white">
+          Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
+        </div>
+      </div>
+    </div>
+    <!--
     <div class="mx-auto my-6 max-w-6xl rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 px-4 py-14 sm:px-6 md:px-12">
       <div class=" text-center text-4xl leading-tight text-white">
         <div class="font-semibold text-white">
@@ -88,13 +136,13 @@
           Grazie ai suoi tre plus, il Master Experience trasforma la formazione in una vera e propria esperienza.
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <ac-sticky-lists theme="gold" />
+    <!-- <ac-sticky-lists theme="gold" /> -->
 
-    <ac-separator />
+    <ac-separator class="mb-28 mt-20" />
 
-    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+    <div class="mx-auto max-w-6xl  px-4">
       <div class="my-10 text-center text-4xl leading-tight text-white">
         La <span class="gold">Formula Experience</span> abbraccia un approccio olistico alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
       </div>
@@ -104,7 +152,12 @@
 
 <script>
 export default {
-  name: 'page-master-experience'
+  name: 'page-master-experience',
+  data () {
+    return {
+      hover: ''
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
