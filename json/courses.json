@@ -1,7 +1,7 @@
 [
   {
     "title": "Master Experience",
-    "description": "Percorsi accademici di qualifica",
+    "description": "Percorsi di qualifica professionale",
     "route": "/corsi/master-experience"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "title": "Aggiornamento professionale",
-    "description": "Programmi di formazione continua",
+    "description": "Piani di formazione continua",
     "route": "/corsi/aggiornamento-professionale"
   },
   {

@@ -30,7 +30,7 @@
               <ac-shield experience theme="gold" :persistent="activeCourse==='master'" />
             </template>
             <div class="mb-4 text-3xl font-semibold">
-              Master experience
+              Master Experience
             </div>
             <div class="leading-normal text-neutral-300">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed tempore maxime exercitationem sit, non delectus possimus quis reiciendis expedita repudiandae, molestiae praesentium laboriosam in neque nam quo quam doloremque dolorem!
