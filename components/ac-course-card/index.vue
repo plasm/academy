@@ -11,11 +11,11 @@
     </div>
     <slot />
 
-    <div class="mt-auto flex items-start justify-start gap-3 text-xs  font-medium">
-      <div class="rounded-md px-2 py-1 text-black" :class="`theme-${theme}`">
+    <div class="mt-auto flex items-start justify-start gap-3 text-sm font-medium  uppercase">
+      <div class="rounded-md px-3 py-2 text-black" :class="`theme-${theme}`">
         Durata
       </div>
-      <div class="rounded-md px-2 py-1 text-black" :class="`theme-${theme}`">
+      <div class="rounded-md px-3 py-2 text-black" :class="`theme-${theme}`">
         Crediti
       </div>
     </div>
