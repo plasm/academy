@@ -7,6 +7,9 @@
         </div>
       </template>
     </ac-heading>
+    <div class="text-white">
+      La supervisione di AIGES Academy è un format strutturato in sessioni di confronto collegiale guidato di durata compresa tra due e quattro ore, progettate per professionisti e laureati interessati a migliorare la capacità di autovalutazione della loro prestazione professionale. L’iscrizione richiede requisiti di ammissione specifici, soggetti a valutazione. L’accesso è riservato a un massimo di trenta allievi, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo. I contenuti sono definiti dalla direzione scientifica. Le lezioni si svolgono online. Non sono previsti esami. Al termine del programma, viene rilasciato un attestato.
+    </div>
   </div>
 </template>
 
