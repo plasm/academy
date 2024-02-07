@@ -1,5 +1,5 @@
 <template>
-  <div data-name="ac-course-card" class="relative rounded-xl border border-neutral-700 p-8 text-white transition-colors duration-500 hover:border-neutral-800 ease-cubic-bezier  hover:bg-neutral-800" @mouseover="$emit('over')" @mouseleave="$emit('leave')">
+  <div data-name="ac-course-card" class="relative flex h-full flex-col items-stretch justify-stretch gap-4 rounded-xl border border-neutral-700 p-8 text-white transition-colors duration-500 ease-cubic-bezier hover:border-neutral-800 hover:bg-neutral-800" @mouseover="$emit('over')" @mouseleave="$emit('leave')">
     <div
       class="absolute z-10 -translate-y-1/2 translate-x-1/2 transition-all duration-200 ease-cubic-bezier"
       :class="{
@@ -7,9 +7,18 @@
         'right-2 top-2 scale-[40%]':modelValue!==type,
       }"
     >
-      <slot name="logo" :active="modelValue" />
+      <slot name="logo" />
     </div>
     <slot />
+
+    <div class="mt-auto flex items-start justify-start gap-3 text-xs  font-medium">
+      <div class="rounded-md px-2 py-1 text-black" :class="`theme-${theme}`">
+        Durata
+      </div>
+      <div class="rounded-md px-2 py-1 text-black" :class="`theme-${theme}`">
+        Crediti
+      </div>
+    </div>
   </div>
 </template>
 
@@ -18,12 +27,16 @@ export default {
   name: 'ac-course-card',
   props: {
     modelValue: {
-      type: Boolean,
-      default: false
+      type: String,
+      default: ''
     },
     type: {
       type: String,
       default: ''
+    },
+    theme: {
+      type: String,
+      default: 'default'
     }
   },
   emits: ['over', 'leave']
@@ -31,4 +44,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.theme-default{
+  @apply bg-white text-black;
+}
+.theme-gold{
+  @apply bg-gold text-black;
+}
+
+.theme-silver{
+  @apply text-black bg-gradient-to-tr from-[#ffeaf7] to-[#d3f2ff];
+}
 </style>

@@ -16,7 +16,7 @@
           <div class="filigrana" />
         </div>
         <div
-          class="absolute left-0 top-0 flex  size-full items-center justify-center text-neutral-500 transition-all duration-300"
+          class="absolute left-0 top-0 flex  size-full items-center justify-center text-neutral-400 transition-all duration-300"
           :class="{
             'scale-[80%]': hover
           }"
