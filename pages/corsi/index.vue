@@ -14,8 +14,8 @@
             title="Calendario"
             class="rounded-2xl border border-white/20 bg-white/10 p-1 transition-transform duration-300 ease-out hover:-translate-y-1 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0"
           >
-          <!-- bg-primary  -->
-            <div class="rounded-xl px-6 py-4 text-xl font-medium text-black bg-gradient-to-br from-primary to-primary-hover">
+            <!-- bg-primary  -->
+            <div class="rounded-xl bg-gradient-to-tr from-blue-200 to-white px-6 py-4 text-xl font-medium text-black ">
               Calendario
             </div>
           </nuxt-link>
@@ -25,11 +25,11 @@
     <div class="mx-auto my-10 max-w-4xl">
       <div class="grid grid-cols-2 gap-6">
         <nuxt-link to="/corsi/master-experience" title="Master experience">
-          <ac-course-card v-model="activeCourse" type="master" @over="activeCourse='master'" @leave="activeCourse=null">
+          <ac-course-card v-model="activeCourse" theme="gold" type="master" @over="activeCourse='master'" @leave="activeCourse=null">
             <template #logo>
               <ac-shield experience theme="gold" :persistent="activeCourse==='master'" />
             </template>
-            <div class="mb-4 text-3xl font-semibold">
+            <div class="text-3xl font-semibold">
               Master experience
             </div>
             <div class="leading-normal text-neutral-300">
@@ -39,11 +39,11 @@
         </nuxt-link>
 
         <nuxt-link to="/corsi/alta-formazione" title="Alta formazione">
-          <ac-course-card v-model="activeCourse" type="alta-formazione" @over="activeCourse='alta-formazione'" @leave="activeCourse=null">
+          <ac-course-card v-model="activeCourse" theme="silver" type="alta-formazione" @over="activeCourse='alta-formazione'" @leave="activeCourse=null">
             <template #logo>
               <ac-shield theme="silver" :persistent="activeCourse==='alta-formazione'" />
             </template>
-            <div class="mb-4 text-3xl font-semibold">
+            <div class="text-3xl font-semibold">
               Alta formazione
             </div>
             <div class="leading-normal text-neutral-300">
@@ -56,7 +56,7 @@
           <template #logo>
             <ac-shield theme="academy" :persistent="activeCourse==='aggiornamento-professionale'" />
           </template>
-          <div class="mb-4 text-3xl font-semibold">
+          <div class="text-3xl font-semibold">
             Aggiornamento professionale
           </div>
           <div class="leading-normal text-neutral-300">
@@ -65,7 +65,7 @@
         </ac-course-card>
 
         <ac-course-card v-model="activeCourse" type="supervisione" @over="activeCourse='supervisione'" @leave="activeCourse=null">
-          <div class="mb-4 text-3xl font-semibold">
+          <div class="text-3xl font-semibold">
             Supervisione
           </div>
           <div class="leading-normal text-neutral-300">

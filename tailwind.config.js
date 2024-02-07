@@ -28,6 +28,14 @@ module.exports = {
           DEFAULT: '#F2FE71',
           hover: '#F2FE71',
         },
+        gold: {
+          DEFAULT: '#e1b970',
+          hover: '#e1b970',
+        },
+        silver: {
+          DEFAULT: '#FFFFEE',
+          hover: '#FFFFEE',
+        },
       },
     }
   },
