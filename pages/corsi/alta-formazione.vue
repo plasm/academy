@@ -1,6 +1,6 @@
 <template>
   <div data-name="page-alta-formazione">
-    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+    <div class="mx-auto mt-10 px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <ac-shield class="top-4" persistent theme="silver" />
       <ac-heading description="Immergerti totalmente nell’alta formazione ha un solo e unico obiettivo: farti emergere nella professione.">
         <template #title>
