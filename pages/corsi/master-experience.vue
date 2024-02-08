@@ -173,10 +173,13 @@
       </div>
       <br>
       <div class="mb-2 text-lg font-semibold  text-gold">
-        Programma
+        Struttura e programma
       </div>
       <br>
       <div class="text-white">
+        La struttura prevede cinquantuno mezze giornate di lezioni teoriche, quattro stage intensivi di esercitazioni pratiche, otto mezze giornate di supervisione didattica e professionale di gruppo e fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di quattrocentotredici ore complessive distribuite nell'arco del biennio 2024-2026.
+        <br>
+        <br>
         Modulo 1 - Tecniche e pratica di mediazione familiare
         <br>
         Modulo 2 - Diritto sostanziale della famiglia
@@ -197,6 +200,8 @@
         <br>
         Modulo 10 - Supervisione didattica e professionale di gruppo e individuale
         <br>
+        <br>
+        Il programma comprende quattro stage intensivi di esercitazioni pratiche.
       </div>
       <br>
       <div class="mb-2 text-lg font-semibold  text-gold">
@@ -237,6 +242,74 @@
       <br>
       <div class="text-white">
         Isabella Salmeri, mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.
+      </div>
+      <br>
+      <div class="mb-2 text-lg font-semibold  text-gold">
+        Il materiale didattico
+      </div>
+      <br>
+      <div class="text-white">
+        Dispense elettroniche per i moduli 1, 2, 3, 4, 5, 6, 7 e 9 e dal manuale <em>I professionisti e la gestione dei conflitti. Un metodo innovativo per integrare competenze tecniche e relazionali, risolvere conflitti e concludere negoziazioni</em> per il modulo 8.
+      </div>
+      <br>
+      <div class="mb-2 text-lg font-semibold  text-gold">
+        L'iscrizione
+      </div>
+      <br>
+      <div class="text-white">
+        L'iscrizione può essere perfezionata alle seguenti condizioni, compilando l'apposito modulo, reperibile al link https://rebrand.ly/dff6g2m.
+        <br>
+        <br>
+        ● iscrizione ridotta: € 3.150,00, mediante pagamento in un'unica soluzione;
+        <br>
+        ● iscrizione standard: € 3.500,00, mediante pagamento in un'unica soluzione o con dilazione da tre a dieci rate mensili senza interessi.
+        <br>
+        <br>
+        La riduzione è riservata agli ex allievi di AIGES Academy e ai soci di MediaCoor.
+        <br>
+        <br>
+        L'iscrizione può essere opzionata mediante il pagamento di € 200,00. L'opzione dà all'allievo il diritto di seguire le prime due lezioni in calendario, senza alcun obbligo di proseguimento. Se l'allievo decide di proseguire, l'opzione viene considerata come acconto sull'importo totale e viene richiesto il saldo dell'importo residuo, con pagamento alle condizioni precedentemente indicate. Se l'allievo decide di non proseguire, l'opzione non viene rimborsata, salvo in caso di annullamento dell'evento da parte di AIGES Academy.
+        <br>
+        <br>
+        All'iscrizione perfezionata con pagamento in un'unica soluzione sono applicabili i seguenti sconti condizionati:
+        <br>
+        <br>
+        ● 5% per i soci di AIAF Campania;
+        <br>
+        ● 3% per gli iscritti agli ordini professionali.
+        <br>
+        <br>
+        Gli sconti condizionati non sono cumulabili.
+        <br>
+        <br>
+        L'iscrizione comprende i seguenti benefit:
+        <br>
+        <br>
+        ● fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto;
+        <br>
+        ● un anno di iscrizione a MediaCoor alla metà del costo.
+        <br>
+        <br>
+        Il termine ultimo per perfezionare l'iscrizione è il 30 agosto 2024, salvo in caso di esaurimento dei posti.
+      </div>
+      <br>
+      <div class="mb-2 text-lg font-semibold  text-gold">
+        Riconoscimento e accreditamento
+      </div>
+      <br>
+      <div class="text-white">
+        Il riconoscimento è stato concesso da MediaCoor, secondo gli standard previsti dalla norma UNI 11644 del 30 agosto 2016.
+        <br>
+        <br>
+        L'accreditamento è stato richiesto al CNF per gli avvocati e i praticanti abilitati e a MediaCoor per i coordinatori genitoriali.
+      </div>
+      <br>
+      <div class="mb-2 text-lg font-semibold  text-gold">
+        Informazioni telefoniche
+      </div>
+      <br>
+      <div class="text-white">
+        Le informazioni telefoniche possono essere richieste allo 02 39465334 dal lunedì al venerdì dalle 9:00 alle 18:00.
       </div>
     </div>
   </div>
