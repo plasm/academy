@@ -154,23 +154,58 @@
     <ac-heading description="Le date di questo evento...">
       <template #title>
         <div class="leading-none ">
+          <span class="text-gold">Il programma</span>
+        </div>
+      </template>
+    </ac-heading>
+
+    <div class="mx-auto max-w-5xl p-20 pt-0">
+      <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
+        La struttura prevede cinquantuno mezze giornate di lezioni teoriche, quattro stage intensivi di esercitazioni pratiche, otto mezze giornate di supervisione didattica e professionale di gruppo e fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di quattrocentotredici ore complessive distribuite nell'arco del biennio 2024-2026.
+      </div>
+    </div>
+
+    <ac-sticky-resources :resources="modules">
+      <template #title="{ resource }">
+        <div class="relative flex items-center justify-end  gap-2 text-2xl font-semibold uppercase text-white">
+          <div class="size-4 rounded-full border-2 border-neutral-600" />
+          {{ resource.title }}
+        </div>
+      </template>
+      <template #resource="{ resource }">
+        <div class="rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6">
+          <div class="text-lg text-gold">
+            {{ resource.subtitle }}
+          </div>
+          <div class="mt-2 text-sm leading-normal text-neutral-400 ">
+            {{ resource.description }}
+          </div>
+        </div>
+      </template>
+    </ac-sticky-resources>
+
+    <ac-separator class="mb-20" />
+
+    <ac-heading description="Le date di questo evento...">
+      <template #title>
+        <div class="leading-none ">
           <span class="text-gold">Appuntamenti</span>
         </div>
       </template>
     </ac-heading>
 
-    <ac-sticky-dates :resources="dates" align="right">
-      <template #dates="{ resource }">
+    <ac-sticky-resources :resources="dates">
+      <template #resource="{ resource }">
         <div class="flex flex-col items-start justify-start gap-2">
-          <div v-for="(item, index) in resource.dates" :key="index" class="text-left text-2xl text-white">
+          <div v-for="(item, index) in resource.dates" :key="index" class="text-2xl text-white">
             {{ item.day }}
           </div>
         </div>
       </template>
-    </ac-sticky-dates>
+    </ac-sticky-resources>
 
     <ac-separator class="mb-20" />
-
+    <!--
     <div class="mx-auto max-w-6xl  px-4">
       <div class="my-10 text-center text-4xl leading-tight text-white">
         Il <span class="text-gold">Master Experience</span> adotta un approccio olistico alla formazione, armonizzando perfettamente la conoscenza teorica, l’applicazione pratica e lo sviluppo personale.
@@ -344,18 +379,20 @@
       <div class="text-white">
         Le informazioni telefoniche possono essere richieste allo 02 39465334 dal lunedì al venerdì dalle 9:00 alle 18:00.
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import dates from '@/json/courses/dates.json'
+import modules from '@/json/courses/modules-master.json'
 export default {
   name: 'page-master-experience',
   data () {
     return {
       hover: '',
-      dates: dates['master-experience']
+      dates: dates['master-experience'],
+      modules,
     }
   }
 }
