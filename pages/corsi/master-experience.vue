@@ -79,7 +79,7 @@
     <ac-separator class="mb-8 mt-20" />
 
     <div class="gradient  pb-20">
-      <ac-heading description="Grazie ai suoi tre plus, il Master Experience trasforma la formazione in una vera e propria esperienza.">
+      <ac-heading description="Tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
         <template #title>
           <div class="leading-none ">
             <span class="text-gold">SAPERE, SAPER FARE, SAPER ESSERE</span>
@@ -130,7 +130,7 @@
 
     <div class="mx-auto max-w-6xl  px-4">
       <div class="my-10 text-center text-4xl leading-tight text-white">
-        La <span class="text-gold">Formula Experience</span> abbraccia un approccio olistico alla formazione, che integra alla perfezione conoscenza teorica, applicazione pratica e sviluppo personale.
+        Il <span class="text-gold">Master Experience</span> adotta un approccio olistico alla formazione, armonizzando perfettamente la conoscenza teorica, l’applicazione pratica e lo sviluppo personale.
       </div>
     </div>
   </div>
