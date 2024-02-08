@@ -31,7 +31,7 @@
       </div>
 
       <div class="mx-auto grid max-w-6xl grid-cols-2 gap-6">
-        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
+        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-tr  from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
           <div class="absolute right-2 top-2 scale-75">
             <ac-shield experience :persistent="hover==='box-1'" theme="gold" />
           </div>
