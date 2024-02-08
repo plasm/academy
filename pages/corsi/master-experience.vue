@@ -129,7 +129,7 @@
             L’APPLICAZIONE PRATICA
           </div>
           <div class="text-base font-light text-white">
-            Gli allievi possono sviluppare capacità di intervento essenziali per un esercizio efficace della professione, mettendo in pratica ciò che hanno appreso durante gli stage intensivi.
+            Gli allievi possono sperimentarsi durante gli stage intensivi, mettendo in pratica ciò che hanno appreso in teoria e verificando concretamente la loro capacità di intervento.
           </div>
         </div>
 
