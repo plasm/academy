@@ -24,9 +24,15 @@
 
       <div class="mx-auto max-w-5xl p-20 pt-0">
         <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
-          <div>Il Master Experience di <span class="text-gold">AIGES Academy</span> è un format strutturato in percorsi di qualifica professionale di durata non inferiore a un anno, progettati per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.</div>
+          <div>Il <span class="text-gold">Master Experience</span> di AIGES Academy è un format strutturato in percorsi di qualifica professionale di durata non inferiore a un anno, progettati per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.</div>
 
-          <div>L’iscrizione richiede requisiti di ammissione specifici, soggetti a valutazione. L’accesso è riservato a un massimo di trenta allievi, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.</div>
+          <div>L’iscrizione richiede requisiti di ammissione specifici, che sono soggetti a valutazione.</div>
+
+          <div>L’accesso è riservato a un massimo di trenta allievi, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.</div>
+
+          <div>
+            Sono previsti esami.
+          </div>
         </div>
       </div>
 
@@ -37,7 +43,7 @@
           </div>
           <div class="p-8 pr-32 ">
             <div class="mb-4 text-xl font-medium">
-              Attestato e riconoscimenti
+              GLI ATTESTATI
             </div>
             <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
               <p class="mb-8 text-base font-light text-white/70 ">
@@ -59,10 +65,10 @@
         <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-gold/80  to-gold/30 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
           <div class="p-8">
             <div class="mb-4 text-xl font-medium">
-              Online o in presenza
+              LA MODALITÀ DI SVOLGIMENTO
             </div>
             <p class="mb-8 text-base font-light text-white/70 ">
-              I contenuti sono definiti dalla direzione scientifica. Le lezioni si svolgono online, in presenza e/o in modalità blended. Sono previsti esami.
+              Le lezioni si svolgono online, in presenza e/o in modalità blended.
             </p>
           </div>
 
