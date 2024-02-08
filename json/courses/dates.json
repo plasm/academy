@@ -1,0 +1,42 @@
+{
+  "master-experience": [
+    {
+      "title": "Gennaio",
+      "key": "gennaio",
+      "dates": [
+        {
+          "day": "martedì 8"
+        },
+        {
+          "day": "giovedì 18"
+        }
+      ]
+    },
+    {
+      "title": "Febbraio",
+      "key": "febbraio",
+      "dates": [
+        {
+          "day": "martedì 8"
+        },
+        {
+          "day": "giovedì 18"
+        }
+      ]
+    }
+  ],
+  "alta-formazione": [
+    {
+      "title": "Gennaio",
+      "key": "gennaio",
+      "dates": [
+        {
+          "day": "martedì 8"
+        },
+        {
+          "day": "giovedì 18"
+        }
+      ]
+    }
+  ]
+}
