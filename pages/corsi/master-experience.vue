@@ -31,7 +31,7 @@
           <div>L’accesso è riservato a un massimo di trenta allievi, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.</div>
 
           <div>
-            Sono previsti esami.
+            Sono previsti uno o più esami.
           </div>
         </div>
       </div>
@@ -154,6 +154,89 @@
     <div class="mx-auto max-w-6xl  px-4">
       <div class="my-10 text-center text-4xl leading-tight text-white">
         Il <span class="text-gold">Master Experience</span> adotta un approccio olistico alla formazione, armonizzando perfettamente la conoscenza teorica, l’applicazione pratica e lo sviluppo personale.
+      </div>
+
+      <div class="mb-2 text-lg font-semibold  text-gold">
+        Cos’è la mediazione familiare
+      </div>
+      <br>
+      <div class="text-white">
+        La mediazione familiare è uno strumento di risoluzione alternativa delle controversie, focalizzato sulla famiglia, riservato e non valutativo, rivolto alla coppia che ha la necessità di riorganizzare le relazioni familiari, in vista o a seguito di una separazione, di un divorzio o della cessazione di un rapporto a qualsiasi titolo costituito. L'intervento prevede che, attraverso un percorso volontario della durata media di dieci incontri, un professionista terzo, imparziale e neutrale, qualificato con una specifica formazione teorico-pratica, aiuti la coppia a raggiungere un accordo direttamente negoziato, rispondente ai bisogni e agli interessi di tutti i soggetti coinvolti, con particolare attenzione alla tutela dei figli (se presenti) e al mantenimento della comune responsabilità genitoriale.
+      </div>
+      <br>
+      <div class="mb-2 text-lg font-semibold  text-gold">
+        A chi è destinato
+      </div>
+      <br>
+      <div class="text-white">
+        I destinatari sono avvocati, praticanti abilitati, psichiatri, psicologi, assistenti sociali, coordinatori genitoriali, counselor, pedagogisti, educatori professionali, criminologi, sociologi e laureati in area umanistica, sanitaria e/o sociale.
+      </div>
+      <br>
+      <div class="mb-2 text-lg font-semibold  text-gold">
+        Programma
+      </div>
+      <br>
+      <div class="text-white">
+        Modulo 1 - Tecniche e pratica di mediazione familiare
+        <br>
+        Modulo 2 - Diritto sostanziale della famiglia
+        <br>
+        Modulo 3 - Diritto processuale della famiglia
+        <br>
+        Modulo 4 - Diritto penale della famiglia
+        <br>
+        Modulo 5 - Diritto matrimoniale e processuale canonico
+        <br>
+        Modulo 6 - Psicologia del conflitto
+        <br>
+        Modulo 7 - Sociologia della devianza e della famiglia
+        <br>
+        Modulo 8 - Tecniche di negoziazione e di gestione del conflitto
+        <br>
+        Modulo 9 - Leadership
+        <br>
+        Modulo 10 - Supervisione didattica e professionale di gruppo e individuale
+        <br>
+      </div>
+      <br>
+      <div class="mb-2 text-lg font-semibold  text-gold">
+        I docenti
+      </div>
+      <br>
+      <div class="text-white">
+        Manuela Pagliaroli, avvocata civilista, mediatrice familiare, scolastica, interculturale, civile e commerciale, coordinatrice genitoriale, formatrice e supervisora in mediazione familiare e coordinazione genitoriale, cofondatrice e direttrice scientifica di AIGES Academy, socia fondatrice e coordinatrice del Comitato scientifico di MediaCoor.
+      </div>
+      <br>
+      <div class="text-white">
+        Arturo Maniaci, avvocato civilista, professore associato di Istituzioni di diritto privato presso l'Università Statale di Milano.
+      </div>
+      <br>
+      <div class="text-white">
+        Sara Trabucchi, avvocata civilista, già consigliera e componente della Commissione famiglia e minori presso il Consiglio dell'Ordine degli Avvocati di Verona.
+      </div>
+      <br>
+      <div class="text-white">
+        Clara Veneto, avvocata penalista, responsabile dell'Osservatorio Scuole territoriali e Specializzazione presso l'Unione Camere Penali Italiane, componente della Commissione Reati in ambito familiare della Camera Penale di Roma.
+      </div>
+      <br>
+      <div class="text-white">
+        Paolo Palumbo, avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l'Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell'Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell'Unione Giuristi Cattolici Italiani.
+      </div>
+      <br>
+      <div class="text-white">
+        Alessandra Simonelli, psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l'Università di Padova.
+      </div>
+      <br>
+      <div class="text-white">
+        Cinzia Vitale, sociologa, criminologa, mediatrice familiare, membro del Consiglio direttivo e del Comitato di esperti del Centro per l'UNESCO di Firenze.
+      </div>
+      <br>
+      <div class="text-white">
+        Tiziana Fragomeni, avvocata negoziatrice, mediatrice, formatrice in tecniche di negoziazione, mediazione e trasformazione dei conflitti, ideatrice del metodo OASI (Osservare, Ascoltare, Sentire, Integrare).
+      </div>
+      <br>
+      <div class="text-white">
+        Isabella Salmeri, mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.
       </div>
     </div>
   </div>
