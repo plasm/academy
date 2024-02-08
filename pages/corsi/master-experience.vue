@@ -160,21 +160,21 @@
     </ac-heading>
 
     <div class="mx-auto max-w-5xl p-20 pt-0">
-      <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
+      <div class="flex flex-col gap-4 text-2xl font-light text-white">
         La struttura prevede cinquantuno mezze giornate di lezioni teoriche, quattro stage intensivi di esercitazioni pratiche, otto mezze giornate di supervisione didattica e professionale di gruppo e fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di quattrocentotredici ore complessive distribuite nell'arco del biennio 2024-2026.
       </div>
     </div>
 
-    <ac-sticky-resources :resources="modules">
+    <ac-sticky-resources :resources="modules" limit="4">
       <template #title="{ resource }">
-        <div class="relative flex items-center justify-end  gap-2 text-2xl font-semibold uppercase text-white">
+        <div class="relative top-5 flex items-center justify-end gap-2 text-2xl font-semibold uppercase text-white">
           <div class="size-4 rounded-full border-2 border-neutral-600" />
           {{ resource.title }}
         </div>
       </template>
       <template #resource="{ resource }">
         <div class="rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6">
-          <div class="text-lg text-gold">
+          <div class="text-base font-medium text-gold">
             {{ resource.subtitle }}
           </div>
           <div class="mt-2 text-sm leading-normal text-neutral-400 ">
@@ -184,7 +184,7 @@
       </template>
     </ac-sticky-resources>
 
-    <ac-separator class="mb-20" />
+    <ac-separator class="my-20" />
 
     <ac-heading description="Le date di questo evento...">
       <template #title>
