@@ -52,13 +52,15 @@
             </div>
           </div>
 
-          <div class="relative -bottom-20 left-4 -mt-32 size-full rounded-xl  p-8 text-sm text-neutral-800">
+          <div class="relative -bottom-20 left-4 -mt-32 size-full rounded-xl p-8 text-sm text-neutral-800">
             <div class="absolute flex gap-2">
-              <div class="h-[300px] w-[240px] rounded-xl bg-neutral-100  shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0" />
-              <div class="h-[300px] w-[240px] -translate-x-28  rounded-xl bg-neutral-200  shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-16 " />
-              <div class="h-[300px] w-[240px] -translate-x-48 rounded-xl bg-neutral-300  shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-32" />
+              <div class="relative h-[300px] w-[240px] rounded-xl border-t border-neutral-700 bg-gradient-to-tr from-neutral-900 to-neutral-800 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0">
+                <ac-shield class="relative -left-8 top-4 origin-top-left scale-50" experience theme="gold" />
+              </div>
+              <div class="relative top-2 h-[300px] w-[240px] -translate-x-32 rounded-xl border-t border-neutral-700 bg-gradient-to-tr from-neutral-900 to-neutral-800 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-16 ">
+                <ac-shield class="relative -left-8 top-4 origin-top-left scale-50" theme="silver" />
+              </div>
             </div>
-            <!-- <img src="https://i.ytimg.com/vi_webp/EQUoimenMAg/maxresdefault.webp"> -->
           </div>
         </div>
 
