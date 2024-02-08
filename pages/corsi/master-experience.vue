@@ -253,6 +253,19 @@
       </div>
       <br>
       <div class="mb-2 text-lg font-semibold  text-gold">
+        Gli attestati
+      </div>
+      <br>
+      <div class="text-white">
+        ● Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code e certificazione digitale
+        <br>
+        ● Attestato di professionista negoziatore dei conflitti in formato PDF, con QR Code e certificazione digitale
+        <br>
+        ● Attestato di qualifica professionale in formato cartaceo, con QR Code e certificazione digitale
+        <br>
+      </div>
+      <br>
+      <div class="mb-2 text-lg font-semibold  text-gold">
         L'iscrizione
       </div>
       <br>
