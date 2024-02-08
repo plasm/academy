@@ -151,6 +151,26 @@
 
     <ac-separator class="mb-20" />
 
+    <ac-heading description="Le date di questo evento...">
+      <template #title>
+        <div class="leading-none ">
+          <span class="text-gold">Appuntamenti</span>
+        </div>
+      </template>
+    </ac-heading>
+
+    <ac-sticky-dates :resources="dates" align="right">
+      <template #dates="{ resource }">
+        <div class="flex flex-col items-start justify-start gap-2">
+          <div v-for="(item, index) in resource.dates" :key="index" class="text-left text-2xl text-white">
+            {{ item.day }}
+          </div>
+        </div>
+      </template>
+    </ac-sticky-dates>
+
+    <ac-separator class="mb-20" />
+
     <div class="mx-auto max-w-6xl  px-4">
       <div class="my-10 text-center text-4xl leading-tight text-white">
         Il <span class="text-gold">Master Experience</span> adotta un approccio olistico alla formazione, armonizzando perfettamente la conoscenza teorica, l’applicazione pratica e lo sviluppo personale.
@@ -160,11 +180,13 @@
 </template>
 
 <script>
+import dates from '@/json/courses/dates.json'
 export default {
   name: 'page-master-experience',
   data () {
     return {
-      hover: ''
+      hover: '',
+      dates: dates['master-experience']
     }
   }
 }
