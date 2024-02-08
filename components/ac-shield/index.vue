@@ -1,10 +1,10 @@
 <template>
   <div
     data-name="ac-shield"
-    class="group relative mx-auto size-28 rounded-full bg-black outline transition-all duration-300"
+    class="group relative mx-auto size-28 rounded-full bg-black outline outline-black transition-all duration-300"
     :class="{
-      'p-1 outline-neutral-200/20':!hover,
-      'scale-125 p-2 outline-neutral-200/5':hover,
+      'p-1 ':!hover,
+      'scale-125 p-1':hover,
     }"
     @mouseover="hover = true"
     @mouseleave="hover = persistent"
@@ -12,7 +12,7 @@
     <div :class="`gradient-${theme}`" class="blend absolute left-0 top-0 z-10 flex size-full items-center justify-center rounded-full" />
     <div class="relative size-full rounded-full bg-gray-500 p-1">
       <div class="relative size-full rounded-full bg-black">
-        <div class="relative size-full overflow-hidden rounded-full opacity-50 invert">
+        <div class="relative size-full overflow-hidden rounded-full opacity-50" :class="{ 'invert':!capsule }">
           <div class="filigrana" />
         </div>
         <div
@@ -21,7 +21,7 @@
             'scale-[80%]': hover
           }"
         >
-          <ac-logo size="large" />
+          <ac-logo size="large" :class="{ 'z-10 text-black': capsule }" />
           <div class="absolute  size-full  animate-spin-slow">
             <div
               :class="{
@@ -32,7 +32,8 @@
             >
               <component
                 :is="component"
-                class="absolute left-0 top-0 size-[44px] translate-x-1/2 translate-y-1/2 "
+                :class="{ 'z-10 text-black': capsule }"
+                class="absolute left-0 top-0 size-[48px] translate-x-1/2 translate-y-1/2 "
               />
             </div>
           </div>
@@ -51,6 +52,10 @@ export default {
       default: false
     },
     experience: {
+      type: Boolean,
+      default: false
+    },
+    capsule: {
       type: Boolean,
       default: false
     },

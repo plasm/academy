@@ -48,9 +48,9 @@
 
           <div class="relative -bottom-20 left-4 -mt-32 size-full rounded-xl  p-8 text-sm text-neutral-800">
             <div class="absolute flex gap-2">
-              <div class="h-[300px] w-[240px] rounded-xl bg-neutral-200 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0" />
-              <div class="h-[300px] w-[240px] -translate-x-20 rounded-xl bg-neutral-300 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0" />
-              <div class="h-[300px] w-[240px] -translate-x-40 rounded-xl bg-neutral-400 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0" />
+              <div class="h-[300px] w-[240px] rounded-xl bg-neutral-100  shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0" />
+              <div class="h-[300px] w-[240px] -translate-x-28  rounded-xl bg-neutral-200  shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-16 " />
+              <div class="h-[300px] w-[240px] -translate-x-48 rounded-xl bg-neutral-300  shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-32" />
             </div>
             <!-- <img src="https://i.ytimg.com/vi_webp/EQUoimenMAg/maxresdefault.webp"> -->
           </div>
@@ -76,7 +76,22 @@
       </div>
     </div>
 
-    <ac-separator class="mb-8 mt-20" />
+    <ac-separator class="mb-8 mt-10" />
+
+    <div class="relative mt-20 h-48  border-neutral-800  text-white">
+      <ac-marquee :duration="60" :repeat="4">
+        <div class="relative mx-4 flex justify-start gap-10 lg:mx-6">
+          <ac-shield class="top-4" persistent experience theme="gold" />
+          <div
+            class="whitespace-nowrap text-lg font-semibold transition-colors lg:text-9xl"
+          >
+            Formula Experience
+          </div>
+        </div>
+      </ac-marquee>
+    </div>
+
+    <ac-separator class="mb-8 mt-28 " />
 
     <div class="gradient  pb-20">
       <ac-heading description="Tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
