@@ -81,7 +81,7 @@
     <div class="relative mt-20 h-48  border-neutral-800  text-white">
       <ac-marquee :duration="60" :repeat="4">
         <div class="relative mx-4 flex justify-start gap-10 lg:mx-6">
-          <ac-shield class="top-4" persistent experience theme="gold" />
+          <ac-shield class="top-4" persistent experience capsule theme="gold" />
           <div
             class="whitespace-nowrap text-lg font-semibold transition-colors lg:text-9xl"
           >
