@@ -17,11 +17,11 @@
     </div>
 
     <div class="mt-2 text-white">
-      La nostra attività è totalmente dedicata alla formazione specialistica nell’ambito delle ADR per la famiglia, con un focus specifico sulla mediazione familiare e sulla coordinazione genitoriale.
+      La nostra attività è interamente focalizzata sulla formazione specialistica nell'ambito delle ADR per la famiglia.
     </div>
 
     <div class="mt-2 text-white">
-      Con noi, lavorano ogni giorno docenti e relatori di altissimo profilo, che hanno alle spalle anni di ricerca, studio ed esperienza, oltre a una naturale propensione per l’insegnamento di nuova generazione.
+      Con noi, lavorano ogni giorno docenti e relatori di altissimo profilo, che hanno alle spalle anni di studio, ricerca ed esperienza, oltre a una naturale propensione per l’insegnamento di nuova generazione.
     </div>
 
     <div class="mt-2 text-white">
@@ -29,7 +29,7 @@
     </div>
 
     <div class="mt-2 text-white">
-      Promuoviamo programmi di Master Experience, alta formazione, aggiornamento professionale e supervisione nelle discipline di riferimento, ponendoci come trendsetter nello sviluppo e nel potenziamento delle conoscenze, delle abilità e delle competenze necessarie per eccellere nella gestione delle dinamiche familiari complesse.
+      Promuoviamo Master Experience, alta formazione, aggiornamento professionale e supervisione in mediazione familiare e coordinazione genitoriale, ponendoci come trendsetter nello sviluppo e nel potenziamento delle conoscenze, delle abilità e delle competenze necessarie per eccellere nella gestione delle dinamiche familiari complesse.
     </div>
 
     <div class="mt-2 text-white">
@@ -61,11 +61,11 @@
     </div>
 
     <div class="mt-2 text-white">
-      Il secondo vertice rappresenta MediaCoor, il partner affidabile per un’efficace tutela di categoria, con servizi pensati per proteggere gli interessi dei mediatori familiari e dei coordinatori genitoriali.
+      Il secondo vertice rappresenta MediaCoor, il partner ideale per un’efficace tutela di categoria, con servizi pensati per proteggere gli interessi dei mediatori familiari e dei coordinatori genitoriali.
     </div>
 
     <div class="mt-2 text-white">
-      Il terzo vertice rappresenta l’Agenzia Italiana Genitori Separati, la possibile porta di accesso al lavoro, con il supporto indispensabile per individuare opportunità in linea con le aspirazioni professionali.
+      Il terzo vertice rappresenta l’Agenzia Italiana Genitori Separati, la potenziale porta di accesso al lavoro, con il supporto indispensabile per individuare opportunità in linea con le aspirazioni professionali.
     </div>
 
     <div class="mt-2 text-white">

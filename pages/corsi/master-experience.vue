@@ -96,7 +96,7 @@
             LA CONOSCENZA TEORICA
           </div>
           <div class="text-base font-light text-white">
-            Gli allievi hanno accesso continuo a contenuti curriculari ricchi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
+            Gli allievi hanno accesso continuo a contenuti curricolari completi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
           </div>
         </div>
 
@@ -108,7 +108,7 @@
             L’APPLICAZIONE PRATICA
           </div>
           <div class="text-base font-light text-white">
-            Attraverso gli stage intensivi, gli allievi possono sperimentare ciò che hanno appreso, affinando le capacità di intervento essenziali per un esercizio efficace della professione.
+            Gli allievi possono sviluppare capacità di intervento essenziali per un esercizio efficace della professione, mettendo in pratica ciò che hanno appreso durante gli stage intensivi.
           </div>
         </div>
 
