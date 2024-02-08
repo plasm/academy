@@ -84,21 +84,6 @@
       </div>
     </div>
 
-    <ac-separator class="mb-8 mt-10" />
-
-    <div class="relative mt-20 h-48  border-neutral-800  text-white">
-      <ac-marquee :duration="60" :repeat="4">
-        <div class="relative mx-4 flex justify-start gap-10 lg:mx-6">
-          <ac-shield class="top-4" persistent experience capsule theme="gold" />
-          <div
-            class="whitespace-nowrap text-lg font-semibold transition-colors lg:text-9xl"
-          >
-            Formula Experience
-          </div>
-        </div>
-      </ac-marquee>
-    </div>
-
     <ac-separator class="mb-8 mt-28 " />
 
     <div class="gradient  pb-20">
@@ -165,7 +150,7 @@
       </div>
     </div>
 
-    <ac-sticky-resources :resources="modules" limit="4">
+    <ac-sticky-resources :resources="modules" :limit="4">
       <template #title="{ resource }">
         <div class="relative top-5 flex items-center justify-end gap-2 text-2xl font-semibold uppercase text-white">
           <div class="size-4 rounded-full border-2 border-neutral-600" />
@@ -205,19 +190,18 @@
     </ac-sticky-resources>
 
     <ac-separator class="mb-20" />
+
+    <div class="mx-auto max-w-6xl  px-4">
+      <div class="my-10 text-center text-4xl leading-tight text-white">
+        Il <span class="text-gold">Master Experience</span> adotta un approccio olistico alla formazione, armonizzando perfettamente la conoscenza teorica, l’applicazione pratica e lo sviluppo personale.
+      </div>
+    </div>
     <!--
     <div class="mx-auto max-w-6xl  px-4">
       <div class="my-10 text-center text-4xl leading-tight text-white">
         Il <span class="text-gold">Master Experience</span> adotta un approccio olistico alla formazione, armonizzando perfettamente la conoscenza teorica, l’applicazione pratica e lo sviluppo personale.
       </div>
 
-      <div class="mb-2 text-lg font-semibold  text-gold">
-        Cos’è la mediazione familiare
-      </div>
-      <br>
-      <div class="text-white">
-        La mediazione familiare è uno strumento di risoluzione alternativa delle controversie, focalizzato sulla famiglia, riservato e non valutativo, rivolto alla coppia che ha la necessità di riorganizzare le relazioni familiari, in vista o a seguito di una separazione, di un divorzio o della cessazione di un rapporto a qualsiasi titolo costituito. L'intervento prevede che, attraverso un percorso volontario della durata media di dieci incontri, un professionista terzo, imparziale e neutrale, qualificato con una specifica formazione teorico-pratica, aiuti la coppia a raggiungere un accordo direttamente negoziato, rispondente ai bisogni e agli interessi di tutti i soggetti coinvolti, con particolare attenzione alla tutela dei figli (se presenti) e al mantenimento della comune responsabilità genitoriale.
-      </div>
       <br>
       <div class="mb-2 text-lg font-semibold  text-gold">
         A chi è destinato
@@ -227,37 +211,7 @@
         I destinatari sono avvocati, praticanti abilitati, psichiatri, psicologi, assistenti sociali, coordinatori genitoriali, counselor, pedagogisti, educatori professionali, criminologi, sociologi e laureati in area umanistica, sanitaria e/o sociale.
       </div>
       <br>
-      <div class="mb-2 text-lg font-semibold  text-gold">
-        Struttura e programma
-      </div>
-      <br>
-      <div class="text-white">
-        La struttura prevede cinquantuno mezze giornate di lezioni teoriche, quattro stage intensivi di esercitazioni pratiche, otto mezze giornate di supervisione didattica e professionale di gruppo e fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di quattrocentotredici ore complessive distribuite nell'arco del biennio 2024-2026.
-        <br>
-        <br>
-        Modulo 1 - Tecniche e pratica di mediazione familiare
-        <br>
-        Modulo 2 - Diritto sostanziale della famiglia
-        <br>
-        Modulo 3 - Diritto processuale della famiglia
-        <br>
-        Modulo 4 - Diritto penale della famiglia
-        <br>
-        Modulo 5 - Diritto matrimoniale e processuale canonico
-        <br>
-        Modulo 6 - Psicologia del conflitto
-        <br>
-        Modulo 7 - Sociologia della devianza e della famiglia
-        <br>
-        Modulo 8 - Tecniche di negoziazione e di gestione del conflitto
-        <br>
-        Modulo 9 - Leadership
-        <br>
-        Modulo 10 - Supervisione didattica e professionale di gruppo e individuale
-        <br>
-        <br>
-        Il programma comprende quattro stage intensivi di esercitazioni pratiche.
-      </div>
+
       <br>
       <div class="mb-2 text-lg font-semibold  text-gold">
         I docenti
@@ -371,15 +325,21 @@
         <br>
         L'accreditamento è stato richiesto al CNF per gli avvocati e i praticanti abilitati e a MediaCoor per i coordinatori genitoriali.
       </div>
-      <br>
-      <div class="mb-2 text-lg font-semibold  text-gold">
-        Informazioni telefoniche
-      </div>
-      <br>
-      <div class="text-white">
-        Le informazioni telefoniche possono essere richieste allo 02 39465334 dal lunedì al venerdì dalle 9:00 alle 18:00.
-      </div>
     </div> -->
+    <ac-separator class="mb-10 mt-20" />
+
+    <div class="relative mt-20 h-48  border-neutral-800  text-white">
+      <ac-marquee :duration="60" :repeat="4">
+        <div class="relative mx-4 flex justify-start gap-10 lg:mx-6">
+          <ac-shield class="top-4" persistent experience capsule theme="gold" />
+          <div
+            class="whitespace-nowrap text-lg font-semibold transition-colors lg:text-9xl"
+          >
+            Formula Experience
+          </div>
+        </div>
+      </ac-marquee>
+    </div>
   </div>
 </template>
 
