@@ -46,13 +46,18 @@
               GLI ATTESTATI
             </div>
             <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
-              <p class="mb-8 text-base font-light text-white/70 ">
+              <p class="mb-1 text-base font-light text-white/70 ">
                 Al termine del programma, vengono rilasciati uno o più attestati, a seconda degli obiettivi prefissati.
               </p>
+              <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
+                <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code</div>
+                <div>Attestato di professionista negoziatore dei conflitti in formato PDF, con QR Code e certificazione digitale</div>
+                <div>Attestato di qualifica professionale in formato cartaceo, con QR Code e certificazione digitale</div>
+              </div>
             </div>
           </div>
 
-          <div class="relative -bottom-20 left-4 -mt-32 size-full rounded-xl p-8 text-sm text-neutral-800">
+          <div class="relative -bottom-20 left-4 -mt-32 size-full min-h-60 rounded-xl  px-8 text-sm text-neutral-800">
             <div class="absolute flex gap-2">
               <div class="relative h-[300px] w-[240px] rounded-xl border-t border-neutral-700 bg-gradient-to-tr from-neutral-900 to-neutral-800 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0">
                 <ac-shield class="relative -left-8 top-4 origin-top-left scale-50" experience theme="gold" />
@@ -96,41 +101,24 @@
       </ac-heading>
 
       <div class="mx-auto grid max-w-6xl grid-cols-3 gap-4">
-        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
-          <div class="text-lg font-medium text-neutral-700/70 transition-colors group-hover:text-neutral-500">
-            SAPERE
-          </div>
-          <div class="mb-2 text-lg font-semibold  text-gold">
-            LA CONOSCENZA TEORICA
-          </div>
-          <div class="text-base font-light text-white">
-            Gli allievi hanno accesso continuo a contenuti curricolari completi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
-          </div>
-        </div>
-
-        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
-          <div class="text-lg font-medium text-neutral-700/70 transition-colors group-hover:text-neutral-500">
-            SAPER FARE
-          </div>
-          <div class="mb-2 text-lg font-semibold  text-gold">
-            L’APPLICAZIONE PRATICA
-          </div>
-          <div class="text-base font-light text-white">
-            Gli allievi possono sperimentarsi durante gli stage intensivi, mettendo in pratica ciò che hanno appreso in teoria e verificando concretamente la loro capacità di intervento.
-          </div>
-        </div>
-
-        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
-          <div class="text-lg font-medium text-neutral-700/70 transition-colors group-hover:text-neutral-500">
-            SAPER ESSERE
-          </div>
-          <div class="mb-2 text-lg font-semibold  text-gold">
-            LO SVILUPPO PERSONALE
-          </div>
-          <div class="text-base font-light text-white">
-            Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
-          </div>
-        </div>
+        <ac-feature-card
+          overtitle="SAPERE"
+          title="LA CONOSCENZA TEORICA"
+        >
+          Gli allievi hanno accesso continuo a contenuti curricolari completi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
+        </ac-feature-card>
+        <ac-feature-card
+          overtitle="SAPER FARE"
+          title="L’APPLICAZIONE PRATICA"
+        >
+          Gli allievi possono sperimentarsi durante gli stage intensivi, mettendo in pratica ciò che hanno appreso in teoria e verificando concretamente la loro capacità di intervento.
+        </ac-feature-card>
+        <ac-feature-card
+          overtitle="SAPER ESSERE"
+          title="LO SVILUPPO PERSONALE"
+        >
+          Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
+        </ac-feature-card>
       </div>
     </div>
 
@@ -266,11 +254,11 @@
       </div>
       <br>
       <div class="text-white">
-        ● Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code e certificazione digitale
+        Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code e certificazione digitale
         <br>
-        ● Attestato di professionista negoziatore dei conflitti in formato PDF, con QR Code e certificazione digitale
+        Attestato di professionista negoziatore dei conflitti in formato PDF, con QR Code e certificazione digitale
         <br>
-        ● Attestato di qualifica professionale in formato cartaceo, con QR Code e certificazione digitale
+        Attestato di qualifica professionale in formato cartaceo, con QR Code e certificazione digitale
         <br>
       </div>
       <br>
