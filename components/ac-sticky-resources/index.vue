@@ -5,6 +5,7 @@
         <div class="flex w-full flex-col gap-12">
           <div
             v-for="(item, index) in innerResources"
+            :id="`${id}-${index}`"
             :key="index"
             class="w-full gap-4 md:gap-12 lg:flex"
             :class="{
@@ -59,6 +60,7 @@
 </template>
 
 <script>
+import { scrollToElement } from '#imports'
 export default {
   name: 'ac-sticky-resources',
   props: {
@@ -77,6 +79,10 @@ export default {
     callToActionClose: {
       type: String,
       default: 'Mostra meno'
+    },
+    id: {
+      type: String,
+      default: 'resource'
     },
 
   },
@@ -100,6 +106,9 @@ export default {
     },
     toggleAll () {
       this.all = !this.all
+      setTimeout(() => {
+        scrollToElement(`${this.id}-${this.limit - 2}`)
+      }, 200)
     }
   },
 }
