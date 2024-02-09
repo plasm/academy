@@ -47,7 +47,7 @@
             </div>
             <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
               <p class="mb-1 text-base font-light text-white/70 ">
-                Al termine del programma, vengono rilasciati uno o più attestati, a seconda degli obiettivi prefissati.
+                Il corso rilascia tre diversi attestati: i primi due dopo l’esame di primo livello e il terzo dopo l’esame di secondo livello.
               </p>
               <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
                 <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code</div>
@@ -75,7 +75,7 @@
               LA MODALITÀ DI SVOLGIMENTO
             </div>
             <p class="mb-8 text-base font-light text-white/70 ">
-              Le lezioni si svolgono online, in presenza e/o in modalità blended.
+              Il corso si svolge in modalità blended: online per il 70% e in presenza per il 30%.
             </p>
           </div>
 
