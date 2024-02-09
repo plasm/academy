@@ -146,7 +146,7 @@
 
     <div class="mx-auto max-w-5xl p-20 pt-0">
       <div class="text-2xl font-light text-white">
-        La struttura prevede <span class="text-4xl font-semibold text-gold">51</span> <u>mezze giornate</u> di lezioni teoriche, quattro stage intensivi di esercitazioni pratiche, <span class="text-4xl font-semibold text-gold">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="text-4xl font-semibold text-gold">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="text-4xl font-semibold text-gold">413</span> <u>ore</u> complessive distribuite nell'arco del biennio 2024-2026.
+        La struttura prevede <span class="text-4xl font-semibold text-gold">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="text-4xl font-semibold text-gold">4</span> stage intensivi di esercitazioni pratiche, <span class="text-4xl font-semibold text-gold">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="text-4xl font-semibold text-gold">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="text-4xl font-semibold text-gold">413</span> <u>ore</u> complessive distribuite nell'arco del biennio 2024-2026.
       </div>
     </div>
 
@@ -174,7 +174,7 @@
     <ac-heading description="Le date di questo evento...">
       <template #title>
         <div class="leading-none ">
-          <span class="text-gold">Appuntamenti</span>
+          <span class="text-gold">L’agenda</span>
         </div>
       </template>
     </ac-heading>
