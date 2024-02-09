@@ -9,8 +9,18 @@
           </div>
         </template>
       </ac-heading>
-      <div class="text-white">
-        L’alta formazione di AIGES Academy è un format strutturato in corsi di specializzazione di durata non superiore a sessanta ore, progettati per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato. L’iscrizione non richiede requisiti di ammissione specifici. L’accesso è riservato a un massimo di trenta allievi, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo. I contenuti sono definiti dalla direzione scientifica. Le lezioni si svolgono online, in presenza e/o in modalità blended. Non sono previsti esami. Al termine del programma, viene rilasciato un attestato.
+    </div>
+
+    <div class="mx-auto max-w-5xl p-20 pt-0">
+      <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
+        <div>L’<span class="text-blue-200">alta formazione</span> di AIGES Academy è un format strutturato in corsi di specializzazione di durata non superiore a sessanta ore, progettati per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.</div>
+        <div>
+          L’iscrizione non richiede requisiti di ammissione specifici. L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo. I contenuti sono definiti dalla direzione scientifica. Le lezioni si svolgono online, in presenza e/o in modalità blended.
+        </div>
+        <div>
+          <span class="text-violet-200">Non sono previsti esami</span>.<br>
+          <u>Al termine del programma, viene rilasciato un attestato</u>.
+        </div>
       </div>
     </div>
 
