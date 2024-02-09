@@ -1,10 +1,15 @@
 {
   "master-experience": [
     {
-      "title": "Gennaio",
+      "title": "2024",
       "dates": [
         {
-          "day": "martedì 8"
+          "day": "27 settembre",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
         },
         {
           "day": "giovedì 18"
