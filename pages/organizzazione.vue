@@ -1,45 +1,49 @@
 <template>
-  <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Progettazione, didattica, ricerca, sviluppo, networking: il nostro team è costruito per eccellere in ogni ambito.">
-      <template #title>
-        <div class="leading-none ">
-          In classe e fuori,<br> solo fuoriclasse
-        </div>
-      </template>
-    </ac-heading>
+  <div>
+    <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <ac-heading description="Progettazione, didattica, ricerca, sviluppo, networking: il nostro team è costruito per eccellere in ogni ambito.">
+        <template #title>
+          <div class="leading-none ">
+            In classe e fuori,<br> solo fuoriclasse
+          </div>
+        </template>
+      </ac-heading>
 
-    <!-- Direzione -->
-    <section>
-      <div class="mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-16">
-        <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8">
-          <li>
-            <ac-user-card title="Fabrizio Dell'Anna" role="Fondatore e direttore commerciale" image="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
-          </li>
-          <li>
-            <ac-user-card title="Manuela Pagliaroli" role="Fondatrice e direttrice scientifica" image="https://images.unsplash.com/photo-1602434228300-a645bce6891b?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1639&amp;q=80" />
-          </li>
-        </ul>
-      </div>
-    </section>
+      <!-- Direzione -->
+      <section>
+        <div class="mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-16">
+          <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8">
+            <li>
+              <ac-user-card title="Fabrizio Dell'Anna" role="Fondatore e direttore commerciale" image="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
+            </li>
+            <li>
+              <ac-user-card title="Manuela Pagliaroli" role="Fondatrice e direttrice scientifica" image="https://images.unsplash.com/photo-1602434228300-a645bce6891b?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1639&amp;q=80" />
+            </li>
+          </ul>
+        </div>
+      </section>
     <!-- // END Direzione -->
+    </div>
 
     <ac-separator class="my-20" />
 
-    <ac-heading description="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
-      <template #title>
-        <div class="leading-none ">
-          I docenti
-        </div>
-      </template>
-    </ac-heading>
+    <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <ac-heading description="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+        <template #title>
+          <div class="leading-none ">
+            I docenti
+          </div>
+        </template>
+      </ac-heading>
 
-    <ul role="list" class="mx-auto grid w-full max-w-7xl grid-cols-1 gap-6 px-5 py-12 md:px-12 lg:grid-cols-3 lg:px-16">
-      <li v-for="(teacher, index) in teachers" :key="index">
-        <ac-team-card :title="teacher.title" :role="teacher.role">
-          {{ teacher.description }}
-        </ac-team-card>
-      </li>
-    </ul>
+      <ul role="list" class="mx-auto grid w-full max-w-7xl grid-cols-1 gap-6 px-5 py-12 md:px-12 lg:grid-cols-3 lg:px-16">
+        <li v-for="(teacher, index) in teachers" :key="index">
+          <ac-team-card :title="teacher.title" :role="teacher.role">
+            {{ teacher.description }}
+          </ac-team-card>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
