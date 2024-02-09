@@ -181,10 +181,10 @@
     <ac-separator class="mb-20" />
     <!--
       PRICING -->
-    <ac-heading description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, animi possimus? Dignissimos eligendi.">
+    <ac-heading description="Noi abbiamo pensato a tante soluzioni, a te basta sceglierne una: quella che si adatta meglio alle tue esigenze finanziarie.">
       <template #title>
         <div class="leading-none ">
-          <span class="text-gold">La nostra offerta</span>
+          <span class="text-gold">L’iscrizione</span>
         </div>
       </template>
     </ac-heading>
