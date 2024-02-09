@@ -5,8 +5,8 @@
         <div class="lg:pr-12">
           <div class="flex flex-col p-8 lg:p-0">
             <h1 class="text-4xl text-white">
-              Una formula
-              <span class="lg:block"> per ogni esigenza </span>
+              Metti un piede
+              <span class="lg:block"> dentro al corso</span>
             </h1>
             <div class="mt-8 max-w-lg">
               <div class="flex flex-col gap-4 text-sm text-neutral-400 ">
