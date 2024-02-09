@@ -23,6 +23,8 @@
     </section>
     <!-- // END Direzione -->
 
+    <ac-separator class="my-20" />
+
     <ac-heading description="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
       <template #title>
         <div class="leading-none ">
