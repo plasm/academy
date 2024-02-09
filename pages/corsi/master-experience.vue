@@ -178,6 +178,22 @@
     </ac-sticky-resources>
 
     <ac-separator class="mb-20" />
+    <!--
+      PRICING -->
+    <ac-heading description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, animi possimus? Dignissimos eligendi.">
+      <template #title>
+        <div class="leading-none ">
+          <span class="text-gold">La nostra offerta</span>
+        </div>
+      </template>
+    </ac-heading>
+
+    <ac-pricing class="mt-8" />
+
+    <!--
+      PRICING -->
+
+    <ac-separator class="my-20" />
 
     <div class="mx-auto max-w-6xl  px-4">
       <div class="my-10 text-center text-4xl leading-tight text-white">
@@ -249,19 +265,7 @@
         Dispense elettroniche per i moduli 1, 2, 3, 4, 5, 6, 7 e 9 e dal manuale <em>I professionisti e la gestione dei conflitti. Un metodo innovativo per integrare competenze tecniche e relazionali, risolvere conflitti e concludere negoziazioni</em> per il modulo 8.
       </div>
       <br>
-      <div class="mb-2 text-lg font-semibold  text-gold">
-        Gli attestati
-      </div>
-      <br>
-      <div class="text-white">
-        Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code e certificazione digitale
-        <br>
-        Attestato di professionista negoziatore dei conflitti in formato PDF, con QR Code e certificazione digitale
-        <br>
-        Attestato di qualifica professionale in formato cartaceo, con QR Code e certificazione digitale
-        <br>
-      </div>
-      <br>
+
       <div class="mb-2 text-lg font-semibold  text-gold">
         L'iscrizione
       </div>
