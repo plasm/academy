@@ -1,14 +1,14 @@
 <template>
   <div class="space-y-4" data-name="ac-user-card">
-    <div class="aspect-[3/2]">
+    <div class="aspect-[3/2] overflow-hidden rounded-xl">
       <img class="size-full object-cover" :src="image" alt="">
     </div>
     <div class="inline-flex w-full items-start justify-between">
       <div class="space-y-1">
-        <h3 class="text-lg font-medium leading-6 text-white">
+        <h3 class="text-lg font-semibold leading-6 text-white">
           {{ title }}
         </h3>
-        <p class="text-base text-gray-500">
+        <p class="text-base text-neutral-500">
           {{ role }}
         </p>
       </div>

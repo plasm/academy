@@ -23,59 +23,78 @@
     </section>
     <!-- // END Direzione -->
 
-    <!--
+    <ac-heading description="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+      <template #title>
+        <div class="leading-none ">
+          I docenti
+        </div>
+      </template>
+    </ac-heading>
 
-     -->
-
-    <div class="mb-2 text-lg font-semibold  text-gold">
-      I docenti
-    </div>
-    <br>
-    <div class="text-white">
-      Manuela Pagliaroli, avvocata civilista, mediatrice familiare, scolastica, interculturale, civile e commerciale, coordinatrice genitoriale, formatrice e supervisora in mediazione familiare e coordinazione genitoriale, cofondatrice e direttrice scientifica di AIGES Academy, socia fondatrice e coordinatrice del Comitato scientifico di MediaCoor.
-    </div>
-    <br>
-    <div class="text-white">
-      Arturo Maniaci, avvocato civilista, professore associato di Istituzioni di diritto privato presso l'Università Statale di Milano.
-    </div>
-    <br>
-    <div class="text-white">
-      Sara Trabucchi, avvocata civilista, già consigliera e componente della Commissione famiglia e minori presso il Consiglio dell'Ordine degli Avvocati di Verona.
-    </div>
-    <br>
-    <div class="text-white">
-      Clara Veneto, avvocata penalista, responsabile dell'Osservatorio Scuole territoriali e Specializzazione presso l'Unione Camere Penali Italiane, componente della Commissione Reati in ambito familiare della Camera Penale di Roma.
-    </div>
-    <br>
-    <div class="text-white">
-      Paolo Palumbo, avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l'Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell'Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell'Unione Giuristi Cattolici Italiani.
-    </div>
-    <br>
-    <div class="text-white">
-      Alessandra Simonelli, psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l'Università di Padova.
-    </div>
-    <br>
-    <div class="text-white">
-      Cinzia Vitale, sociologa, criminologa, mediatrice familiare, membro del Consiglio direttivo e del Comitato di esperti del Centro per l'UNESCO di Firenze.
-    </div>
-    <br>
-    <div class="text-white">
-      Tiziana Fragomeni, avvocata negoziatrice, mediatrice, formatrice in tecniche di negoziazione, mediazione e trasformazione dei conflitti, ideatrice del metodo OASI (Osservare, Ascoltare, Sentire, Integrare).
-    </div>
-    <br>
-    <div class="text-white">
-      Isabella Salmeri, mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.
-    </div>
-
-    <!--
-
-     -->
+    <ul role="list" class="mx-auto grid w-full max-w-7xl grid-cols-1 gap-6 px-5 py-12 md:px-12 lg:grid-cols-3 lg:px-16">
+      <li v-for="(teacher, index) in teachers" :key="index">
+        <ac-team-card :title="teacher.title" :role="teacher.role">
+          {{ teacher.description }}
+        </ac-team-card>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'page-organizzazione'
+  name: 'page-organizzazione',
+  data () {
+    return {
+      teachers: [
+        {
+          title: 'Manuela Pagliaroli',
+          description: 'Avvocata civilista, mediatrice familiare, scolastica, interculturale, civile e commerciale, coordinatrice genitoriale, formatrice e supervisora in mediazione familiare e coordinazione genitoriale, cofondatrice e direttrice scientifica di AIGES Academy, socia fondatrice e coordinatrice del Comitato scientifico di MediaCoor.',
+          role: 'Avvocata civilista'
+        },
+        {
+          title: 'Arturo Maniaci',
+          description: 'Avvocato civilista, professore associato di Istituzioni di diritto privato presso l\'Università Statale di Milano.',
+          role: 'Avvocata civilista'
+        },
+        {
+          title: 'Sara Trabucchi',
+          description: 'Avvocata civilista, già consigliera e componente della Commissione famiglia e minori presso il Consiglio dell\'Ordine degli Avvocati di Verona.',
+          role: 'Avvocata civilista'
+        },
+        {
+          title: 'Clara Veneto',
+          description: 'Avvocata penalista, responsabile dell\'Osservatorio Scuole territoriali e Specializzazione presso l\'Unione Camere Penali Italiane, componente della Commissione Reati in ambito familiare della Camera Penale di Roma.',
+          role: 'Avvocata penalista'
+        },
+        {
+          title: 'Paolo Palumbo',
+          description: 'Avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l\'Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell\'Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell\'Unione Giuristi Cattolici Italiani.',
+          role: 'Avvocato canonista'
+        },
+        {
+          title: 'Alessandra Simonelli',
+          description: 'Psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l\'Università di Padova.',
+          role: 'Psicologa'
+        },
+        {
+          title: 'Cinzia Vitale',
+          description: 'Sociologa, criminologa, mediatrice familiare, membro del Consiglio direttivo e del Comitato di esperti del Centro per l\'UNESCO di Firenze.',
+          role: 'Sociologa'
+        },
+        {
+          title: 'Tiziana Fragomeni',
+          description: 'Avvocata negoziatrice, mediatrice, formatrice in tecniche di negoziazione, mediazione e trasformazione dei conflitti, ideatrice del metodo OASI (Osservare, Ascoltare, Sentire, Integrare).',
+          role: 'Avvocata negoziatrice'
+        },
+        {
+          title: 'Isabella Salmeri',
+          description: 'Mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.',
+          role: 'Mediatrice familiare'
+        },
+      ]
+    }
+  }
 }
 </script>
 
