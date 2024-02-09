@@ -107,7 +107,7 @@ export default {
     toggleAll () {
       this.all = !this.all
       setTimeout(() => {
-        scrollToElement(`${this.id}-${this.limit - 1}`)
+        scrollToElement(`${this.id}-${this.limit - 2}`)
       }, 200)
     }
   },
