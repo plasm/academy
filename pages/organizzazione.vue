@@ -54,14 +54,39 @@ export default {
     return {
       teachers: [
         {
-          title: 'Manuela Pagliaroli',
-          description: 'Avvocata civilista, mediatrice familiare, scolastica, interculturale, civile e commerciale, coordinatrice genitoriale, formatrice e supervisora in mediazione familiare e coordinazione genitoriale, cofondatrice e direttrice scientifica di AIGES Academy, socia fondatrice e coordinatrice del Comitato scientifico di MediaCoor.',
-          role: 'Avvocata civilista'
+          title: 'Romolo Donzelli',
+          description: 'Avvocato civilista e cassazionista, professore ordinario di Diritto processuale civile presso l’Università di Macerata, docente presso la Scuola di specializzazione per le professioni legali delle Università di Camerino e Macerata.',
+          role: 'Avvocato civilista e cassazionista'
+        },
+        {
+          title: 'Tiziana Fragomeni',
+          description: 'Avvocata negoziatrice, mediatrice, formatrice in tecniche di negoziazione, mediazione e trasformazione dei conflitti, ideatrice del metodo OASI (Osservare, Ascoltare, Sentire, Integrare).',
+          role: 'Avvocata negoziatrice'
         },
         {
           title: 'Arturo Maniaci',
           description: 'Avvocato civilista, professore associato di Istituzioni di diritto privato presso l\'Università Statale di Milano.',
           role: 'Avvocata civilista'
+        },
+        {
+          title: 'Manuela Pagliaroli',
+          description: 'Avvocata civilista, mediatrice familiare, scolastica, interculturale, civile e commerciale, coordinatrice genitoriale, formatrice e supervisora in mediazione familiare e coordinazione genitoriale, cofondatrice e direttrice scientifica di AIGES Academy, socia fondatrice e coordinatrice del Comitato scientifico di MediaCoor.',
+          role: 'Avvocata civilista'
+        },
+        {
+          title: 'Paolo Palumbo',
+          description: 'Avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l\'Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell\'Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell\'Unione Giuristi Cattolici Italiani.',
+          role: 'Avvocato canonista'
+        },
+        {
+          title: 'Isabella Salmeri',
+          description: 'Mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.',
+          role: 'Mediatrice familiare'
+        },
+        {
+          title: 'Alessandra Simonelli',
+          description: 'Psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l\'Università di Padova.',
+          role: 'Psicologa'
         },
         {
           title: 'Sara Trabucchi',
@@ -74,29 +99,9 @@ export default {
           role: 'Avvocata penalista'
         },
         {
-          title: 'Paolo Palumbo',
-          description: 'Avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l\'Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell\'Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell\'Unione Giuristi Cattolici Italiani.',
-          role: 'Avvocato canonista'
-        },
-        {
-          title: 'Alessandra Simonelli',
-          description: 'Psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l\'Università di Padova.',
-          role: 'Psicologa'
-        },
-        {
           title: 'Cinzia Vitale',
           description: 'Sociologa, criminologa, mediatrice familiare, membro del Consiglio direttivo e del Comitato di esperti del Centro per l\'UNESCO di Firenze.',
           role: 'Sociologa'
-        },
-        {
-          title: 'Tiziana Fragomeni',
-          description: 'Avvocata negoziatrice, mediatrice, formatrice in tecniche di negoziazione, mediazione e trasformazione dei conflitti, ideatrice del metodo OASI (Osservare, Ascoltare, Sentire, Integrare).',
-          role: 'Avvocata negoziatrice'
-        },
-        {
-          title: 'Isabella Salmeri',
-          description: 'Mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.',
-          role: 'Mediatrice familiare'
         },
       ]
     }
