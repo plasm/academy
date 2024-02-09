@@ -97,7 +97,7 @@
 
       <div class="mx-auto grid max-w-6xl grid-cols-3 gap-4">
         <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
-          <div class="text-lg font-medium text-neutral-700/70">
+          <div class="text-lg font-medium text-neutral-700/70 transition-colors group-hover:text-neutral-500">
             SAPERE
           </div>
           <div class="mb-2 text-lg font-semibold  text-gold">
@@ -109,7 +109,7 @@
         </div>
 
         <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
-          <div class="text-lg font-medium text-neutral-700/70">
+          <div class="text-lg font-medium text-neutral-700/70 transition-colors group-hover:text-neutral-500">
             SAPER FARE
           </div>
           <div class="mb-2 text-lg font-semibold  text-gold">
@@ -121,7 +121,7 @@
         </div>
 
         <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6 text-lg text-white">
-          <div class="text-lg font-medium text-neutral-700/70">
+          <div class="text-lg font-medium text-neutral-700/70 transition-colors group-hover:text-neutral-500">
             SAPER ESSERE
           </div>
           <div class="mb-2 text-lg font-semibold  text-gold">
