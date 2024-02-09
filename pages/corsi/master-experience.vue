@@ -150,9 +150,10 @@
           <div class="text-base font-medium text-gold">
             {{ resource.subtitle }}
           </div>
-          <div class="mt-2 text-sm leading-normal text-neutral-400 ">
+          <div class="mt-2 text-sm leading-relaxed  text-neutral-200 ">
             {{ resource.description }}
           </div>
+          <div v-if="resource.notes" class="mt-5 text-xs leading-normal text-neutral-500" v-html="resource.notes" />
         </div>
       </template>
     </ac-sticky-resources>
@@ -202,11 +203,7 @@
     </div>
     <!--
     <div class="mx-auto max-w-6xl  px-4">
-      <div class="my-10 text-center text-4xl leading-tight text-white">
-        Il <span class="text-gold">Master Experience</span> adotta un approccio olistico alla formazione, armonizzando perfettamente la conoscenza teorica, l’applicazione pratica e lo sviluppo personale.
-      </div>
 
-      <br>
       <div class="mb-2 text-lg font-semibold  text-gold">
         A chi è destinato
       </div>
@@ -255,14 +252,6 @@
       <br>
       <div class="text-white">
         Isabella Salmeri, mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.
-      </div>
-      <br>
-      <div class="mb-2 text-lg font-semibold  text-gold">
-        Il materiale didattico
-      </div>
-      <br>
-      <div class="text-white">
-        Dispense elettroniche per i moduli 1, 2, 3, 4, 5, 6, 7 e 9 e dal manuale <em>I professionisti e la gestione dei conflitti. Un metodo innovativo per integrare competenze tecniche e relazionali, risolvere conflitti e concludere negoziazioni</em> per il modulo 8.
       </div>
       <br>
 
