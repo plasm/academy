@@ -1,11 +1,11 @@
 <template>
-  <div data-name="ac-heading" class="mx-auto max-w-3xl p-6 text-center lg:p-10">
-    <div class="text-5xl font-semibold tracking-tight text-white lg:text-7xl ">
+  <div data-name="ac-heading" class="mx-auto max-w-3xl px-0 py-4 text-center md:p-6 lg:p-10">
+    <div class="text-4xl font-semibold tracking-tight text-white md:text-5xl lg:text-7xl ">
       <slot name="title">
         <div v-html="title" />
       </slot>
     </div>
-    <div class="mt-4 text-xl font-light tracking-tight text-neutral-300">
+    <div class="mt-4 text-base font-light tracking-tight text-neutral-300 md:text-xl">
       <slot name="description">
         <div v-html="description" />
       </slot>

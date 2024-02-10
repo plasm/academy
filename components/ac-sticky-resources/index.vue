@@ -25,7 +25,7 @@
                 class="pt-30 pb-30 relative lg:sticky lg:top-36"
               >
                 <div>
-                  <div class="mb-4 text-right lg:mb-0">
+                  <div class="mb-4 lg:mb-0 lg:text-right">
                     <slot
                       name="title"
                       :resource="item"

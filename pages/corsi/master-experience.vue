@@ -1,7 +1,7 @@
 <template>
-  <div data-name="page-master-experience">
-    <div class=" mx-auto px-4 pt-10 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-shield class="top-4" persistent experience theme="gold" />
+  <div data-name="page-master-experience" class="mt-20">
+    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <ac-shield class="mb-2" persistent experience theme="gold" />
       <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
         <template #title>
           <div class="leading-none ">
@@ -22,8 +22,8 @@
         </nuxt-link>
       </div>
 
-      <div class="mx-auto max-w-5xl p-20 pt-0">
-        <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
+      <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
+        <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
           <div>Il <span class="text-gold">Master Experience</span> di AIGES Academy è un format strutturato in percorsi di qualifica professionale di durata non inferiore a un anno, progettati per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.</div>
 
           <div>L’iscrizione richiede requisiti di ammissione specifici, che sono soggetti a valutazione.</div>
@@ -91,7 +91,7 @@
 
     <ac-separator class="mb-8 mt-28 " />
 
-    <div class="gradient  pb-20">
+    <div class="gradient pb-20">
       <ac-heading description="Tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
         <template #title>
           <div class="leading-none ">
@@ -100,7 +100,7 @@
         </template>
       </ac-heading>
 
-      <div class="mx-auto grid max-w-6xl grid-cols-3 gap-4">
+      <div class="lg-p-0 mx-auto grid max-w-6xl grid-cols-1 gap-4 p-4 lg:grid-cols-3">
         <ac-feature-card
           overtitle="SAPERE"
           title="LA CONOSCENZA TEORICA"
@@ -140,7 +140,7 @@
 
     <ac-sticky-resources :resources="modules" :limit="4" :distibution-template="2">
       <template #title="{ resource }">
-        <div class="relative top-5 flex items-center justify-end gap-2 text-2xl font-semibold uppercase text-white">
+        <div class="relative mb-4 flex items-center gap-2 text-2xl font-semibold uppercase text-white lg:top-5 lg:mb-0 lg:justify-end">
           <div class="size-4 rounded-full border-2 border-neutral-600" />
           {{ resource.title }}
         </div>
