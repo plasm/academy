@@ -1,14 +1,25 @@
 <template>
-  <div data-name="page-aggiornamento-professionale" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-    <ac-heading description="Grazie ai nostri corsi di formazione continua, puoi costruire il puzzle del tuo profilo curricolare. Un pezzo alla volta, secondo le tue esigenze.">
-      <template #title>
-        <div class="leading-none ">
-          Aggiornamento professionale
+  <div data-name="page-aggiornamento-professionale">
+    <div class="mx-auto mt-10 px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <ac-heading description="Grazie ai nostri corsi di formazione continua, puoi costruire il puzzle del tuo profilo curricolare. Un pezzo alla volta, secondo le tue esigenze.">
+        <template #title>
+          <div class="leading-none ">
+            Aggiornamento professionale
+          </div>
+        </template>
+      </ac-heading>
+    </div>
+
+    <div class="mx-auto max-w-5xl p-20 pt-0">
+      <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
+        <div>L’<span class="text-primary">aggiornamento professionale</span> di AIGES Academy è un format strutturato in corsi di formazione continua di durata compresa tra due e otto ore, progettati per professionisti e laureati interessati a perfezionare le loro conoscenze, abilità e competenze.</div>
+        <div>L’iscrizione non richiede requisiti di ammissione specifici.</div>
+        <div>L’accesso è aperto a un massimo di cinquecento partecipanti. I contenuti sono definiti dalla direzione scientifica. Gli interventi si svolgono online.</div>
+        <div>
+          <span class="text-primary">Non sono previsti esami</span>.<br>
+          <u>Al termine del programma, viene rilasciato un attestato</u>.
         </div>
-      </template>
-    </ac-heading>
-    <div class="text-white">
-      L’aggiornamento professionale di AIGES Academy è un format strutturato in corsi di formazione continua di durata compresa tra due e otto ore, progettati per professionisti e laureati interessati a perfezionare le loro conoscenze, abilità e competenze. L’iscrizione non richiede requisiti di ammissione specifici. L’accesso è aperto a un massimo di cinquecento partecipanti. I contenuti sono definiti dalla direzione scientifica. Gli interventi si svolgono online. Non sono previsti esami. Al termine del programma, viene rilasciato un attestato.
+      </div>
     </div>
   </div>
 </template>

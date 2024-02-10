@@ -27,8 +27,8 @@ module.exports = {
         primary: {
           // DEFAULT: '#F2FE71',
           // hover: '#F2FE71',
-          DEFAULT: '#c5a366',
-          hover: '#e1b970',
+          DEFAULT: '#b8d6ff',
+          hover: '#b8d6ff',
         },
         gold: {
           DEFAULT: '#c5a366',
