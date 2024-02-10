@@ -11,20 +11,66 @@
           "teacher": "Manuela Pagliaroli",
           "hours": "5 ore",
           "mode": "Online"
-        },
-        {
-          "day": "giovedì 18"
         }
       ]
     },
     {
-      "title": "Febbraio",
+      "month": "Novembre",
+      "year": "2024",
       "dates": [
         {
-          "day": "martedì 8"
+          "day": "Venerdì 8",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
         },
         {
-          "day": "giovedì 18"
+          "day": "Sabato 9",
+          "time": "9:00-13:00",
+          "subject": "Diritto sostanziale",
+          "teacher": "Arturo Maniaci",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 22",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 23",
+          "time": "9:00-13:00",
+          "subject": "Diritto sostanziale",
+          "teacher": "Arturo Maniaci",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Dicembre",
+      "year": "2024",
+      "dates": [
+        {
+          "day": "Venerdì 13",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 14",
+          "time": "9:00-13:00",
+          "subject": "Diritto processuale",
+          "teacher": "Sara Trabucchi",
+          "hours": "4 ore",
+          "mode": "Online"
         }
       ]
     }

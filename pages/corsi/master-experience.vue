@@ -186,7 +186,7 @@
               {{ item.teacher }}
             </div>
             <div class="text-sm text-neutral-400">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sequi sapiente perspiciatis corrupti molestiae rerum eligendi exercitationem.
+              {{ item.subject }}
             </div>
             <div class="mt-2 text-sm uppercase text-white">
               {{ item.day }} <span class="ml-2 text-neutral-400">{{ item.time }}</span>
