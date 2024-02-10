@@ -73,6 +73,614 @@
           "mode": "Online"
         }
       ]
+    },
+    {
+      "month": "Gennaio",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 10",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 11",
+          "time": "9:00-13:00",
+          "subject": "Diritto sostanziale",
+          "teacher": "Arturo Maniaci",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 24",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 25",
+          "time": "9:00-13:00",
+          "subject": "Diritto sostanziale",
+          "teacher": "Arturo Maniaci",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Febbraio",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 7",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 8",
+          "time": "9:00-13:00",
+          "subject": "Diritto sostanziale",
+          "teacher": "Arturo Maniaci",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 21",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 22",
+          "time": "9:00-13:00",
+          "subject": "Diritto penale",
+          "teacher": "Clara Veneto",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Marzo",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 7",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 8",
+          "time": "9:00-13:00",
+          "subject": "Diritto matrimoniale e processuale canonico",
+          "teacher": "Paolo Palumbo",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 21",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 22",
+          "time": "9:00-13:00",
+          "subject": "Leadership",
+          "teacher": "Isabella Salmeri",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Aprile",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Giovedì 3",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Venerdì 4",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Sabato 5",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare, Leadership",
+          "teacher": "Manuela Pagliaroli, Isabella Salmeri",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Domenica 6",
+          "time": "9:00-18:00",
+          "subject": "Leadership",
+          "teacher": "Isabella Salmeri",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        }
+      ]
+    },
+    {
+      "month": "Maggio",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 9",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 10",
+          "time": "9:00-13:00",
+          "subject": "Tecniche di negoziazione e di gestione del conflitto",
+          "teacher": "Tiziana Fragomeni",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 23",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 24",
+          "time": "9:00-13:00",
+          "subject": "Tecniche di negoziazione e di gestione del conflitto",
+          "teacher": "Tiziana Fragomeni",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Giugno",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 6",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 7",
+          "time": "9:00-13:00",
+          "subject": "Tecniche di negoziazione e di gestione del conflitto",
+          "teacher": "Tiziana Fragomeni",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 20",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 21",
+          "time": "9:00-13:00",
+          "subject": "Tecniche di negoziazione e di gestione del conflitto",
+          "teacher": "Tiziana Fragomeni",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Luglio",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 4",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 5",
+          "time": "9:00-13:00",
+          "subject": "Tecniche di negoziazione e di gestione del conflitto",
+          "teacher": "Tiziana Fragomeni",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 18",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 19",
+          "time": "9:00-13:00",
+          "subject": "Tecniche di negoziazione e di gestione del conflitto",
+          "teacher": "Tiziana Fragomeni",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Settembre",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Giovedì 11",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Venerdì 12",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Sabato 13",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Domenica 14",
+          "time": "9:00-18:00",
+          "subject": "Tecniche di negoziazione e di gestione del conflitto",
+          "teacher": "Tiziana Fragomeni",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Venerdì 26",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 27",
+          "time": "9:00-13:00",
+          "subject": "Psicologia del conflitto",
+          "teacher": "Alessandra Simonelli",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Ottobre",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 10",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 11",
+          "time": "9:00-13:00",
+          "subject": "Psicologia del conflitto",
+          "teacher": "Alessandra Simonelli",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 24",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 25",
+          "time": "9:00-13:00",
+          "subject": "Psicologia del conflitto",
+          "teacher": "Alessandra Simonelli",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Novembre",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 7",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 8",
+          "time": "9:00-13:00",
+          "subject": "Psicologia del conflitto",
+          "teacher": "Alessandra Simonelli",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 21",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 22",
+          "time": "9:00-13:00",
+          "subject": "Psicologia del conflitto",
+          "teacher": "Alessandra Simonelli",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Dicembre",
+      "year": "2025",
+      "dates": [
+        {
+          "day": "Venerdì 12",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 13",
+          "time": "9:00-13:00",
+          "subject": "Psicologia del conflitto",
+          "teacher": "Alessandra Simonelli",
+          "hours": "4 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Gennaio",
+      "year": "2026",
+      "dates": [
+        {
+          "day": "Venerdì 9",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 10",
+          "time": "9:00-13:00",
+          "subject": "Sociologia della devianza e della famiglia",
+          "teacher": "Cinzia Vitale",
+          "hours": "4 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 23",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 24",
+          "time": "9:00-14:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Febbraio",
+      "year": "2026",
+      "dates": [
+        {
+          "day": "Venerdì 6",
+          "time": "14:00-19:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Sabato 7",
+          "time": "9:00-14:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Giovedì 19",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare + Osservazione di un percorso di mediazione familiare completo",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Venerdì 20",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Sabato 21",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Domenica 22",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare + Esame di primo livello",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        }
+      ]
+    },
+    {
+      "month": "Settembre",
+      "year": "2026",
+      "dates": [
+        {
+          "day": "Venerdì 11",
+          "time": "14:00-19:00",
+          "subject": "Supervisione didattica e professionale di gruppo",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 18",
+          "time": "14:00-19:00",
+          "subject": "Supervisione didattica e professionale di gruppo",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 25",
+          "time": "14:00-19:00",
+          "subject": "Supervisione didattica e professionale di gruppo",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Ottobre",
+      "year": "2026",
+      "dates": [
+        {
+          "day": "Venerdì 2",
+          "time": "14:00-19:00",
+          "subject": "Supervisione didattica e professionale di gruppo",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 9",
+          "time": "14:00-19:00",
+          "subject": "Supervisione didattica e professionale di gruppo",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 16",
+          "time": "14:00-19:00",
+          "subject": "Supervisione didattica e professionale di gruppo",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        },
+        {
+          "day": "Venerdì 23",
+          "time": "14:00-19:00",
+          "subject": "Supervisione didattica e professionale di gruppo",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "5 ore",
+          "mode": "Online"
+        }
+      ]
+    },
+    {
+      "month": "Novembre",
+      "year": "2026",
+      "dates": [
+        {
+          "day": "Venerdì 20",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Sabato 21",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        },
+        {
+          "day": "Domenica 22",
+          "time": "9:00-18:00",
+          "subject": "Tecniche e pratica di mediazione familiare + Esame di secondo livello",
+          "teacher": "Manuela Pagliaroli",
+          "hours": "8 ore",
+          "mode": "In presenza"
+        }
+      ]
     }
   ],
   "alta-formazione": [

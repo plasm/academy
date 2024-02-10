@@ -193,10 +193,10 @@
             </div>
             <div class="mt-2 flex items-center justify-start gap-2 uppercase">
               <ac-badge size="xs">
-                {{ item.mode }}
+                {{ item.hours }}
               </ac-badge>
               <ac-badge size="xs">
-                {{ item.hours }}
+                {{ item.mode }}
               </ac-badge>
             </div>
           </div>
