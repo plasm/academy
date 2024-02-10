@@ -15,7 +15,7 @@
     <ac-separator class="my-20" />
 
     <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-heading description="Lorem ipsum dolor sit, amet consectetur adipisicing elit.">
+      <ac-heading description="Scopri chi sono i leader dietro alla filosofia che ispira, permea e plasma l’essenza di AIGES Academy.">
         <template #title>
           <div class="leading-none ">
             La direzione
@@ -79,11 +79,6 @@ export default {
         {
           title: 'Arturo Maniaci',
           description: 'Avvocato civilista, professore associato di Istituzioni di diritto privato presso l’Università Statale di Milano.',
-          role: 'Avvocata civilista'
-        },
-        {
-          title: 'Manuela Pagliaroli',
-          description: 'Avvocata civilista, mediatrice familiare, scolastica, interculturale, civile e commerciale, coordinatrice genitoriale, formatrice e supervisora in mediazione familiare e coordinazione genitoriale, cofondatrice e direttrice scientifica di AIGES Academy, socia fondatrice e coordinatrice del Comitato scientifico di MediaCoor.',
           role: 'Avvocata civilista'
         },
         {
