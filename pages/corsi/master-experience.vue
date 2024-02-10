@@ -168,15 +168,43 @@
       </template>
     </ac-heading>
 
+    <!--
+      Dates -->
     <ac-sticky-resources :resources="dates">
+      <template #title="{ resource }">
+        <div class="text-4xl font-medium uppercase text-white">
+          {{ resource.month }}
+        </div>
+        <div class="text-xl font-semibold text-gold">
+          {{ resource.year }}
+        </div>
+      </template>
       <template #resource="{ resource }">
         <div class="flex flex-col items-start justify-start gap-2">
-          <div v-for="(item, index) in resource.dates" :key="index" class="text-2xl text-white">
-            {{ item.day }}
+          <div v-for="(item, index) in resource.dates" :key="index" class="mb-3 text-2xl">
+            <div class=" text-base font-medium uppercase text-gold">
+              {{ item.teacher }}
+            </div>
+            <div class="text-sm text-neutral-400">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sequi sapiente perspiciatis corrupti molestiae rerum eligendi exercitationem.
+            </div>
+            <div class="mt-2 text-sm uppercase text-white">
+              {{ item.day }} <span class="ml-2 text-neutral-400">{{ item.time }}</span>
+            </div>
+            <div class="mt-2 flex items-center justify-start gap-2 uppercase">
+              <ac-badge size="xs">
+                {{ item.mode }}
+              </ac-badge>
+              <ac-badge size="xs">
+                {{ item.hours }}
+              </ac-badge>
+            </div>
           </div>
         </div>
       </template>
     </ac-sticky-resources>
+    <!--
+      // END Dates -->
 
     <ac-separator class="mb-20" />
     <!--
@@ -190,9 +218,8 @@
     </ac-heading>
 
     <ac-pricing class="mt-8" />
-
     <!--
-      PRICING -->
+      // END PRICING -->
 
     <ac-separator class="my-20" />
 
@@ -210,48 +237,6 @@
       <br>
       <div class="text-white">
         I destinatari sono avvocati, praticanti abilitati, psichiatri, psicologi, assistenti sociali, coordinatori genitoriali, counselor, pedagogisti, educatori professionali, criminologi, sociologi e laureati in area umanistica, sanitaria e/o sociale.
-      </div>
-      <br>
-
-      <br>
-      <div class="mb-2 text-lg font-semibold  text-gold">
-        I docenti
-      </div>
-      <br>
-      <div class="text-white">
-        Manuela Pagliaroli, avvocata civilista, mediatrice familiare, scolastica, interculturale, civile e commerciale, coordinatrice genitoriale, formatrice e supervisora in mediazione familiare e coordinazione genitoriale, cofondatrice e direttrice scientifica di AIGES Academy, socia fondatrice e coordinatrice del Comitato scientifico di MediaCoor.
-      </div>
-      <br>
-      <div class="text-white">
-        Arturo Maniaci, avvocato civilista, professore associato di Istituzioni di diritto privato presso l'Università Statale di Milano.
-      </div>
-      <br>
-      <div class="text-white">
-        Sara Trabucchi, avvocata civilista, già consigliera e componente della Commissione famiglia e minori presso il Consiglio dell'Ordine degli Avvocati di Verona.
-      </div>
-      <br>
-      <div class="text-white">
-        Clara Veneto, avvocata penalista, responsabile dell'Osservatorio Scuole territoriali e Specializzazione presso l'Unione Camere Penali Italiane, componente della Commissione Reati in ambito familiare della Camera Penale di Roma.
-      </div>
-      <br>
-      <div class="text-white">
-        Paolo Palumbo, avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l'Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell'Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell'Unione Giuristi Cattolici Italiani.
-      </div>
-      <br>
-      <div class="text-white">
-        Alessandra Simonelli, psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l'Università di Padova.
-      </div>
-      <br>
-      <div class="text-white">
-        Cinzia Vitale, sociologa, criminologa, mediatrice familiare, membro del Consiglio direttivo e del Comitato di esperti del Centro per l'UNESCO di Firenze.
-      </div>
-      <br>
-      <div class="text-white">
-        Tiziana Fragomeni, avvocata negoziatrice, mediatrice, formatrice in tecniche di negoziazione, mediazione e trasformazione dei conflitti, ideatrice del metodo OASI (Osservare, Ascoltare, Sentire, Integrare).
-      </div>
-      <br>
-      <div class="text-white">
-        Isabella Salmeri, mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.
       </div>
       <br>
 

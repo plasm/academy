@@ -1,5 +1,5 @@
 <template>
-  <figure data-name="ac-team-card" class="relative flex h-full flex-col items-start justify-start rounded-xl border border-neutral-800 bg-neutral-900">
+  <figure data-name="ac-team-card" class="relative flex h-full flex-col items-start justify-start rounded-xl border border-neutral-800 bg-neutral-900 hover:bg-black transition-colors duration-500 hover:border-black">
     <blockquote class="relative p-6">
       <div class="text-base font-light text-neutral-300">
         <slot />
