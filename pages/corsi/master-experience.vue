@@ -138,7 +138,7 @@
       </div>
     </div>
 
-    <ac-sticky-resources :resources="modules" :limit="4">
+    <ac-sticky-resources :resources="modules" :limit="4" :distibution-template="2">
       <template #title="{ resource }">
         <div class="relative top-5 flex items-center justify-end gap-2 text-2xl font-semibold uppercase text-white">
           <div class="size-4 rounded-full border-2 border-neutral-600" />
@@ -170,7 +170,7 @@
 
     <!--
       Dates -->
-    <ac-sticky-resources :resources="dates">
+    <ac-sticky-resources :resources="dates" :distibution-template="2">
       <template #title="{ resource }">
         <div class="text-4xl font-medium uppercase text-white">
           {{ resource.month }}

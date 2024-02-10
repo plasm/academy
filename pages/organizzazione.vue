@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-20">
     <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <ac-heading description="Progettazione, didattica, ricerca, sviluppo, networking: il nostro team è costruito per eccellere in ogni ambito.">
         <template #title>

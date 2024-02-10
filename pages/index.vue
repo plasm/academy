@@ -11,18 +11,6 @@
       <!-- MOSAIC -->
       <ac-mosaic />
     </div>
-    <div class="text-4xl text-white">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, harum ullam, velit, minima nam <span class="text-primary">accusantium</span> voluptas ducimus non quam distinctio sint nihil voluptatibus adipisci aut facilis minus natus nostrum quo?
-    </div>
-    <div class="text-4xl text-white">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, harum ullam, velit, minima nam <span class="text-primary">accusantium</span> voluptas ducimus non quam distinctio sint nihil voluptatibus adipisci aut facilis minus natus nostrum quo?
-    </div>
-    <div class="text-4xl text-white">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, harum ullam, velit, minima nam <span class="text-primary">accusantium</span> voluptas ducimus non quam distinctio sint nihil voluptatibus adipisci aut facilis minus natus nostrum quo?
-    </div>
-    <div class="text-4xl text-white">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, harum ullam, velit, minima nam <span class="text-primary">accusantium</span> voluptas ducimus non quam distinctio sint nihil voluptatibus adipisci aut facilis minus natus nostrum quo?
-    </div>
   </div>
 </template>
 <script>

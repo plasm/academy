@@ -12,7 +12,15 @@
               'opacity-40 blur-sm': isLast(index)
             }"
           >
-            <div class="lg:w-2/5 ">
+            <div
+              :class="{
+                'lg:w-1/6': distibutionTemplate === 1,
+                'lg:w-2/6': distibutionTemplate === 2,
+                'lg:w-3/6': distibutionTemplate === 3,
+                'lg:w-4/6': distibutionTemplate === 4,
+                'lg:w-5/6': distibutionTemplate === 5,
+              }"
+            >
               <div
                 class="pt-30 pb-30 relative lg:sticky lg:top-36"
               >
@@ -28,7 +36,15 @@
                 </div>
               </div>
             </div>
-            <div class="lg:w-3/5">
+            <div
+              :class="{
+                'lg:w-5/6': distibutionTemplate === 1,
+                'lg:w-4/6': distibutionTemplate === 2,
+                'lg:w-3/6': distibutionTemplate === 3,
+                'lg:w-2/6': distibutionTemplate === 4,
+                'lg:w-1/6': distibutionTemplate === 5,
+              }"
+            >
               <slot
                 name="resource"
                 :resource="item"
@@ -67,6 +83,10 @@ export default {
     resources: {
       type: Array,
       default: () => []
+    },
+    distibutionTemplate: {
+      type: Number,
+      default: 1
     },
     limit: {
       type: Number,

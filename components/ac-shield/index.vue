@@ -1,7 +1,7 @@
 <template>
   <div
     data-name="ac-shield"
-    class="group relative mx-auto size-28 rounded-full bg-black outline outline-black transition-all duration-300"
+    class="group relative mx-auto size-28 shrink-0 rounded-full bg-black outline outline-black transition-all duration-300"
     :class="{
       'p-1 ':!hover,
       'scale-125 p-1':hover,

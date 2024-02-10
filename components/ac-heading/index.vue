@@ -5,7 +5,7 @@
         <div v-html="title" />
       </slot>
     </div>
-    <div class="mt-4 text-xl tracking-tight text-neutral-300 lg:text-xl">
+    <div class="mt-4 text-xl font-light tracking-tight text-neutral-300">
       <slot name="description">
         <div v-html="description" />
       </slot>
