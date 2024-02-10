@@ -170,7 +170,7 @@
 
     <!--
       Dates -->
-    <ac-sticky-resources :resources="dates" :distibution-template="2">
+    <ac-sticky-resources :resources="dates" :limit="4" :distibution-template="2">
       <template #title="{ resource }">
         <div class="text-4xl font-medium uppercase text-white">
           {{ resource.month }}
