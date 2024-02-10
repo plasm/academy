@@ -1,7 +1,7 @@
 <template>
   <div class="mt-20">
     <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-heading description="Progettazione, didattica, ricerca, sviluppo, networking: il nostro team è costruito per eccellere in ogni ambito.">
+      <ac-heading description="Progettazione, didattica, ricerca, sviluppo, networking: il nostro team è costruito per eccellere in tutti gli ambiti.">
         <template #title>
           <div class="leading-none ">
             In classe e fuori,<br> solo fuoriclasse
@@ -10,14 +10,27 @@
       </ac-heading>
 
       <!-- Direzione -->
+    </div>
+
+    <ac-separator class="my-20" />
+
+    <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <ac-heading description="Lorem ipsum dolor sit, amet consectetur adipisicing elit.">
+        <template #title>
+          <div class="leading-none ">
+            La direzione
+          </div>
+        </template>
+      </ac-heading>
+
       <section>
         <div class="mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-16">
           <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-2 lg:gap-x-8">
             <li>
-              <ac-user-card title="Fabrizio Dell'Anna" role="Fondatore e direttore commerciale" image="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
+              <ac-user-card title="Fabrizio Dell’Anna" role="Direttore commerciale" image="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
             </li>
             <li>
-              <ac-user-card title="Manuela Pagliaroli" role="Fondatrice e direttrice scientifica" image="https://images.unsplash.com/photo-1602434228300-a645bce6891b?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1639&amp;q=80" />
+              <ac-user-card title="Manuela Pagliaroli" role="Direttrice scientifica" image="https://images.unsplash.com/photo-1602434228300-a645bce6891b?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1639&amp;q=80" />
             </li>
           </ul>
         </div>
@@ -65,7 +78,7 @@ export default {
         },
         {
           title: 'Arturo Maniaci',
-          description: 'Avvocato civilista, professore associato di Istituzioni di diritto privato presso l\'Università Statale di Milano.',
+          description: 'Avvocato civilista, professore associato di Istituzioni di diritto privato presso l’Università Statale di Milano.',
           role: 'Avvocata civilista'
         },
         {
@@ -75,7 +88,7 @@ export default {
         },
         {
           title: 'Paolo Palumbo',
-          description: 'Avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l\'Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell\'Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell\'Unione Giuristi Cattolici Italiani.',
+          description: 'Avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l’Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell’Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell’Unione Giuristi Cattolici Italiani.',
           role: 'Avvocato canonista'
         },
         {
@@ -85,22 +98,22 @@ export default {
         },
         {
           title: 'Alessandra Simonelli',
-          description: 'Psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l\'Università di Padova.',
+          description: 'Psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l’Università di Padova.',
           role: 'Psicologa'
         },
         {
           title: 'Sara Trabucchi',
-          description: 'Avvocata civilista, già consigliera e componente della Commissione famiglia e minori presso il Consiglio dell\'Ordine degli Avvocati di Verona.',
+          description: 'Avvocata civilista, già consigliera e componente della Commissione famiglia e minori presso il Consiglio dell’Ordine degli Avvocati di Verona.',
           role: 'Avvocata civilista'
         },
         {
           title: 'Clara Veneto',
-          description: 'Avvocata penalista, responsabile dell\'Osservatorio Scuole territoriali e Specializzazione presso l\'Unione Camere Penali Italiane, componente della Commissione Reati in ambito familiare della Camera Penale di Roma.',
+          description: 'Avvocata penalista, responsabile dell’Osservatorio Scuole territoriali e Specializzazione presso l’Unione Camere Penali Italiane, componente della Commissione Reati in ambito familiare della Camera Penale di Roma.',
           role: 'Avvocata penalista'
         },
         {
           title: 'Cinzia Vitale',
-          description: 'Sociologa, criminologa, mediatrice familiare, membro del Consiglio direttivo e del Comitato di esperti del Centro per l\'UNESCO di Firenze.',
+          description: 'Sociologa, criminologa, mediatrice familiare, membro del Consiglio direttivo e del Comitato di esperti del Centro per l’UNESCO di Firenze.',
           role: 'Sociologa'
         },
       ]
