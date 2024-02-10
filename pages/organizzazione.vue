@@ -1,7 +1,7 @@
 <template>
   <div class="mt-20">
     <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-heading description="Progettazione, didattica, ricerca, sviluppo, networking: il nostro team è costruito per eccellere in tutti gli ambiti.">
+      <ac-heading description="Progettazione, didattica, ricerca, sviluppo, networking: la nostra organizzazione è costruita per eccellere in tutti gli ambiti.">
         <template #title>
           <div class="leading-none ">
             In classe e fuori,<br> solo fuoriclasse
@@ -15,7 +15,7 @@
     <ac-separator class="my-20" />
 
     <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-heading description="Scopri chi sono i leader dietro alla filosofia che ispira, permea e plasma l’essenza di AIGES Academy.">
+      <ac-heading description="Scopri chi sono i leader dietro alla filosofia che, giorno dopo giorno, plasma l’identità di AIGES Academy.">
         <template #title>
           <div class="leading-none ">
             La direzione
@@ -41,7 +41,7 @@
     <ac-separator class="my-20" />
 
     <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-heading description="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+      <ac-heading description="Ridefinisci la tua idea di sapere, lasciandoti ispirare dalle straordinarie qualità della nostra squadra. Inizia col conoscerla.">
         <template #title>
           <div class="leading-none ">
             I docenti
