@@ -11,8 +11,8 @@
       </ac-heading>
     </div>
 
-    <div class="mx-auto max-w-5xl p-20 pt-0">
-      <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
+    <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
+      <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
           Il <span class="text-blue-200">Corso di alta formazione</span> <span class="text-violet-200">in Coordinazione genitoriale</span> è un corso di specializzazione della durata di trentadue ore, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.
         </div>

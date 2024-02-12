@@ -10,8 +10,8 @@
       </ac-heading>
     </div>
 
-    <div class="mx-auto max-w-5xl p-20 pt-0">
-      <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
+    <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
+      <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>L’<span class="text-primary">aggiornamento professionale</span> di AIGES Academy è un format strutturato in corsi di formazione continua di durata compresa tra due e otto ore, progettati per professionisti e laureati interessati a perfezionare le loro conoscenze, abilità e competenze.</div>
         <div>L’iscrizione non richiede requisiti di ammissione specifici.</div>
         <div>L’accesso è aperto a un massimo di cinquecento partecipanti. I contenuti sono definiti dalla direzione scientifica. Gli interventi si svolgono online.</div>

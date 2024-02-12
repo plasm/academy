@@ -9,7 +9,7 @@
             :key="index"
             class="w-full gap-4 md:gap-12 lg:flex"
             :class="{
-              'opacity-40 blur-sm': isLast(index)
+              'opacity-40': isLast(index)
             }"
           >
             <div

@@ -1,15 +1,15 @@
 <template>
   <div data-name="page-master-experience" class="mt-20">
-    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-shield class="mb-2" persistent experience theme="gold" />
-      <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
-        <template #title>
-          <div class="leading-none ">
-            <span class="text-gold">Master Experience</span>
-          </div>
-        </template>
-      </ac-heading>
+    <ac-shield class="mb-2" persistent experience theme="gold" />
+    <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
+      <template #title>
+        <div class="leading-none ">
+          <span class="text-gold">Master Experience</span>
+        </div>
+      </template>
+    </ac-heading>
 
+    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="mb-20 flex w-full items-center justify-center gap-2">
         <nuxt-link
           to="/calendario"
@@ -39,12 +39,12 @@
         </div>
       </div>
 
-      <div class="mx-auto grid max-w-6xl grid-cols-2 gap-6">
+      <div class="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2">
         <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-tr  from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
-          <div class="absolute right-2 top-2 scale-75">
+          <div class="absolute -right-2 -top-4 scale-50 lg:right-2 lg:top-2">
             <ac-shield experience :persistent="hover==='box-1'" theme="gold" />
           </div>
-          <div class="p-8 pr-32 ">
+          <div class="p-8 lg:pr-32 ">
             <div class="mb-4 text-xl font-medium">
               GLI ATTESTATI
             </div>
@@ -82,7 +82,7 @@
             </p>
           </div>
 
-          <div class="relative -bottom-24 -right-20 -mt-28 w-[90%] rounded-xl bg-white p-8 text-sm text-neutral-800 transition-transform duration-500 ease-cubic-bezier group-hover:-translate-x-4 group-hover:-translate-y-4">
+          <div class="relative -bottom-16 -right-1/2 -mt-28 w-[90%] -translate-x-1/2 rounded-xl bg-white p-8 text-sm text-neutral-800 transition-transform duration-500 ease-cubic-bezier group-hover:-translate-x-4 group-hover:-translate-y-4 lg:-bottom-24 lg:-right-20 lg:translate-x-0">
             <div class="mb-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="text-gold">Doloribus consequuntur nesciunt ea quia vel quod.</span>
             </div>
@@ -94,15 +94,15 @@
 
     <ac-separator class="mb-8 mt-28 " />
 
-    <div class="gradient pb-20">
-      <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
-        <template #title>
-          <div class="leading-none ">
-            <span class="text-gold">La filosofia</span>
-          </div>
-        </template>
-      </ac-heading>
+    <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
+      <template #title>
+        <div class="leading-none ">
+          <span class="text-gold">La filosofia</span>
+        </div>
+      </template>
+    </ac-heading>
 
+    <div class="gradient pb-20">
       <div class="lg-p-0 mx-auto grid max-w-6xl grid-cols-1 gap-4 p-4 lg:grid-cols-3">
         <ac-feature-card
           overtitle="SAPERE"
@@ -135,8 +135,8 @@
       </template>
     </ac-heading>
 
-    <div class="mx-auto max-w-5xl p-20 pt-0">
-      <div class="text-2xl font-light text-white">
+    <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
+      <div class="text-2xl text-lg font-light text-white md:text-2xl">
         La struttura include <span class="text-4xl font-semibold text-gold">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="text-4xl font-semibold text-gold">4</span> <u>stage intensivi</u> di esercitazioni pratiche, <span class="text-4xl font-semibold text-gold">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="text-4xl font-semibold text-gold">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="text-4xl font-semibold text-gold">413</span> <u>ore complessive</u> distribuite nell'arco del biennio 2024-2026.
       </div>
     </div>
@@ -297,12 +297,14 @@
     </div> -->
     <ac-separator class="mb-10 mt-20" />
 
-    <div class="relative mt-20 h-48  border-neutral-800  text-white">
+    <div class="relative mt-20 flex h-40 items-center  text-white  lg:h-48">
       <ac-marquee :duration="60" :repeat="4">
-        <div class="relative mx-4 flex justify-start gap-10 lg:mx-6">
-          <ac-shield class="top-4" persistent experience capsule theme="gold" />
+        <div class="relative mx-4 flex items-center justify-start gap-10 lg:mx-6">
+          <div class="relative scale-75 lg:scale-100">
+            <ac-shield persistent experience capsule theme="gold" />
+          </div>
           <div
-            class="whitespace-nowrap text-lg font-semibold transition-colors lg:text-9xl"
+            class="whitespace-nowrap text-4xl font-semibold transition-colors lg:text-9xl"
           >
             Formula Experience
           </div>
