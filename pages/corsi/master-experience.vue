@@ -136,8 +136,10 @@
     </ac-heading>
 
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
-      <div class="text-2xl text-lg font-light text-white md:text-2xl">
-        La struttura include <span class="text-4xl font-semibold text-gold">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="text-4xl font-semibold text-gold">4</span> <u>stage intensivi</u> di esercitazioni pratiche, <span class="text-4xl font-semibold text-gold">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="text-4xl font-semibold text-gold">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="text-4xl font-semibold text-gold">413</span> <u>ore complessive</u> distribuite nell'arco del biennio 2024-2026.
+      <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
+        <div>
+          La struttura include <span class="lg:text-4xl font-semibold text-gold">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="lg:text-4xl font-semibold text-gold">4</span> <u>stage intensivi</u> di esercitazioni pratiche, <span class="lg:text-4xl font-semibold text-gold">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="lg:text-4xl font-semibold text-gold">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="lg:text-4xl font-semibold text-gold">413</span> <u>ore complessive</u> distribuite nell'arco del biennio 2024-2026.
+        </div>
       </div>
     </div>
 
