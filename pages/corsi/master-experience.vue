@@ -24,14 +24,17 @@
 
       <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
         <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
-          <div>Il <span class="text-gold">Master Experience</span> di AIGES Academy è un format strutturato in percorsi di qualifica professionale di durata non inferiore a un anno, progettati per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.</div>
-
-          <div>L’iscrizione richiede requisiti di ammissione specifici, che sono soggetti a valutazione.</div>
-
-          <div>L’accesso è riservato a un massimo di trenta allievi, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.</div>
-
           <div>
-            Sono previsti uno o più esami.
+            Il <span class="text-gold">Master Experience in Mediazione familiare</span> è un corso di qualifica professionale della durata di due anni, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
+          </div>
+          <div>
+            L’iscrizione richiede il superamento di un colloquio motivazionale online con la direttrice scientifica.
+          </div>
+          <div>
+            L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo
+          </div>
+          <div>
+            Sono previsti due esami: uno di primo livello e uno di secondo livello.
           </div>
         </div>
       </div>
@@ -92,10 +95,10 @@
     <ac-separator class="mb-8 mt-28 " />
 
     <div class="gradient pb-20">
-      <ac-heading description="Tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
+      <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
         <template #title>
           <div class="leading-none ">
-            <span class="text-gold">SAPERE, SAPER FARE, SAPER ESSERE</span>
+            <span class="text-gold">La filosofia</span>
           </div>
         </template>
       </ac-heading>
@@ -105,19 +108,19 @@
           overtitle="SAPERE"
           title="LA CONOSCENZA TEORICA"
         >
-          Gli allievi hanno accesso continuo a contenuti curricolari completi e aggiornati, che coprono una vasta gamma di argomenti pertinenti alla disciplina di interesse.
+          Gli allievi possono accedere a contenuti curricolari completi e aggiornati, che coprono tutti gli argomenti pertinenti alle discipline.
         </ac-feature-card>
         <ac-feature-card
           overtitle="SAPER FARE"
           title="L’APPLICAZIONE PRATICA"
         >
-          Gli allievi possono sperimentarsi durante gli stage intensivi, mettendo in pratica ciò che hanno appreso in teoria e verificando concretamente la loro capacità di intervento.
+          Gli allievi possono verificare la loro capacità di intervento durante gli stage intensivi, mettendo in pratica ciò che hanno appreso in teoria.
         </ac-feature-card>
         <ac-feature-card
           overtitle="SAPER ESSERE"
           title="LO SVILUPPO PERSONALE"
         >
-          Gli allievi vengono incoraggiati a sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
+          Gli allievi possono sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
         </ac-feature-card>
       </div>
     </div>
@@ -134,7 +137,7 @@
 
     <div class="mx-auto max-w-5xl p-20 pt-0">
       <div class="text-2xl font-light text-white">
-        La struttura prevede <span class="text-4xl font-semibold text-gold">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="text-4xl font-semibold text-gold">4</span> <u>stage intensivi</u> di esercitazioni pratiche, <span class="text-4xl font-semibold text-gold">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="text-4xl font-semibold text-gold">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="text-4xl font-semibold text-gold">413</span> <u>ore complessive</u> distribuite nell'arco del biennio 2024-2026.
+        La struttura include <span class="text-4xl font-semibold text-gold">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="text-4xl font-semibold text-gold">4</span> <u>stage intensivi</u> di esercitazioni pratiche, <span class="text-4xl font-semibold text-gold">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="text-4xl font-semibold text-gold">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="text-4xl font-semibold text-gold">413</span> <u>ore complessive</u> distribuite nell'arco del biennio 2024-2026.
       </div>
     </div>
 

@@ -5,7 +5,7 @@
       <ac-heading description="Immergerti totalmente nell’alta formazione ha un solo e unico obiettivo: farti emergere nella professione.">
         <template #title>
           <div class="leading-none ">
-            Alta formazione
+            <span class="text-blue-200">Alta</span> <span class="text-violet-200">formazione</span>
           </div>
         </template>
       </ac-heading>
@@ -13,13 +13,14 @@
 
     <div class="mx-auto max-w-5xl p-20 pt-0">
       <div class="mb-8 flex flex-col gap-4 text-2xl font-light text-white">
-        <div>L’<span class="text-blue-200">alta formazione</span> di AIGES Academy è un format strutturato in corsi di specializzazione di durata non superiore a sessanta ore, progettati per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.</div>
         <div>
-          L’iscrizione non richiede requisiti di ammissione specifici. L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo. I contenuti sono definiti dalla direzione scientifica. Le lezioni si svolgono online, in presenza e/o in modalità blended.
+          Il <span class="text-blue-200">Corso di alta formazione</span> <span class="text-violet-200">in Coordinazione genitoriale</span> è un corso di specializzazione della durata di trentadue ore, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.
         </div>
         <div>
-          <span class="text-violet-200">Non sono previsti esami</span>.<br>
-          <u>Al termine del programma, viene rilasciato un attestato</u>.
+          L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
+        </div>
+        <div>
+          Non sono previsti esami.
         </div>
       </div>
     </div>
