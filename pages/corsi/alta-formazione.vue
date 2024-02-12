@@ -166,16 +166,19 @@
         Un’esperienza che può riassumersi nella frase di J Rice: «Fai oggi quello che gli altri non faranno e ottieni domani quello che gli altri non otterranno». Forte innovazione nei contenuti, grande preparazione dei docenti e una continua interazione capace di generare un proficuo scambio professionale. Lieta di avervi partecipato. (Mariarita Ruccia)
       </div>
     </div> -->
+
     <ac-separator class="mb-10 mt-20" />
 
-    <div class="relative mt-20 h-48  border-neutral-800  text-white">
+    <div class="relative mt-20 flex h-40 items-center  text-white  lg:h-48">
       <ac-marquee :duration="60" :repeat="4">
-        <div class="relative mx-4 flex justify-start gap-10 lg:mx-6">
-          <ac-shield class="top-4" persistent capsule theme="silver" />
+        <div class="relative mx-4 flex items-center justify-start gap-10 lg:mx-6">
+          <div class="relative scale-75 lg:scale-100">
+            <ac-shield persistent capsule theme="silver" />
+          </div>
           <div
-            class="whitespace-nowrap text-lg font-semibold transition-colors lg:text-9xl"
+            class="whitespace-nowrap text-4xl font-semibold transition-colors lg:text-9xl"
           >
-            Formula Full Immersion
+          Formula Full Immersion
           </div>
         </div>
       </ac-marquee>
