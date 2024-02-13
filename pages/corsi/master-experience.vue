@@ -226,13 +226,6 @@
     <!--
       // END PRICING -->
 
-    <ac-separator class="my-20" />
-
-    <div class="mx-auto max-w-6xl  px-4">
-      <div class="my-10 text-center text-4xl leading-tight text-white">
-        Il <span class="text-gold">Master Experience</span> adotta un approccio olistico alla formazione, armonizzando perfettamente la conoscenza teorica, l’applicazione pratica e lo sviluppo personale.
-      </div>
-    </div>
     <!--
     <div class="mx-auto max-w-6xl  px-4">
 

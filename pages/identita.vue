@@ -40,13 +40,13 @@ export default {
           title: 'Chi siamo',
           step: '1W',
           content: `<div>
-            Siamo l’academy per specialisti del conflitto familiare.
+            Siamo la scuola per specialisti del conflitto familiare.
           </div>
           <div>
-            La nostra attività è interamente focalizzata sulla formazione specialistica nell'ambito delle ADR per la famiglia.
+            La nostra attività è interamente dedicata alla specializzazione nell’ambito delle ADR per la famiglia.
           </div>
           <div>
-            Con noi, lavorano ogni giorno docenti e relatori di altissimo profilo, che hanno alle spalle anni di studio, ricerca ed esperienza, oltre a una naturale propensione per l’insegnamento di nuova generazione.
+            Con noi, lavorano ogni giorno docenti e relatori di altissimo profilo, che hanno alle spalle anni di studio, ricerca ed esperienza, oltre a una forte vocazione per l’insegnamento di nuova generazione.
           </div>`,
         },
         {
@@ -57,17 +57,17 @@ export default {
           </div>`,
         },
         {
-          title: 'Dove ci troviamo',
+          title: 'Dove insegniamo',
           step: '3W',
           content: `<div>
-            Ci troviamo in un luogo moderno, accogliente e di facile accesso per i professionisti desiderosi di arricchire le proprie conoscenze, abilità e competenze: siamo online, nel cuore del World Wide Web. E, di tanto in tanto, anche in presenza.
+            Insegniamo nell’ambiente più moderno, dinamico e accessibile di tutti: nel World Wide Web. E, di tanto in tanto, anche nel mondo reale.
           </div>`,
         },
         {
           title: 'Quando possiamo aiutarti',
           step: '4W',
           content: `<div>
-            Possiamo aiutarti sia nell’acquisizione di nuove competenze, sia nel perfezionamento di quelle già acquisite.
+            Possiamo aiutarti sempre, ma in particolare quando avverti il desiderio di arricchire il tuo bagaglio tecnico, hai la necessità di migliorare il tuo modo di lavorare o senti il bisogno di cambiare la tua forma mentis.
           </div>`,
         },
         {
