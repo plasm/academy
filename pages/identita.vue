@@ -53,7 +53,7 @@ export default {
           title: 'Cosa facciamo',
           step: '2W',
           content: `<div>
-            Promuoviamo Master Experience, alta formazione, aggiornamento professionale e supervisione in mediazione familiare e coordinazione genitoriale, ponendoci come trendsetter nello sviluppo e nel potenziamento delle conoscenze, delle abilità e delle competenze necessarie per eccellere nella gestione delle dinamiche familiari complesse.
+            Prepariamo le persone per affrontare le sfide che caratterizzano le relazioni moderne, sia sotto il profilo umano che tecnico, con l’obiettivo di farne professionisti con una granitica capacità di intervento nel conflitto familiare.
           </div>`,
         },
         {
