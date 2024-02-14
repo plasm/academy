@@ -47,6 +47,36 @@ body{
   background: #88888888;
 }
 
+.hide-v-scrollbar{
+  overflow-y: scroll;
+  scrollbar-width: 0px;
+  -ms-overflow-style: none;
+}
+.hide-v-scrollbar{
+  scrollbar-width: thin;
+}
+.hide-v-scrollbar::-webkit-scrollbar{
+  width: 0px;
+}
+.hide-v-scrollbar::-webkit-scrollbar-thumb{
+  background: #88888888;
+}
+
+.hide-h-scrollbar{
+  overflow-x: scroll;
+  scrollbar-height: 0px;
+  -ms-overflow-style: none;
+}
+.hide-h-scrollbar{
+  scrollbar-height: thin;
+}
+.hide-h-scrollbar::-webkit-scrollbar{
+  height: 0px;
+}
+.hide-h-scrollbar::-webkit-scrollbar-thumb{
+  background: #88888888;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition: transform .6s cubic-bezier(0.29,0,0.01,1), opacity .3s cubic-bezier(0.29,0,0.01,1);

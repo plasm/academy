@@ -1,20 +1,6 @@
 <template>
-  <div class="mt-20">
-    <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-heading description="Progettazione, didattica, ricerca, sviluppo, networking: la nostra organizzazione è costruita per eccellere in tutti gli ambiti.">
-        <template #title>
-          <div class="leading-none ">
-            In classe e fuori,<br> solo fuoriclasse
-          </div>
-        </template>
-      </ac-heading>
-
-      <!-- Direzione -->
-    </div>
-
-    <ac-separator class="my-20" />
-
-    <div data-name="page-organizzazione" class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+  <div data-name="page-organizzazione" class="mt-20">
+    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <ac-heading description="Scopri chi sono i leader dietro alla filosofia che, giorno dopo giorno, plasma l’identità di AIGES Academy.">
         <template #title>
           <div class="leading-none ">
