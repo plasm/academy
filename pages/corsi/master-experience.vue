@@ -81,7 +81,7 @@
               RICONOSCIMENTO E ACCREDITAMENTI
             </div>
             <p class="mb-8 text-base font-light text-white/70 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur nesciunt ea quia vel quod.
+              Il corso è riconosciuto da <u>MediaCoor</u>, secondo gli standard previsti dalla norma UNI 11644 del 30/08/2016.
             </p>
           </div>
 
