@@ -1,5 +1,5 @@
 <template>
-  <section data-name="ac-pricing">
+  <section data-name="ac-pricing-alta-formazione">
     <div class="relative mx-auto w-full max-w-7xl items-center px-4 md:px-12 lg:px-16">
       <div class="mx-auto grid grid-cols-1 items-start lg:grid-cols-3">
         <div class="lg:pr-12">
@@ -73,7 +73,7 @@
 
 <script>
 export default {
-  name: 'ac-pricing'
+  name: 'ac-pricing-alta-formazione'
 }
 </script>
 
