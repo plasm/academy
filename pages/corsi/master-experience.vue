@@ -25,16 +25,19 @@
       <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
         <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
           <div>
-            Il <span class="text-gold">Master Experience in Mediazione familiare</span> è un corso di qualifica professionale della durata di due anni, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
+            Il <span class="text-gold">Master Experience in Mediazione familiare</span> è un <u>corso di qualifica professionale</u> della durata di due anni, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
           </div>
           <div>
-            L’iscrizione richiede il superamento di un colloquio motivazionale online con la direttrice scientifica.
+            L’iscrizione richiede il superamento di un <u>colloquio motivazionale</u> con la direttrice scientifica.
           </div>
           <div>
-            L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo
+            Lo svolgimento è in <u>modalità blended</u>, con una percentuale del 70% online e del 30% in presenza.
           </div>
           <div>
-            Sono previsti due esami: uno di primo livello e uno di secondo livello.
+            L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
+          </div>
+          <div>
+            Sono previsti <u>due esami</u>: uno di primo livello e uno di secondo livello.
           </div>
         </div>
       </div>
@@ -46,14 +49,14 @@
           </div>
           <div class="p-8 lg:pr-32 ">
             <div class="mb-4 text-xl font-medium">
-              GLI ATTESTATI
+              ATTESTATI
             </div>
             <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
               <p class="mb-1 text-base font-light text-white/70 ">
-                Il corso rilascia tre diversi attestati: i primi due dopo l’esame di primo livello e il terzo dopo l’esame di secondo livello.
+                Il corso rilascia tre diversi attestati: due dopo l’esame di primo livello e uno dopo l’esame di secondo livello.
               </p>
               <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
-                <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code</div>
+                <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code e certificazione digitale</div>
                 <div>Attestato di professionista negoziatore dei conflitti in formato PDF, con QR Code e certificazione digitale</div>
                 <div>Attestato di qualifica professionale in formato cartaceo, con QR Code e certificazione digitale</div>
               </div>
@@ -75,10 +78,10 @@
         <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-gold/80  to-gold/30 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
           <div class="p-8">
             <div class="mb-4 text-xl font-medium">
-              LA MODALITÀ DI SVOLGIMENTO
+              RICONOSCIMENTO E ACCREDITAMENTI
             </div>
             <p class="mb-8 text-base font-light text-white/70 ">
-              Il corso si svolge in modalità blended: online per il 70% e in presenza per il 30%.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequuntur nesciunt ea quia vel quod.
             </p>
           </div>
 
@@ -97,7 +100,7 @@
     <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
       <template #title>
         <div class="leading-none ">
-          <span class="text-gold">La filosofia</span>
+          <span class="text-gold">Filosofia</span>
         </div>
       </template>
     </ac-heading>
@@ -130,7 +133,7 @@
     <ac-heading description="Dalla struttura ai moduli, abbiamo progettato ogni dettaglio con la cura necessaria per garantirti un’esperienza di altissima qualità.">
       <template #title>
         <div class="leading-none ">
-          <span class="text-gold">Il programma</span>
+          <span class="text-gold">Programma</span>
         </div>
       </template>
     </ac-heading>
@@ -168,7 +171,7 @@
     <ac-heading description="Scopri le tappe del viaggio che ti condurranno alla tua destinazione finale: la qualifica professionale di mediatore familiare.">
       <template #title>
         <div class="leading-none ">
-          <span class="text-gold">L’agenda</span>
+          <span class="text-gold">Agenda</span>
         </div>
       </template>
     </ac-heading>
@@ -214,10 +217,10 @@
     <ac-separator class="mb-20" />
     <!--
       PRICING -->
-    <ac-heading description="Noi abbiamo pensato a tante soluzioni, a te basta sceglierne una: quella che si adatta meglio alle tue esigenze finanziarie.">
+    <ac-heading description="Noi abbiamo pensato a tante soluzioni, a te basta sceglierne una: quella che si adatta meglio alle tue esigenze economiche.">
       <template #title>
         <div class="leading-none ">
-          <span class="text-gold">L’iscrizione</span>
+          <span class="text-gold">Iscrizione</span>
         </div>
       </template>
     </ac-heading>
