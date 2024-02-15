@@ -123,7 +123,7 @@
     <ac-separator class="my-28 " />
 
     <!-- TESTIMONIAL -->
-    <ac-heading description="DESCRIZIONE">
+    <ac-heading description="Trai ispirazione dalle testimonianze degli ex allievi del nostro corso e aggiungi una tappa perfetta al tuo percorso professionale.">
       <template #title>
         <div class="leading-none ">
           <span class="text-blue-200">Recensioni</span>
