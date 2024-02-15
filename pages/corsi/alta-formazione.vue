@@ -14,7 +14,10 @@
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
-          Il <span class="text-blue-200">Corso di alta formazione</span> <span class="text-violet-200">in Coordinazione genitoriale</span> è un corso di specializzazione della durata di trentadue ore, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.
+          Il <span class="text-blue-200">Corso di alta formazione</span> <span class="text-violet-200">in Coordinazione genitoriale</span> è un <u>corso di specializzazione</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.
+        </div>
+        <div>
+          La modalità di svolgimento è <u>online</u> al 100%.
         </div>
         <div>
           L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
@@ -33,12 +36,15 @@
         </div>
         <div class="p-8 lg:pr-32 ">
           <div class="mb-4 text-xl font-medium">
-            GLI ATTESTATI
+            ATTESTATO
           </div>
           <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
             <p class="mb-1 text-base font-light text-white/70 ">
-              Attestato di partecipazione in formato PDF, con QR Code e certificazione digitale
+              Il corso rilascia il seguente attestato, con QR Code e certificazione digitale:
             </p>
+            <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
+              <div>Attestato di partecipazione in formato elettronico</div>
+            </div>
           </div>
         </div>
 
@@ -57,10 +63,10 @@
       <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-violet-200  to-blue-700/50 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
         <div class="p-8">
           <div class="mb-4 text-xl font-medium">
-            LA MODALITÀ DI SVOLGIMENTO
+            RICONOSCIMENTO E ACCREDITAMENTI
           </div>
           <p class="mb-8 text-base font-light text-white/70 ">
-            Il corso si svolge in modalità blended: online per il 70% e in presenza per il 30%.
+            Il corso è riconosciuto da <u>MediaCoor</u>, secondo gli standard previsti dalle linee guida per la coordinazione genitoriale AFCC 2017-2019.
           </p>
         </div>
 
@@ -80,7 +86,7 @@
     <ac-heading description="Dalla struttura ai moduli, abbiamo progettato ogni dettaglio con la cura necessaria per garantirti un’esperienza di altissima qualità.">
       <template #title>
         <div class="leading-none ">
-          <span class="text-blue-200">Il programma</span>
+          <span class="text-blue-200">Programma</span>
         </div>
       </template>
     </ac-heading>
@@ -88,7 +94,7 @@
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
-          La struttura include <span class="font-semibold text-violet-200 lg:text-4xl">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="font-semibold text-violet-200 lg:text-4xl">4</span> <u>stage intensivi</u> di esercitazioni pratiche, <span class="font-semibold text-violet-200 lg:text-4xl">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="font-semibold text-violet-200 lg:text-4xl">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="font-semibold text-violet-200 lg:text-4xl">413</span> <u>ore complessive</u> distribuite nell'arco del biennio 2024-2026.
+          Il programma prevede <span class="font-semibold text-violet-200 lg:text-4xl">4</span> <u>giornate full immersion consecutive</u> di lezioni teoriche ed esercitazioni pratiche, per un totale di <span class="font-semibold text-violet-200 lg:text-4xl">32</span> <u>ore complessive</u>.
         </div>
       </div>
     </div>
@@ -105,10 +111,10 @@
           <div class="text-base font-medium text-blue-200">
             {{ resource.subtitle }}
           </div>
-          <div class="mt-2 text-sm leading-relaxed  text-neutral-200 ">
+          <div class="mt-2 text-sm leading-relaxed  text-white">
             {{ resource.description }}
           </div>
-          <div v-if="resource.notes" class="mt-5 text-xs leading-normal text-neutral-500" v-html="resource.notes" />
+          <div v-if="resource.notes" class="mt-5 text-xs leading-normal text-neutral-400" v-html="resource.notes" />
         </div>
       </template>
     </ac-sticky-resources>
@@ -120,7 +126,7 @@
     <ac-heading description="DESCRIZIONE">
       <template #title>
         <div class="leading-none ">
-          <span class="text-blue-200">Recensioni verificate</span>
+          <span class="text-blue-200">Recensioni</span>
         </div>
       </template>
     </ac-heading>
@@ -142,7 +148,7 @@
     <ac-heading description="Noi abbiamo pensato a tante soluzioni, a te basta sceglierne una: quella che si adatta meglio alle tue esigenze finanziarie.">
       <template #title>
         <div class="leading-none ">
-          <span class="text-blue-200">L’iscrizione</span>
+          <span class="text-blue-200">Iscrizione</span>
         </div>
       </template>
     </ac-heading>

@@ -25,13 +25,13 @@
       <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
         <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
           <div>
-            Il <span class="text-gold">Master Experience in Mediazione familiare</span> è un <u>corso di qualifica professionale</u> della durata di due anni, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
+            Il <span class="text-gold">Master Experience in Mediazione familiare</span> è un <u>corso di qualifica professionale</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
           </div>
           <div>
             L’iscrizione richiede il superamento di un <u>colloquio motivazionale</u> con la direttrice scientifica.
           </div>
           <div>
-            Lo svolgimento è in <u>modalità blended</u>, con una percentuale del 70% online e del 30% in presenza.
+            La modalità di svolgimento è <u>blended</u>: online per il 70% e in presenza per il 30%.
           </div>
           <div>
             L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
@@ -53,12 +53,12 @@
             </div>
             <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
               <p class="mb-1 text-base font-light text-white/70 ">
-                Il corso rilascia tre diversi attestati: due dopo l’esame di primo livello e uno dopo l’esame di secondo livello.
+                Il corso rilascia i seguenti attestati, con QR Code e certificazione digitale:
               </p>
               <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
-                <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato PDF, con QR Code e certificazione digitale</div>
-                <div>Attestato di professionista negoziatore dei conflitti in formato PDF, con QR Code e certificazione digitale</div>
-                <div>Attestato di qualifica professionale in formato cartaceo, con QR Code e certificazione digitale</div>
+                <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato elettronico</div>
+                <div>Attestato di professionista negoziatore dei conflitti in formato elettronico</div>
+                <div>Attestato di qualifica professionale in formato cartaceo</div>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
-          La struttura include <span class="font-semibold text-gold lg:text-4xl">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="font-semibold text-gold lg:text-4xl">4</span> <u>stage intensivi</u> di esercitazioni pratiche, <span class="font-semibold text-gold lg:text-4xl">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="font-semibold text-gold lg:text-4xl">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="font-semibold text-gold lg:text-4xl">413</span> <u>ore complessive</u> distribuite nell'arco del biennio 2024-2026.
+          Il programma prevede <span class="font-semibold text-gold lg:text-4xl">51</span> <u>mezze giornate</u> di lezioni teoriche, <span class="font-semibold text-gold lg:text-4xl">4</span> <u>stage intensivi</u> di esercitazioni pratiche, <span class="font-semibold text-gold lg:text-4xl">8</span> <u>mezze giornate</u> di supervisione didattica e professionale di gruppo e fino a un massimo di <span class="font-semibold text-gold lg:text-4xl">10</span> <u>sessioni</u> di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto, per un totale di <span class="font-semibold text-gold lg:text-4xl">413</span> <u>ore complessive</u> distribuite nell'arco del biennio 2024-2026.
         </div>
       </div>
     </div>
@@ -158,10 +158,10 @@
           <div class="text-base font-medium text-gold">
             {{ resource.subtitle }}
           </div>
-          <div class="mt-2 text-sm leading-relaxed  text-neutral-200 ">
+          <div class="mt-2 text-sm leading-relaxed  text-white">
             {{ resource.description }}
           </div>
-          <div v-if="resource.notes" class="mt-5 text-xs leading-normal text-neutral-500" v-html="resource.notes" />
+          <div v-if="resource.notes" class="mt-5 text-xs leading-normal text-neutral-400" v-html="resource.notes" />
         </div>
       </template>
     </ac-sticky-resources>

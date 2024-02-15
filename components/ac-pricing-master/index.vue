@@ -24,20 +24,27 @@
             iscrizione ridotta
           </h3>
           <p class="mt-2 text-sm text-white">
-            Mediante pagamento in un'unica soluzione
+            Pagamento in un'unica soluzione
           </p>
           <div class="mt-2 text-sm text-neutral-400">
-            La riduzione è riservata agli ex allievi di AIGES Academy e ai soci di MediaCoor.
+            Agevolazione riservata agli ex allievi di AIGES Academy e ai soci di MediaCoor
           </div>
           <p class="order-first text-5xl font-light tracking-tight text-white">
             € 3.150,00
           </p>
           <ul role="list" class="order-last mt-10 flex flex-col gap-y-3 text-sm text-white">
             <li class="flex items-center">
-              <span class="ml-4 text-sm">Fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto</span>
+              <span class="ml-4 text-sm"><u>Benefit inclusi</u></span>
             </li>
             <li class="flex items-center">
-              <span class="ml-4 text-sm">Un anno di iscrizione a MediaCoor alla metà del costo</span>
+              <div class="ml-4 text-sm text-neutral-400">
+                <div>Fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto</div>
+              </div>
+            </li>
+            <li class="flex items-center">
+              <div class="ml-4 text-sm text-neutral-400">
+                <div>Un anno di iscrizione a MediaCoor alla metà del costo</div>
+              </div>
             </li>
           </ul>
           <a class="nline-flex mt-8 w-full items-center justify-center rounded-full border-2 border-white bg-white px-6 py-2.5 text-center text-sm text-black duration-200 hover:border-white hover:bg-transparent hover:text-white focus:outline-none focus-visible:outline-white focus-visible:ring-white" href="https://rebrand.ly/dff6g2m">
@@ -49,17 +56,28 @@
             iscrizione standard
           </h3>
           <p class="mt-2 text-sm text-neutral-100">
-            Mediante pagamento in un'unica soluzione o con dilazione da tre a dieci rate mensili senza interessi.
+            Pagamento in un'unica soluzione o con dilazione da tre a dieci rate mensili senza interessi
           </p>
+          <div class="mt-2 text-sm text-neutral-400">
+            Sconto del 5% per i soci di AIAF Campania<br>
+            Sconto del 3% per gli iscritti agli ordini professionali
+          </div>
           <p class="order-first text-5xl font-light tracking-tight text-white">
             € 3.500,00
           </p>
           <ul role="list" class="order-last mt-10 flex flex-col gap-y-3 text-sm text-white">
             <li class="flex items-center">
-              <span class="ml-4 text-sm">Fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto</span>
+              <span class="ml-4 text-sm"><u>Benefit inclusi</u></span>
             </li>
             <li class="flex items-center">
-              <span class="ml-4 text-sm">Un anno di iscrizione a MediaCoor alla metà del costo</span>
+              <div class="ml-4 text-sm text-neutral-400">
+                <div>Fino a un massimo di dieci sessioni di supervisione didattica e professionale individuale sul primo caso di mediazione familiare personalmente condotto</div>
+              </div>
+            </li>
+            <li class="flex items-center">
+              <div class="ml-4 text-sm text-neutral-400">
+                <div>Un anno di iscrizione a MediaCoor alla metà del costo</div>
+              </div>
             </li>
           </ul>
           <a class="nline-flex mt-8 w-full items-center justify-center rounded-full border-2 border-gold bg-gold px-6 py-2.5 text-center text-sm text-black duration-200 hover:border-gold hover:bg-transparent hover:text-gold focus:outline-none focus-visible:outline-white focus-visible:ring-white" href="https://rebrand.ly/dff6g2m">
