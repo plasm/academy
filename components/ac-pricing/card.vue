@@ -19,10 +19,10 @@
         € {{ price }}
       </p>
 
-      <a v-if="highlight" class="mt-8 inline-flex w-full items-center  justify-center rounded-full border-2 px-6 py-2.5 text-center text-sm duration-200 focus:outline-none focus-visible:outline-white focus-visible:ring-white" :href="link" :class="[`price-button-${theme}`]">
+      <a v-if="highlight" class="mt-8 inline-flex w-full items-center  justify-center rounded-full border-2 px-6 py-2.5 text-center text-sm duration-200 focus:outline-none focus-visible:outline-white focus-visible:ring-white" :href="link" :class="[`price-button-${theme}`]" target="_blank">
         {{ callToAction }}
       </a>
-      <a v-else class="mt-8 inline-flex w-full items-center justify-center rounded-full border-2 border-white bg-white px-6 py-2.5 text-center text-sm text-black duration-200 hover:border-white hover:bg-transparent hover:text-white focus:outline-none focus-visible:outline-white focus-visible:ring-white" :href="link">
+      <a v-else class="mt-8 inline-flex w-full items-center justify-center rounded-full border-2 border-white bg-white px-6 py-2.5 text-center text-sm text-black duration-200 hover:border-white hover:bg-transparent hover:text-white focus:outline-none focus-visible:outline-white focus-visible:ring-white" :href="link" target="_blank">
         {{ callToAction }}
       </a>
 
