@@ -1,7 +1,7 @@
 <template>
-  <div data-name="page-alta-formazione">
+  <div data-name="page-alta-formazione" class="mt-20">
     <div class="mx-auto mt-10 px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-shield class="top-4" persistent theme="silver" />
+      <ac-shield class="mx-auto mb-2" persistent theme="silver" />
       <ac-heading description="Immergerti totalmente nell’alta formazione ha un solo e unico obiettivo: farti emergere nella professione.">
         <template #title>
           <div class="leading-none ">
@@ -48,24 +48,30 @@
           </div>
         </div>
 
-        <div class="relative -bottom-20 left-4 -mt-32 size-full min-h-60 rounded-xl  px-8 text-sm text-neutral-800">
+        <!-- CERTIFICATES -->
+        <div class="relative -bottom-20 mx-auto -mt-32 ml-6 min-h-60 rounded-xl px-8 text-sm text-neutral-800 transition-all duration-300 ease-cubic-bezier lg:ml-16 lg:group-hover:ml-8 ">
           <div class="absolute flex gap-2">
-            <div class="relative h-[300px] w-[240px] rounded-xl border-t border-neutral-700 bg-gradient-to-tr from-neutral-900 to-neutral-800 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0">
-              <ac-shield class="relative -left-8 top-4 origin-top-left scale-50" capsule theme="silver" />
+            <div class="relative transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-0">
+              <ac-certificate-card>
+                <ac-shield capsule theme="silver" />
+              </ac-certificate-card>
             </div>
-            <div class="relative top-2 h-[300px] w-[240px] -translate-x-32 rounded-xl border-t border-neutral-700 bg-gradient-to-tr from-neutral-900 to-neutral-800 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-16 ">
-              <ac-shield class="relative -left-8 top-4 origin-top-left scale-50" theme="silver" />
+            <div class="relative top-2 -translate-x-32 transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-16 ">
+              <ac-certificate-card>
+                <ac-shield theme="silver" />
+              </ac-certificate-card>
             </div>
           </div>
         </div>
+        <!-- END CERTIFICATES -->
       </div>
 
-      <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-violet-200  to-blue-700/50 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
+      <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-blue-200  to-blue-600/50 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
         <div class="p-8">
           <div class="mb-4 text-xl font-medium">
             RICONOSCIMENTO E ACCREDITAMENTI
           </div>
-          <p class="mb-8 text-base font-light text-white/70 ">
+          <p class="mb-8 text-base font-light text-white">
             Il corso è riconosciuto da <u>MediaCoor</u>, secondo gli standard previsti dalle linee guida per la coordinazione genitoriale AFCC 2017-2019.
           </p>
         </div>

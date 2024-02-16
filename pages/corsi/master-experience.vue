@@ -1,6 +1,6 @@
 <template>
   <div data-name="page-master-experience" class="mt-20">
-    <ac-shield class="mb-2" persistent experience theme="gold" />
+    <ac-shield class="mx-auto mb-2" persistent experience theme="gold" />
     <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
       <template #title>
         <div class="leading-none ">
@@ -62,17 +62,22 @@
               </div>
             </div>
           </div>
-
-          <div class="relative -bottom-20 left-4 -mt-32 size-full min-h-60 rounded-xl  px-8 text-sm text-neutral-800">
+          <!-- CERTIFICATES -->
+          <div class="relative -bottom-20 mx-auto -mt-32 ml-6 min-h-60 rounded-xl px-8 text-sm text-neutral-800 transition-all duration-300 ease-cubic-bezier lg:ml-16 lg:group-hover:ml-8 ">
             <div class="absolute flex gap-2">
-              <div class="relative h-[300px] w-[240px] rounded-xl border-t border-neutral-700 bg-gradient-to-tr from-neutral-900 to-neutral-800 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-0">
-                <ac-shield class="relative -left-8 top-4 origin-top-left scale-50" capsule theme="gold" />
+              <div class="relative transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-0">
+                <ac-certificate-card>
+                  <ac-shield capsule theme="gold" />
+                </ac-certificate-card>
               </div>
-              <div class="relative top-2 h-[300px] w-[240px] -translate-x-32 rounded-xl border-t border-neutral-700 bg-gradient-to-tr from-neutral-900 to-neutral-800 shadow-xl transition-all duration-300 ease-cubic-bezier group-hover:-translate-x-16 ">
-                <ac-shield class="relative -left-8 top-4 origin-top-left scale-50" experience theme="gold" />
+              <div class="relative top-2 -translate-x-32 transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-16 ">
+                <ac-certificate-card>
+                  <ac-shield theme="gold" />
+                </ac-certificate-card>
               </div>
             </div>
           </div>
+          <!-- END CERTIFICATES -->
         </div>
 
         <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-gold/80  to-gold/30 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
