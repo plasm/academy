@@ -6,7 +6,7 @@
           <slot />
         </div>
         <div class="mt-4 justify-center space-y-4">
-          <div class="text-2xl font-light text-blue-200">
+          <div class="text-2xl font-light text-violet-200">
             {{ author }}
           </div>
         </div>

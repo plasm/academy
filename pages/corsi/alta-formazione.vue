@@ -5,7 +5,7 @@
       <ac-heading description="Immergerti totalmente nell’alta formazione ha un solo e unico obiettivo: farti emergere nella professione.">
         <template #title>
           <div class="leading-none ">
-            <span class="text-blue-200">Alta</span> <span class="text-violet-200">formazione</span>
+            <span class="text-blue-200">Alta formazione</span>
           </div>
         </template>
       </ac-heading>
@@ -14,7 +14,7 @@
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
-          Il <span class="text-blue-200">Corso di alta formazione</span> <span class="text-violet-200">in Coordinazione genitoriale</span> è un <u>corso di specializzazione</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.
+          Il <span class="text-violet-200">Corso di alta formazione in Coordinazione genitoriale</span> è un <u>corso di specializzazione</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.
         </div>
         <div>
           La modalità di svolgimento è <u>online</u> al 100%.
@@ -123,10 +123,10 @@
     <ac-separator class="my-28 " />
 
     <!-- TESTIMONIAL -->
-    <ac-heading description="Trai ispirazione dalle testimonianze degli ex allievi del nostro corso e aggiungi una tappa perfetta al tuo percorso professionale.">
+    <ac-heading description="Trai ispirazione dalle testimonianze dei nostri ex allievi e aggiungi una tappa perfetta al tuo percorso di specializzazione.">
       <template #title>
         <div class="leading-none ">
-          <span class="text-blue-200">Recensioni</span>
+          <span class="text-blue-200">Testimonianze</span>
         </div>
       </template>
     </ac-heading>

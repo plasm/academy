@@ -30,7 +30,7 @@
               </div>
             </li>
           </ul>
-          <a class="nline-flex mt-8 w-full items-center justify-center rounded-full border-2 border-white bg-white px-6 py-2.5 text-center text-sm text-black duration-200 hover:border-white hover:bg-transparent hover:text-white focus:outline-none focus-visible:outline-white focus-visible:ring-white" href="https://rebrand.ly/dff6g2m">
+          <a class="nline-flex mt-8 w-full items-center justify-center rounded-full border-2 border-white bg-white px-6 py-2.5 text-center text-sm text-black duration-200 hover:border-white hover:bg-transparent hover:text-white focus:outline-none focus-visible:outline-white focus-visible:ring-white" href="https://rebrand.ly/5b6018">
             Iscriviti
           </a>
         </section>
@@ -63,7 +63,7 @@
               </div>
             </li>
           </ul>
-          <a class="nline-flex mt-8 w-full items-center justify-center rounded-full border-2 border-blue-200 bg-blue-200 px-6 py-2.5 text-center text-sm text-black duration-200 hover:border-blue-200 hover:bg-transparent hover:text-blue-200 focus:outline-none focus-visible:outline-white focus-visible:ring-white" href="https://rebrand.ly/dff6g2m">
+          <a class="nline-flex mt-8 w-full items-center justify-center rounded-full border-2 border-blue-200 bg-blue-200 px-6 py-2.5 text-center text-sm text-black duration-200 hover:border-blue-200 hover:bg-transparent hover:text-blue-200 focus:outline-none focus-visible:outline-white focus-visible:ring-white" href="https://rebrand.ly/5b6018">
             Iscriviti
           </a>
         </section>
