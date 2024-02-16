@@ -5,7 +5,7 @@
         title="ISCRIZIONE RIDOTTA"
         subtitle="Pagamento in un'unica soluzione"
         price="585,00"
-        link="https://rebrand.ly/dff6g2m"
+        link="https://rebrand.ly/5b6018"
         theme="silver"
       >
         <template #description>
@@ -20,7 +20,7 @@
         title="ISCRIZIONE STANDARD"
         subtitle="Pagamento in un'unica soluzione o con dilazione da tre a dieci rate mensili senza interessi"
         price="650,00"
-        link="https://rebrand.ly/dff6g2m"
+        link="https://rebrand.ly/5b6018"
         theme="silver"
         highlight
       >
