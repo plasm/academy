@@ -49,6 +49,7 @@
         </div>
 
         <!-- CERTIFICATES -->
+        <div class="gradient-highlighs absolute bottom-0 left-0 h-3/4 w-full opacity-0 duration-500 group-hover:opacity-100" />
         <div class="relative -bottom-20 mx-auto -mt-32 ml-6 min-h-60 rounded-xl px-8 text-sm text-neutral-800 transition-all duration-300 ease-cubic-bezier lg:ml-16 lg:group-hover:ml-8 ">
           <div class="absolute flex gap-2">
             <div class="relative transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-0">
@@ -299,5 +300,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.gradient-highlighs{
+  background: radial-gradient(80% 100% at 0% 100%, rgba(#9fc7ff, .7) 0%, #17171700 100%),  radial-gradient(80% 100% at 90% 150%, rgba(#b4a5ff, 1) 0%, #17171700 100%);
+}
 </style>
