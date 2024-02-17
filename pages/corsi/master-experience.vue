@@ -1,108 +1,114 @@
 <template>
-  <div data-name="page-master-experience" class="mt-20">
-    <ac-shield class="mx-auto mb-2" persistent experience theme="gold" />
-    <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
-      <template #title>
-        <div class="leading-none ">
-          <span class="text-gold">Master Experience</span>
-        </div>
-      </template>
-    </ac-heading>
-
+  <div data-name="page-master-experience" class="mt-24">
+    <!-- HEADER -->
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <div class="mb-20 flex w-full items-center justify-center gap-2">
-        <nuxt-link
-          to="/calendario"
-          title="Calendario"
-          class="rounded-2xl border border-white/20 bg-white/10 p-1 transition-transform duration-300 ease-out hover:-translate-y-1 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0"
-        >
-          <div class="rounded-xl bg-gradient-to-tr from-blue-200 to-white px-6 py-2 text-xl font-medium text-black ">
-            Calendario
+      <ac-shield class="mx-auto mb-2" persistent experience theme="gold" />
+      <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
+        <template #title>
+          <div class="leading-none ">
+            <span class="text-gold">Master Experience</span>
           </div>
-        </nuxt-link>
-      </div>
+        </template>
+      </ac-heading>
+    </div>
+    <!-- END HEADER -->
 
-      <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
-        <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
-          <div>
-            Il <span class="text-gold">Master Experience in Mediazione familiare</span> è un <u>corso di qualifica professionale</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
-          </div>
-          <div>
-            L’iscrizione richiede il superamento di un <u>colloquio motivazionale</u> con la direttrice scientifica.
-          </div>
-          <div>
-            La modalità di svolgimento è <u>blended</u>: online per il 70% e in presenza per il 30%.
-          </div>
-          <div>
-            L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
-          </div>
-          <div>
-            Sono previsti <u>due esami</u>: uno di primo livello e uno di secondo livello.
-          </div>
+    <div class="mb-20 flex w-full items-center justify-center gap-2">
+      <nuxt-link
+        to="/calendario"
+        title="Calendario"
+        class="rounded-2xl border border-white/20 bg-white/10 p-1 transition-transform duration-300 ease-out hover:-translate-y-1 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black active:bg-neutral-800 active:text-white md:mt-0"
+      >
+        <div class="rounded-xl bg-gradient-to-tr from-blue-200 to-white px-6 py-2 text-xl font-medium text-black ">
+          Calendario
+        </div>
+      </nuxt-link>
+    </div>
+
+    <!-- INTRO -->
+    <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
+      <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
+        <div>
+          Il <span class="text-gold">Master Experience in Mediazione familiare</span> è un <u>corso di qualifica professionale</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
+        </div>
+        <div>
+          L’iscrizione richiede il superamento di un <u>colloquio motivazionale</u> con la direttrice scientifica.
+        </div>
+        <div>
+          La modalità di svolgimento è <u>blended</u>: online per il 70% e in presenza per il 30%.
+        </div>
+        <div>
+          L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
+        </div>
+        <div>
+          Sono previsti <u>due esami</u>: uno di primo livello e uno di secondo livello.
         </div>
       </div>
+    </div>
+    <!-- END INTRO -->
 
-      <div class="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2">
-        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-tr  from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
-          <div class="absolute -right-2 -top-4 scale-50 lg:right-2 lg:top-2">
-            <ac-shield experience :persistent="hover==='box-1'" theme="gold" />
-          </div>
-          <div class="p-8 lg:pr-32 ">
-            <div class="mb-4 text-xl font-medium">
-              ATTESTATI
-            </div>
-            <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
-              <p class="mb-1 text-base font-light text-white/70 ">
-                Il corso rilascia i seguenti attestati, con QR Code e certificazione digitale:
-              </p>
-              <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
-                <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato elettronico</div>
-                <div>Attestato di professionista negoziatore dei conflitti in formato elettronico</div>
-                <div>Attestato di qualifica professionale in formato cartaceo</div>
-              </div>
-            </div>
-          </div>
-          <!-- CERTIFICATES -->
-          <div class="gradient-highlighs absolute bottom-0 left-0 h-3/4 w-full opacity-0 duration-500 group-hover:opacity-100" />
-          <div class="relative -bottom-20 mx-auto -mt-32 ml-6 min-h-60 rounded-xl px-8 text-sm text-neutral-800 transition-all duration-300 ease-cubic-bezier lg:ml-16 lg:group-hover:ml-8 ">
-            <div class="absolute flex gap-2">
-              <div class="relative transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-0">
-                <ac-certificate-card>
-                  <ac-shield capsule theme="gold" />
-                </ac-certificate-card>
-              </div>
-              <div class="relative top-2 -translate-x-32 transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-16 ">
-                <ac-certificate-card>
-                  <ac-shield theme="gold" />
-                </ac-certificate-card>
-              </div>
-            </div>
-          </div>
-          <!-- END CERTIFICATES -->
+    <div class="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-6 md:grid-cols-2 lg:px-0">
+      <!-- CARD 1 -->
+      <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-tr  from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
+        <div class="absolute -right-2 -top-4 scale-50 lg:right-2 lg:top-2">
+          <ac-shield experience :persistent="hover==='box-1'" theme="gold" />
         </div>
-
-        <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-gold/80  to-gold/30 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
-          <div class="p-8">
-            <div class="mb-4 text-xl font-medium">
-              RICONOSCIMENTO E ACCREDITAMENTI
-            </div>
-            <p class="mb-8 text-base font-light text-white/70 ">
-              Il corso è riconosciuto da <u>MediaCoor</u>, secondo gli standard previsti dalla norma UNI 11644 del 30/08/2016.
+        <div class="p-8 lg:pr-32 ">
+          <div class="mb-4 text-xl font-medium">
+            ATTESTATI
+          </div>
+          <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
+            <p class="mb-1 text-base font-light text-white/70 ">
+              Il corso rilascia i seguenti attestati, con QR Code e certificazione digitale:
             </p>
-          </div>
-
-          <div class="relative -bottom-16 -right-1/2 -mt-28 w-[90%] -translate-x-1/2 rounded-xl bg-white p-8 text-sm text-neutral-800 transition-transform duration-500 ease-cubic-bezier group-hover:-translate-x-4 group-hover:-translate-y-4 lg:-bottom-24 lg:-right-20 lg:translate-x-0">
-            <div class="mb-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="text-gold">Doloribus consequuntur nesciunt ea quia vel quod.</span>
+            <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
+              <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato elettronico</div>
+              <div>Attestato di professionista negoziatore dei conflitti in formato elettronico</div>
+              <div>Attestato di qualifica professionale in formato cartaceo</div>
             </div>
-            <img class="overflow-hidden rounded-xl" src="https://i.ytimg.com/vi_webp/EQUoimenMAg/maxresdefault.webp">
           </div>
+        </div>
+        <!-- CERTIFICATES -->
+        <div class="gradient-highlighs absolute bottom-0 left-0 h-3/4 w-full opacity-0 duration-500 group-hover:opacity-100" />
+        <div class="relative -bottom-20 mx-auto -mt-32 ml-6 min-h-60 rounded-xl px-8 text-sm text-neutral-800 transition-all duration-300 ease-cubic-bezier lg:ml-16 lg:group-hover:ml-8 ">
+          <div class="absolute flex gap-2">
+            <div class="relative transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-0">
+              <ac-certificate-card>
+                <ac-shield capsule theme="gold" />
+              </ac-certificate-card>
+            </div>
+            <div class="relative top-2 -translate-x-32 transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-16 ">
+              <ac-certificate-card>
+                <ac-shield theme="gold" />
+              </ac-certificate-card>
+            </div>
+          </div>
+        </div>
+        <!-- END CERTIFICATES -->
+      </div>
+      <!-- CARD 2 -->
+      <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-br from-gold/80  to-gold/30 text-white " @mouseover="hover='box-2'" @mouseleave="hover=null">
+        <div class="p-8">
+          <div class="mb-4 text-xl font-medium">
+            RICONOSCIMENTO E ACCREDITAMENTI
+          </div>
+          <p class="mb-8 text-base font-light text-white/70 ">
+            Il corso è riconosciuto da <u>MediaCoor</u>, secondo gli standard previsti dalla norma UNI 11644 del 30/08/2016.
+          </p>
+        </div>
+
+        <div class="relative -bottom-16 -right-1/2 -mt-28 w-[90%] -translate-x-1/2 rounded-xl bg-white p-8 text-sm text-neutral-800 transition-transform duration-500 ease-cubic-bezier group-hover:-translate-x-4 group-hover:-translate-y-4 lg:-bottom-24 lg:-right-20 lg:translate-x-0">
+          <div class="mb-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="text-gold">Doloribus consequuntur nesciunt ea quia vel quod.</span>
+          </div>
+          <img class="overflow-hidden rounded-xl" src="https://i.ytimg.com/vi_webp/EQUoimenMAg/maxresdefault.webp">
         </div>
       </div>
     </div>
 
     <ac-separator class="my-28 " />
 
+    <!-- FILOSOFIA -->
     <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
       <template #title>
         <div class="leading-none ">
@@ -133,9 +139,11 @@
         </ac-feature-card>
       </div>
     </div>
+    <!-- END FILOSOFIA -->
 
     <ac-separator class="mb-20" />
 
+    <!-- PROGRAMMA -->
     <ac-heading description="Dalla struttura ai moduli, abbiamo progettato ogni dettaglio con la cura necessaria per garantirti un’esperienza di altissima qualità.">
       <template #title>
         <div class="leading-none ">
@@ -171,9 +179,11 @@
         </div>
       </template>
     </ac-sticky-resources>
+    <!-- // PROGRAMMA -->
 
     <ac-separator class="my-20" />
 
+    <!-- AGENDA -->
     <ac-heading description="Scopri le tappe del viaggio che ti condurranno alla tua destinazione finale: la qualifica professionale di mediatore familiare.">
       <template #title>
         <div class="leading-none ">
@@ -219,6 +229,8 @@
     </ac-sticky-resources>
     <!--
       // END Dates -->
+
+    <!-- END AGENDA -->
 
     <ac-separator class="mb-20" />
     <!--

@@ -1,6 +1,7 @@
 <template>
-  <div data-name="page-alta-formazione" class="mt-20">
-    <div class="mx-auto mt-10 px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+  <div data-name="page-alta-formazione" class="mt-24">
+    <!-- HEADER -->
+    <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <ac-shield class="mx-auto mb-2" persistent theme="silver" />
       <ac-heading description="Immergerti totalmente nell’alta formazione ha un solo e unico obiettivo: farti emergere nella professione.">
         <template #title>
@@ -10,7 +11,9 @@
         </template>
       </ac-heading>
     </div>
+    <!-- END HEADER -->
 
+    <!-- INTRO -->
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
@@ -27,9 +30,10 @@
         </div>
       </div>
     </div>
+    <!-- END INTRO -->
 
     <!-- ATTESTATI -->
-    <div class="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2">
+    <div class="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-6 md:grid-cols-2 lg:px-0">
       <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-tr  from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
         <div class="absolute -right-2 -top-4 scale-50 lg:right-2 lg:top-2">
           <ac-shield :persistent="hover==='box-1'" theme="silver" />
@@ -137,15 +141,9 @@
         </div>
       </template>
     </ac-heading>
-    <div class="relative overflow-auto rounded-xl px-8 ">
-      <div class="hide-h-scrollbar relative flex w-full snap-x snap-mandatory items-center gap-6 overflow-x-auto">
-        <div v-for="(testimonial, index) in testimonials" :key="index" class="relative w-1/2 shrink-0 snap-center">
-          <ac-testimonial :author="testimonial.author">
-            {{ testimonial.text }}
-          </ac-testimonial>
-        </div>
-      </div>
-    </div>
+
+    <ac-testimonals :resources="testimonials" />
+
     <!-- END TESTIMONIAL -->
 
     <ac-separator class="my-28 " />
@@ -164,89 +162,6 @@
 
     <!--
       // END PRICING -->
-
-    <!--
-    <div class="mx-auto max-w-6xl  px-4">
-      <div class="mb-2 text-lg font-semibold  text-blue-200">
-        A chi è destinato
-      </div>
-      <br>
-      <div class="text-white">
-        I destinatari sono avvocati, praticanti abilitati, psichiatri, psicologi, assistenti sociali, mediatori familiari, counselor, pedagogisti, educatori professionali, criminologi, sociologi e laureati in area umanistica, sanitaria e/o sociale.
-      </div>
-      <br>
-
-      <br>
-      <div class="mb-2 text-lg font-semibold  text-blue-200">
-        I docenti
-      </div>
-      <br>
-      <div class="text-white">
-        Arturo Maniaci, avvocato civilista, professore associato di Istituzioni di diritto privato presso l’Università Statale di Milano.
-      </div>
-      <br>
-      <div class="text-white">
-        Romolo Donzelli, avvocato civilista e cassazionista, professore ordinario di Diritto processuale civile presso l’Università di Macerata, docente presso la Scuola di specializzazione per le professioni legali delle Università di Camerino e Macerata.
-      </div>
-      <br>
-      <div class="text-white">
-        Manuela Pagliaroli, avvocata civilista, mediatrice familiare, scolastica, interculturale, civile e commerciale, coordinatrice genitoriale, formatrice e supervisora in mediazione familiare e coordinazione genitoriale, cofondatrice e direttrice scientifica di AIGES Academy, socia fondatrice e coordinatrice del Comitato scientifico di MediaCoor.
-      </div>
-      <br>
-
-      <br>
-      <div class="mb-2 text-lg font-semibold  text-blue-200">
-        L’iscrizione
-      </div>
-      <br>
-      <div class="text-white">
-        L’iscrizione può essere perfezionata alle seguenti condizioni, compilando l’apposito modulo, reperibile al link https://rebrand.ly/5b6018:
-        <br>
-        <br>
-        ● iscrizione ridotta: € 585,00, mediante pagamento in un’unica soluzione;
-        <br>
-        ● iscrizione standard: € 650,00, mediante pagamento in un’unica soluzione o con dilazione da tre a cinque rate mensili senza interessi.
-        <br>
-        <br>
-        La riduzione è riservata agli ex allievi di AIGES Academy e ai soci di MediaCoor.
-        <br>
-        <br>
-        All’iscrizione perfezionata mediante pagamento in un’unica soluzione sono applicabili i seguenti sconti condizionati:
-        <br>
-        <br>
-        ● 5% per i soci di AIAF Campania;
-        <br>
-        ● 3% per gli iscritti agli ordini professionali.
-        <br>
-        <br>
-        Gli sconti condizionati non sono cumulabili.
-        <br>
-        <br>
-        L'iscrizione comprende i seguenti benefit:
-        <br>
-        <br>
-        ● tre incontri gratuiti di supervisione individuale sul primo caso di coordinazione genitoriale;
-        <br>
-        ● un anno di iscrizione a MediaCoor alla metà del costo.
-        <br>
-        <br>
-        Il termine ultimo per perfezionare l'iscrizione è il 10 maggio 2024, salvo in caso di esaurimento dei posti.
-      </div>
-      <br>
-
-      <br>
-      <div class="mb-2 text-lg font-semibold  text-blue-200">
-        Riconoscimento e accreditamento
-      </div>
-      <br>
-      <div class="text-white">
-        Il riconoscimento è stato concesso da MediaCoor, secondo gli standard previsti dalle linee guida per la coordinazione genitoriale AFCC 2017-2019.
-        <br>
-        <br>
-        L’accreditamento è stato richiesto al CNF per gli avvocati e i praticanti abilitati e a MediaCoor per i mediatori familiari.
-      </div>
-
-    </div> -->
 
     <ac-separator class="mb-10 mt-20" />
 
