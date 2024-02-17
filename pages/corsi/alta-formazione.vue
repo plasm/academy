@@ -91,7 +91,45 @@
     </div>
     <!-- END ATTESTATI -->
 
-    <ac-separator class="my-28 " />
+    <ac-separator class="mt-28 mb-12" />
+
+    <!-- FILOSOFIA -->
+    <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
+      <template #title>
+        <div class="leading-none ">
+          <span class="text-blue-200">Filosofia</span>
+        </div>
+      </template>
+    </ac-heading>
+
+    <div class="gradient pb-20">
+      <div class="lg-p-0 mx-auto grid max-w-6xl grid-cols-1 gap-4 p-4 lg:grid-cols-3">
+        <ac-feature-card
+          overtitle="SAPERE"
+          title="LA CONOSCENZA TEORICA"
+          theme="silver"
+        >
+          Gli allievi possono accedere a contenuti curricolari completi e aggiornati, che coprono tutti gli argomenti pertinenti alle discipline.
+        </ac-feature-card>
+        <ac-feature-card
+          overtitle="SAPER FARE"
+          title="L’APPLICAZIONE PRATICA"
+          theme="silver"
+        >
+          Gli allievi possono verificare la loro capacità di intervento durante gli stage intensivi, mettendo in pratica ciò che hanno appreso in teoria.
+        </ac-feature-card>
+        <ac-feature-card
+          overtitle="SAPER ESSERE"
+          title="LO SVILUPPO PERSONALE"
+          theme="silver"
+        >
+          Gli allievi possono sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
+        </ac-feature-card>
+      </div>
+    </div>
+    <!-- END FILOSOFIA -->
+
+    <ac-separator class="mt-18 mb-12" />
 
     <!-- PROGRAMMA -->
     <ac-heading description="Dalla struttura ai moduli, abbiamo progettato ogni dettaglio con la cura necessaria per garantirti un’esperienza di altissima qualità.">
