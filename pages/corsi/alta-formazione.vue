@@ -91,10 +91,10 @@
     </div>
     <!-- END ATTESTATI -->
 
-    <ac-separator class="mt-28 mb-12" />
+    <ac-separator class="mt-28, mb-12" />
 
     <!-- FILOSOFIA -->
-    <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
+    <ac-heading description="Imparare a fondo, metterci poco, lavorare subito: tre semplici azioni che trasformano l’apprendimento in un vero e proprio trampolino di lancio.">
       <template #title>
         <div class="leading-none ">
           <span class="text-blue-200">Filosofia</span>
@@ -105,25 +105,25 @@
     <div class="gradient pb-20">
       <div class="lg-p-0 mx-auto grid max-w-6xl grid-cols-1 gap-4 p-4 lg:grid-cols-3">
         <ac-feature-card
-          overtitle="SAPERE"
-          title="LA CONOSCENZA TEORICA"
+          overtitle="IMPARARE A FONDO"
+          title="LA FULL IMMERSION"
           theme="silver"
         >
-          Gli allievi possono accedere a contenuti curricolari completi e aggiornati, che coprono tutti gli argomenti pertinenti alle discipline.
+          Gli allievi possono immergersi totalmente nella didattica, sicuri di emergere con una padronanza assoluta di quanto appreso.
         </ac-feature-card>
         <ac-feature-card
-          overtitle="SAPER FARE"
-          title="L’APPLICAZIONE PRATICA"
+          overtitle="METTERCI POCO"
+          title="IL PROGRAMMA BREVE"
           theme="silver"
         >
-          Gli allievi possono verificare la loro capacità di intervento durante gli stage intensivi, mettendo in pratica ciò che hanno appreso in teoria.
+          Gli allievi possono ottenere il massimo risultato con il minimo sforzo attraverso un processo di apprendimento focalizzato ed efficiente.
         </ac-feature-card>
         <ac-feature-card
-          overtitle="SAPER ESSERE"
-          title="LO SVILUPPO PERSONALE"
+          overtitle="LAVORARE SUBITO"
+          title="L’APPROCCIO OPERATIVO"
           theme="silver"
         >
-          Gli allievi possono sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
+          Gli allievi possono immediatamente convertire il know-how in lavoro, sfruttando tutti gli strumenti teorico-pratici a loro disposizione.
         </ac-feature-card>
       </div>
     </div>
