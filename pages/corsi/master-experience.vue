@@ -109,7 +109,7 @@
     <ac-separator class="my-28 " />
 
     <!-- FILOSOFIA -->
-    <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che trasformano la formazione in una vera e propria esperienza.">
+    <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che regalano una vera e propria esperienza trasformativa.">
       <template #title>
         <div class="leading-none ">
           <span class="text-gold">Filosofia</span>
@@ -135,7 +135,7 @@
           overtitle="SAPER ESSERE"
           title="LO SVILUPPO PERSONALE"
         >
-          Gli allievi possono sviluppare competenze personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
+          Gli allievi possono sviluppare le skill personali, relazionali e sociali utili ad aumentare il loro livello di consapevolezza e responsabilità.
         </ac-feature-card>
       </div>
     </div>

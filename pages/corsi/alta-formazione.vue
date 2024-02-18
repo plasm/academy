@@ -94,7 +94,7 @@
     <ac-separator class="mt-28, mb-12" />
 
     <!-- FILOSOFIA -->
-    <ac-heading description="Imparare a fondo, metterci poco, lavorare subito: tre semplici azioni che trasformano l’apprendimento in un vero e proprio trampolino di lancio.">
+    <ac-heading description="Imparare a fondo, metterci poco, lavorare subito: tre semplici azioni che fungono da potente acceleratore per la professione.">
       <template #title>
         <div class="leading-none ">
           <span class="text-blue-200">Filosofia</span>
@@ -109,7 +109,7 @@
           title="LA FULL IMMERSION"
           theme="silver"
         >
-          Gli allievi possono immergersi totalmente nella didattica, sicuri di emergere con una padronanza assoluta di quanto appreso.
+          Gli allievi possono immergersi totalmente nella didattica, sicuri di emergere con una padronanza assoluta del metodo.
         </ac-feature-card>
         <ac-feature-card
           overtitle="METTERCI POCO"
@@ -244,7 +244,7 @@ export default {
         },
         {
           author: 'Mara Mazzara',
-          text: 'Molto ben organizzato e diretto, con una buona combinazione tra teoria e pratica. Il post-vendita è particolarmente utile, garantendo un prezioso affiancamento in supervisione gratuita nella fase iniziale dell’incarico (preparazione all’incontro informativo, verifica dell’incontro informativo e preparazione al primo incontro, verifica del primo incontro e preparazione allo svolgimento del processo). Il tutto, potendo usufruire di strumenti di lavoro condivisi, valido e insostituibile aiuto per chi si cimenta per la prima volta in questo ruolo.'
+          text: 'Molto ben organizzato e diretto, con una buona combinazione tra teoria e pratica. Particolarmente utili i tre incontri gratuiti di supervisione individuale sul primo caso di coordinazione genitoriale. Il tutto, potendo usufruire di strumenti di lavoro condivisi, valido e insostituibile aiuto per i neofiti della professione.'
         }
       ]
     }

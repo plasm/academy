@@ -7,9 +7,15 @@
       </h1>
       <div class="mt-8 max-w-lg">
         <div class="flex flex-col gap-4 text-sm text-neutral-400 ">
-          <div>L'iscrizione può essere opzionata mediante il pagamento di <span class="text-gold">€ 200,00</span>. </div>
-          <div>L'opzione dà all'allievo il diritto di seguire le prime due lezioni in calendario, senza alcun obbligo di proseguimento. Se l'allievo decide di proseguire, l'opzione viene considerata come acconto sull'importo totale e viene richiesto il saldo dell'importo residuo, con pagamento alle condizioni precedentemente indicate.</div>
-          <div>Se l'allievo decide di non proseguire, l'opzione non viene rimborsata, salvo in caso di annullamento dell'evento da parte di AIGES Academy.</div>
+          <div>
+            L’iscrizione può essere opzionata mediante il pagamento di <span class="text-gold">€ 200,00</span>.
+          </div>
+          <div>
+            L’opzione dà all’allievo il diritto di seguire le prime due lezioni del corso, senza alcun obbligo di proseguimento.</div>
+          <div>
+            Se l’allievo decide di proseguire, l’opzione viene considerata come acconto sull’importo totale e viene richiesto il saldo dell’importo residuo.
+          </div>
+          <div>Se l’allievo decide di non proseguire, l’opzione non viene rimborsata, salvo in caso di annullamento del corso da parte di AIGES Academy.</div>
         </div>
       </div>
     </div>
@@ -31,8 +37,8 @@
       </ac-pricing-card>
       <ac-pricing-card
         title="ISCRIZIONE STANDARD"
-        subtitle="Pagamento in un'unica soluzione o con dilazione da tre a dieci rate mensili senza interessi"
-        price="3.150,00"
+        subtitle="Pagamento in un’unica soluzione o con dilazione da tre a dieci rate mensili senza interessi"
+        price="3.500,00"
         link="https://rebrand.ly/dff6g2m"
         highlight
       >
