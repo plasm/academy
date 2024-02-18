@@ -91,7 +91,7 @@
     </div>
     <!-- END ATTESTATI -->
 
-    <ac-separator class="mt-28, mb-12" />
+    <ac-separator class="mb-12 mt-28" />
 
     <!-- FILOSOFIA -->
     <ac-heading description="Imparare a fondo, metterci poco, lavorare subito: tre semplici azioni che fungono da potente acceleratore per la professione.">

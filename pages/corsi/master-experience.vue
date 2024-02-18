@@ -106,7 +106,7 @@
       </div>
     </div>
 
-    <ac-separator class="my-28 " />
+    <ac-separator class="mt-28 mb-12" />
 
     <!-- FILOSOFIA -->
     <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che regalano una vera e propria esperienza trasformativa.">
