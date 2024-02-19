@@ -1,9 +1,11 @@
 <template>
   <div data-name="ac-pricing-card">
     <section
-      class="mb-10 flex flex-col px-6 py-8 sm:px-8 lg:mb-0"
+      class="mb-10 flex flex-col px-6 py-8 transition-colors duration-300 sm:px-8 lg:mb-0"
       :class="{
-        'rounded-3xl border border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900':highlight
+        'rounded-3xl border border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900':highlight,
+        'hover:border-blue-200/50':theme==='silver',
+        'hover:border-gold/50':theme==='gold',
       }"
     >
       <h3 class="mt-5 text-lg uppercase" :class="[`price-text-${theme}`]">

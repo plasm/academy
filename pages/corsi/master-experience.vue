@@ -106,7 +106,7 @@
       </div>
     </div>
 
-    <ac-separator class="mt-28 mb-12" />
+    <ac-separator class="mb-12 mt-28" />
 
     <!-- FILOSOFIA -->
     <ac-heading description="Sapere, saper fare, saper essere: tre semplici azioni che regalano una vera e propria esperienza trasformativa.">
@@ -346,6 +346,17 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+// .gradient-grid{
+//   opacity: .2;
+//   width: 100%;
+//     height: 100%;
+//     background-color: transparent;
+//     background-image: linear-gradient(rgb(255, 255, 255) 2px, transparent 2px), linear-gradient(90deg, rgb(255, 255, 255) 2px, transparent 2px), linear-gradient(rgb(255, 255, 255) 1px, transparent 1px), linear-gradient(90deg, rgb(255, 255, 255) 1px, rgba(33, 222, 222, 0) 1px);
+//     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+//     background-size: 300px 300px, 300px 300px, 60px 60px, 60px 60px;
+//     border-radius: 0px;
+// }
+
 .gradient-top{
   background: radial-gradient(50% 50% at 50% 0%, rgb(63, 52, 30) 0%, #17171700 100%);
 }
