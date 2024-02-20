@@ -58,10 +58,10 @@
             ATTESTATI
           </div>
           <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
-            <p class="mb-1 text-base font-light text-white/70 ">
+            <p class="mb-1 text-base font-light text-white/80  transition-colors duration-300 group-hover:text-white">
               Il corso rilascia i seguenti attestati, con QR Code e certificazione digitale:
             </p>
-            <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
+            <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-400 transition-colors duration-300 group-hover:text-white">
               <div>Attestato di idoneità alla pratica guidata e alla supervisione didattica e professionale in formato elettronico</div>
               <div>Attestato di professionista negoziatore dei conflitti in formato elettronico</div>
               <div>Attestato di qualifica professionale in formato cartaceo</div>
@@ -74,7 +74,7 @@
           <div class="absolute flex gap-2">
             <div class="relative transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-0">
               <ac-certificate-card>
-                <ac-shield capsule theme="gold" />
+                <ac-shield capsule :persistent="hover==='box-1'" theme="gold" />
               </ac-certificate-card>
             </div>
             <div class="relative top-2 -translate-x-32 transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-16 ">
@@ -364,6 +364,6 @@ export default {
   background: radial-gradient(50.9% 35.5% at 50% 78%, rgba(200, 200, 255, .16) 0%, #17171700 100%);
 }
 .gradient-highlighs{
-  background: radial-gradient(80% 100% at 0% 100%, rgba(#AE9460, .5) 0%, #17171700 100%),  radial-gradient(80% 100% at 90% 150%, rgba(#AE9460, 1) 0%, #17171700 100%);
+  background: radial-gradient(90% 100% at 0% 100%, rgba(#AE9460, 1) 0%, #17171700 100%),  radial-gradient(80% 100% at 90% 150%, rgba(#AE9460, 1) 0%, #17171700 100%);
 }
 </style>

@@ -42,11 +42,11 @@
           <div class="mb-4 text-xl font-medium">
             ATTESTATO
           </div>
-          <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70">
+          <div class="mb-8 flex flex-col gap-4 text-base font-light text-white/70 transition-colors duration-300 group-hover:text-white">
             <p class="mb-1 text-base font-light text-white/70 ">
               Il corso rilascia il seguente attestato, con QR Code e certificazione digitale:
             </p>
-            <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-500">
+            <div class="mb-4 flex flex-col gap-2 text-sm text-neutral-400 transition-colors duration-300 group-hover:text-white">
               <div>Attestato di partecipazione in formato elettronico</div>
             </div>
           </div>
@@ -58,7 +58,7 @@
           <div class="absolute flex gap-2">
             <div class="relative transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-0">
               <ac-certificate-card>
-                <ac-shield capsule theme="silver" />
+                <ac-shield capsule :persistent="hover==='box-1'" theme="silver" />
               </ac-certificate-card>
             </div>
             <div class="relative top-2 -translate-x-32 transition-all duration-300 ease-cubic-bezier lg:group-hover:-translate-x-16 ">
