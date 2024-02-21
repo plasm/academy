@@ -3,8 +3,8 @@
     <!-- HEADER -->
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="silver-shadow mx-auto w-min rounded-full">
-      <ac-shield class="mx-auto mb-2" persistent theme="silver" />
-    </div>
+        <ac-shield class="mx-auto mb-2" persistent theme="silver" />
+      </div>
       <ac-heading description="Immergerti totalmente nell’alta formazione ha un solo e unico obiettivo: farti emergere nella professione.">
         <template #title>
           <div class="leading-none ">

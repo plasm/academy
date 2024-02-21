@@ -5,6 +5,7 @@
     :class="{
       'p-1 ':!hover,
       'scale-125 p-1':hover,
+      'bg-white/80': theme === 'update'
     }"
     @mouseover="hover = true"
     @mouseleave="hover = persistent"
@@ -21,7 +22,13 @@
             'scale-[80%]': hover
           }"
         >
-          <ac-logo size="large" :class="{ 'z-10 text-black': capsule }" />
+          <ac-logo
+            size="large"
+            :class="{
+              'z-10 text-black': capsule,
+              'z-10 text-white/80 drop-shadow-md ': theme === 'update'
+            }"
+          />
           <div class="absolute  size-full animate-spin-slow">
             <div
               :class="{
@@ -32,7 +39,10 @@
             >
               <component
                 :is="component"
-                :class="{ 'z-10 text-black': capsule }"
+                :class="{
+                  'z-10 text-black': capsule,
+                  'text-white': theme === 'update'
+                }"
                 class="absolute left-0 top-0 size-[48px] translate-x-1/2 translate-y-1/2 "
               />
             </div>
@@ -63,7 +73,7 @@ export default {
       type: String,
       default: 'academy',
       validator: (v) => {
-        return ['academy', 'gold', 'silver'].includes(v)
+        return ['academy', 'gold', 'silver', 'update'].includes(v)
       }
     }
   },
@@ -108,5 +118,9 @@ export default {
 .gradient-academy{
   // @apply bg-primary;
   background: conic-gradient(from 0deg at 50% 50%, #e3fa99 0deg, #fbfe25 90.8108deg, #F2FE71 115.217deg, #e3fa99 178.144deg, #F2FE71 217.297deg, #e3fa99 269.861deg, #d1ff2b 308.425deg, #e3fa99 360deg);
+}
+.gradient-update{
+  // @apply bg-primary;
+  background: conic-gradient(from 0deg at 50% 50%, #b999fa 0deg, #3e25fe 90.8108deg, #7371fe 115.217deg, #a499fa 178.144deg, #b371fe 217.297deg, #d199fa 269.861deg, #8a2bff 308.425deg, #c999fa 360deg);
 }
 </style>
