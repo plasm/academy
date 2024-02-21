@@ -17,13 +17,13 @@
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
-          Il <span class="text-violet-200">Corso di alta formazione in Coordinazione genitoriale</span> è un <u>corso di specializzazione</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.
+          Il <span class="text-violet-200">Corso di alta formazione in Coordinazione genitoriale</span> di AIGES Academy è un <u>corso di specializzazione</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello avanzato.
         </div>
         <div>
-          La modalità di svolgimento è <u>online</u> al 100%.
+          La modalità di svolgimento è <u>online</u>.
         </div>
         <div>
-          L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
+          L’accesso è consentito a un <u>massimo di 30 allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
         </div>
         <div>
           Non sono previsti esami.

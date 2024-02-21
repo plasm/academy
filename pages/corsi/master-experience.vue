@@ -29,7 +29,7 @@
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
-          Il <span class="text-gold">Master Experience in Mediazione familiare</span> è un <u>corso di qualifica professionale</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
+          Il <span class="text-gold">Master Experience in Mediazione familiare</span> di AIGES Academy è un <u>corso di qualifica professionale</u>, progettato per professionisti e laureati interessati ad acquisire conoscenze, abilità e competenze di livello accademico.
         </div>
         <div>
           L’iscrizione richiede il superamento di un <u>colloquio motivazionale</u> con la direttrice scientifica.
@@ -38,7 +38,7 @@
           La modalità di svolgimento è <u>blended</u>: online per il 70% e in presenza per il 30%.
         </div>
         <div>
-          L’accesso è riservato a un <u>massimo di trenta allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
+          L’accesso è consentito a un <u>massimo di 30 allievi</u>, al fine di garantire un’attenzione personalizzata e favorire un ambiente di apprendimento interattivo.
         </div>
         <div>
           Sono previsti <u>due esami</u>: uno di primo livello e uno di secondo livello.
