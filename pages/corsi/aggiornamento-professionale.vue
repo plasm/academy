@@ -29,6 +29,14 @@
         </div>
       </div>
     </div>
+
+    <ac-separator class="mb-28" />
+    
+    <div class="mx-auto max-w-7xl px-6 py-10 md:p-20 md:pt-0">
+      <ac-faq :resources="faqs" title="Lorem ipsum, dolor sit amet">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam id vel labore corrupti dignissimos dicta, voluptate assumenda delectus. Quas eos voluptate nesciunt asperiores, quod a porro iusto dolores quasi hic.
+      </ac-faq>
+    </div>
   </div>
 </template>
 
@@ -46,7 +54,28 @@
 
 <script>
 export default {
-  name: 'page-aggiornamento-professionale'
+  name: 'page-aggiornamento-professionale',
+  data () {
+    return {
+      faqs: [
+        {
+          active: true,
+          question: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+          answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam id vel labore corrupti dignissimos dicta, voluptate assumenda delectus. Quas eos voluptate nesciunt asperiores, quod a porro iusto dolores quasi hic.'
+        },
+        {
+          active: false,
+          question: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+          answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam id vel labore corrupti dignissimos dicta, voluptate assumenda delectus. Quas eos voluptate nesciunt asperiores, quod a porro iusto dolores quasi hic.'
+        },
+        {
+          active: false,
+          question: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+          answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam id vel labore corrupti dignissimos dicta, voluptate assumenda delectus. Quas eos voluptate nesciunt asperiores, quod a porro iusto dolores quasi hic.'
+        }
+      ]
+    }
+  }
 }
 </script>
 
