@@ -29,6 +29,18 @@
   </div>
 </template>
 
+    <!--
+    <div>
+      Punto di forza
+    </div>
+    <div>
+      Scopri un rapporto qualità-prezzo senza eguali e fanne il tuo mantra: massima-resa-minima-spesa-massima-resa-minima-spesa...
+    </div>
+    <div>
+      In un settore in cui aggiornarsi professionalmente può spesso risultare oneroso e fuori dalla portata di molti, noi abbiamo scelto di andare controcorrente, mettendo a sistema un format di insegnamento smart, capace di garantire a tutti l’opportunità di perfezionarsi con relatori di altissimo livello a un costo incredibilmente basso. L’obiettivo è semplice: rendere i corsi di formazione continua estremamente accessibili. E non si tratta di mercanteggiamento, ma di sostenibilità.
+    </div>
+    </div> -->
+
 <script>
 export default {
   name: 'page-aggiornamento-professionale'
