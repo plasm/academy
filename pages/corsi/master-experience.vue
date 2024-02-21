@@ -2,7 +2,9 @@
   <div data-name="page-master-experience" class="mt-24">
     <!-- HEADER -->
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
-      <ac-shield class="mx-auto mb-2" persistent experience theme="gold" />
+      <div class="gold-shadow mx-auto w-min rounded-full">
+        <ac-shield class="mx-auto mb-2" persistent experience theme="gold" />
+      </div>
       <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
         <template #title>
           <div class="leading-none ">
@@ -365,5 +367,8 @@ export default {
 }
 .gradient-highlighs{
   background: radial-gradient(90% 100% at 0% 100%, rgba(#AE9460, 1) 0%, #17171700 100%),  radial-gradient(80% 100% at 90% 150%, rgba(#AE9460, 1) 0%, #17171700 100%);
+}
+.gold-shadow{
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.4), 0px 20px 48px 0px rgba(#AE9460, 0.4);
 }
 </style>

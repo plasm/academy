@@ -22,7 +22,7 @@
           }"
         >
           <ac-logo size="large" :class="{ 'z-10 text-black': capsule }" />
-          <div class="absolute  size-full  animate-spin-slow">
+          <div class="absolute  size-full animate-spin-slow">
             <div
               :class="{
                 'scale-100 opacity-0':!hover,

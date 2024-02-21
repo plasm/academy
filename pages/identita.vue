@@ -22,8 +22,8 @@
         <div class="mb-4 text-4xl font-semibold uppercase text-white">
           {{ resource.title }}
         </div>
-        <div class="flex flex-col items-start justify-start gap-2">
-          <div class="flex flex-col gap-4  text-xl font-light text-neutral-500" v-html="resource.content" />
+        <div class="flex flex-col items-start justify-start gap-2 group">
+          <div class="flex flex-col gap-4  text-xl font-light text-neutral-500 group-hover:text-neutral-200 transition-colors duration-500" v-html="resource.content" />
         </div>
       </template>
     </ac-sticky-resources>

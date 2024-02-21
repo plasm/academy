@@ -2,7 +2,9 @@
   <div data-name="page-alta-formazione" class="mt-24">
     <!-- HEADER -->
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
+      <div class="silver-shadow mx-auto w-min rounded-full">
       <ac-shield class="mx-auto mb-2" persistent theme="silver" />
+    </div>
       <ac-heading description="Immergerti totalmente nell’alta formazione ha un solo e unico obiettivo: farti emergere nella professione.">
         <template #title>
           <div class="leading-none ">
@@ -255,5 +257,8 @@ export default {
 <style lang="scss" scoped>
 .gradient-highlighs{
   background: radial-gradient(80% 100% at 0% 100%, rgba(#9fc7ff, .7) 0%, #17171700 100%),  radial-gradient(80% 100% at 90% 150%, rgba(#b4a5ff, 1) 0%, #17171700 100%);
+}
+.silver-shadow{
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.4), 0px 20px 48px 0px rgba(#b4a5ff, 0.4);
 }
 </style>
