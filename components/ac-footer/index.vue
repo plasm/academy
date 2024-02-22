@@ -15,8 +15,8 @@
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div />
             <div>
-              <h3 class="font-semibold uppercase leading-6 text-white">
-                ACADEMY
+              <h3 class="font-semibold leading-6 text-white">
+                AIGES Academy
               </h3>
               <ul role="list" class="mt-4 space-y-2">
                 <li v-for="(item, index) in footer.academy" :key="index">
@@ -32,13 +32,14 @@
             </div>
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 class="font-semibold uppercase leading-6 text-white">
-                Note legali
+            <div class="mt-12 md:mt-0">
+              <h3 class="font-semibold leading-6 text-white">
+                Social
               </h3>
               <ul role="list" class="mt-4 space-y-2">
-                <li v-for="(item, index) in footer.legal" :key="index">
+                <li v-for="(item, index) in footer.social" :key="index">
                   <nuxt-link
+                    target="_blank"
                     class="navigation-link"
                     :to="item.route"
                     :title="item.title"
@@ -48,14 +49,13 @@
                 </li>
               </ul>
             </div>
-            <div class="mt-12 md:mt-0">
-              <h3 class="font-semibold uppercase leading-6 text-white">
-                Social
+            <div>
+              <h3 class="font-semibold leading-6 text-white">
+                Note legali
               </h3>
               <ul role="list" class="mt-4 space-y-2">
-                <li v-for="(item, index) in footer.social" :key="index">
+                <li v-for="(item, index) in footer.legal" :key="index">
                   <nuxt-link
-                    target="_blank"
                     class="navigation-link"
                     :to="item.route"
                     :title="item.title"
