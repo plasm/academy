@@ -41,7 +41,7 @@ export default {
   props: {
     theme: {
       type: String,
-      default: 'default'
+      default: 'gold'
     },
     overtitle: {
       type: String,
@@ -50,10 +50,6 @@ export default {
     title: {
       type: String,
       default: ''
-    },
-    theme: {
-      type: String,
-      default: 'gold'
     }
   },
   emits: ['over', 'leave']

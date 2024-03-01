@@ -6,10 +6,10 @@
           <div class="text-center lg:text-left">
             <div>
               <p class="text-4xl font-semibold leading-tight text-neutral-100">
-                {{title}}
+                {{ title }}
               </p>
               <p class="mt-4 text-base text-neutral-500">
-                <slot></slot>
+                <slot />
               </p>
             </div>
           </div>

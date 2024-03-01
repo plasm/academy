@@ -11,7 +11,8 @@
             L’iscrizione può essere opzionata mediante il pagamento di <span class="text-gold">€ 200,00</span>.
           </div>
           <div>
-            L’opzione dà all’allievo il diritto di seguire le prime due lezioni del corso, senza alcun obbligo di proseguimento.</div>
+            L’opzione dà all’allievo il diritto di seguire le prime due lezioni del corso, senza alcun obbligo di proseguimento.
+          </div>
           <div>
             Se l’allievo decide di proseguire, l’opzione viene considerata come acconto sull’importo totale e viene richiesto il saldo dell’importo residuo.
           </div>
