@@ -30,6 +30,34 @@
       </div>
     </div>
 
+    <ac-separator class="mt-18 mb-12" />
+
+    <!-- PUNTO DI FORZA -->
+    <ac-heading description="Dalla struttura ai moduli, abbiamo progettato ogni dettaglio con la cura necessaria per garantirti un’esperienza di altissima qualità.">
+      <template #title>
+        <div class="leading-none ">
+          <span class="text-violet-400">Punto di forza</span>
+        </div>
+      </template>
+    </ac-heading>
+
+    <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
+      <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
+        <div>
+          Scopri un rapporto <span class="font-semibold text-violet-200 lg:text-4xl">qualità-prezzo</span> senza eguali e fanne il tuo mantra: massima-resa-minima-spesa-massima-resa-minima-spesa...
+        </div>
+        <div>
+          In un settore in cui aggiornarsi professionalmente può spesso risultare oneroso e fuori dalla portata di molti, noi abbiamo scelto di andare controcorrente, mettendo a sistema un format di insegnamento smart, capace di garantire a tutti l’opportunità di perfezionarsi con relatori di altissimo livello a un costo incredibilmente basso.
+        </div>
+        <div>
+          L’obiettivo è semplice: <u>rendere i corsi di formazione continua estremamente accessibili.</u>
+        </div>
+        <div>
+          E non si tratta di mercanteggiamento, ma di sostenibilità.
+        </div>
+      </div>
+    </div>
+
     <ac-separator class="mb-28" />
 
     <div class="mx-auto max-w-7xl px-6 py-10 md:p-20 md:pt-0">
@@ -39,19 +67,6 @@
     </div>
   </div>
 </template>
-
-    <!--
-    <div>
-      Punto di forza
-    </div>
-    <div>
-      Scopri un rapporto qualità-prezzo senza eguali e fanne il tuo mantra: massima-resa-minima-spesa-massima-resa-minima-spesa...
-    </div>
-    <div>
-      In un settore in cui aggiornarsi professionalmente può spesso risultare oneroso e fuori dalla portata di molti, noi abbiamo scelto di andare controcorrente, mettendo a sistema un format di insegnamento smart, capace di garantire a tutti l’opportunità di perfezionarsi con relatori di altissimo livello a un costo incredibilmente basso. L’obiettivo è semplice: rendere i corsi di formazione continua estremamente accessibili. E non si tratta di mercanteggiamento, ma di sostenibilità.
-    </div>
-    </div> -->
-
 <script>
 export default {
   name: 'page-aggiornamento-professionale',
