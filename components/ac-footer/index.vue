@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div class="mt-12 md:mt-0">
+            <div>
               <h3 class="font-semibold leading-6 text-white">
                 Social
               </h3>
@@ -49,7 +49,7 @@
                 </li>
               </ul>
             </div>
-            <div>
+            <div class="mt-12 md:mt-0">
               <h3 class="font-semibold leading-6 text-white">
                 Note legali
               </h3>
