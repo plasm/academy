@@ -1,5 +1,5 @@
 <template>
-  <div data-name="page-aggiornamento-professionale">
+  <div data-name="page-aggiornamento-professionale" class="mt-24">
     <div class="mx-auto mt-10 px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="update-shadow mx-auto w-min rounded-full">
         <ac-shield class="mx-auto mb-2" persistent capsule theme="update" />
