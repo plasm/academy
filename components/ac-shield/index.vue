@@ -1,7 +1,7 @@
 <template>
   <div
     data-name="ac-shield"
-    class="group relative size-28 shrink-0 rounded-full bg-black outline outline-black transition-all duration-300"
+    class="group relative size-28 shrink-0 overflow-hidden rounded-full bg-black outline outline-black transition-all duration-300"
     :class="{
       'p-1 ':!hover,
       'scale-125 p-1':hover,
@@ -10,6 +10,9 @@
     @mouseover="hover = true"
     @mouseleave="hover = persistent"
   >
+    <div v-if="reflection" class="absolute left-0 top-0 z-30 size-full -rotate-45">
+      <div class="fx absolute left-0 top-0 h-1/2 w-full bg-gradient-to-tr from-white/50 to-transparent" />
+    </div>
     <div :class="`gradient-${theme}`" class="blend absolute left-0 top-0 z-10 flex size-full items-center justify-center rounded-full" />
     <div class="relative size-full rounded-full bg-gray-500 p-1">
       <div class="relative size-full rounded-full bg-black">
@@ -69,6 +72,10 @@ export default {
       type: Boolean,
       default: false
     },
+    reflection: {
+      type: Boolean,
+      default: false
+    },
     theme: {
       type: String,
       default: 'academy',
@@ -122,5 +129,25 @@ export default {
 .gradient-update{
   // @apply bg-primary;
   background: conic-gradient(from 0deg at 50% 50%, #b999fa 0deg, #3e25fe 90.8108deg, #7371fe 115.217deg, #a499fa 178.144deg, #b371fe 217.297deg, #d199fa 269.861deg, #8a2bff 308.425deg, #c999fa 360deg);
+}
+
+.fx{
+  animation-name: animationfx;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animationfx {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  20% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(200%);
+  }
 }
 </style>

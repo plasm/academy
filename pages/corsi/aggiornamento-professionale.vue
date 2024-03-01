@@ -2,7 +2,7 @@
   <div data-name="page-aggiornamento-professionale" class="mt-24">
     <div class="mx-auto mt-10 px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="update-shadow mx-auto w-min rounded-full">
-        <ac-shield class="mx-auto mb-2" persistent capsule theme="update" />
+        <ac-shield class="mx-auto mb-2" reflection persistent capsule theme="update" />
       </div>
       <ac-heading description="Grazie ai nostri corsi di formazione continua, puoi costruire il puzzle del tuo profilo curricolare. Un pezzo alla volta, secondo le tue esigenze.">
         <template #title>

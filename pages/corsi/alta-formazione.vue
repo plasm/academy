@@ -3,7 +3,7 @@
     <!-- HEADER -->
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="silver-shadow mx-auto w-min rounded-full">
-        <ac-shield class="mx-auto mb-2" persistent theme="silver" />
+        <ac-shield class="mx-auto mb-2" reflection persistent theme="silver" />
       </div>
       <ac-heading description="Immergerti totalmente nell’alta formazione ha un solo e unico obiettivo: farti emergere nella professione.">
         <template #title>
@@ -38,7 +38,7 @@
     <div class="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-6 md:grid-cols-2 lg:px-0">
       <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-tr  from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
         <div class="absolute -right-2 -top-4 scale-50 lg:right-2 lg:top-2">
-          <ac-shield :persistent="hover==='box-1'" theme="silver" />
+          <ac-shield reflection :persistent="hover==='box-1'" theme="silver" />
         </div>
         <div class="p-8 lg:pr-32 ">
           <div class="mb-4 text-xl font-medium">

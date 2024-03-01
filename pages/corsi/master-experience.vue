@@ -3,7 +3,7 @@
     <!-- HEADER -->
     <div class="mx-auto px-4 sm:px-6 md:px-8 2xl:max-w-7xl">
       <div class="gold-shadow mx-auto w-min rounded-full">
-        <ac-shield class="mx-auto mb-2" persistent experience theme="gold" />
+        <ac-shield class="mx-auto mb-2" reflection persistent experience theme="gold" />
       </div>
       <ac-heading description="Ti conduciamo oltre i confini della formazione convenzionale per vivere un’esperienza trasformativa senza precedenti.">
         <template #title>
@@ -53,7 +53,7 @@
       <!-- CARD 1 -->
       <div class="group relative mx-auto overflow-hidden rounded-xl border-t border-neutral-700 bg-gradient-to-tr  from-neutral-800 to-neutral-900 text-lg text-white " @mouseover="hover='box-1'" @mouseleave="hover=null">
         <div class="absolute -right-2 -top-4 scale-50 lg:right-2 lg:top-2">
-          <ac-shield experience :persistent="hover==='box-1'" theme="gold" />
+          <ac-shield reflection experience :persistent="hover==='box-1'" theme="gold" />
         </div>
         <div class="p-8 lg:pr-32 ">
           <div class="mb-4 text-xl font-medium">
