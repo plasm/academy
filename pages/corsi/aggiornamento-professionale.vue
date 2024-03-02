@@ -62,27 +62,12 @@
   </div>
 </template>
 <script>
+import faqs from '@/json/courses/faq-aggiornamento-professionale.json'
 export default {
   name: 'page-aggiornamento-professionale',
   data () {
     return {
-      faqs: [
-        {
-          active: true,
-          question: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
-          answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam id vel labore corrupti dignissimos dicta, voluptate assumenda delectus. Quas eos voluptate nesciunt asperiores, quod a porro iusto dolores quasi hic.'
-        },
-        {
-          active: false,
-          question: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
-          answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam id vel labore corrupti dignissimos dicta, voluptate assumenda delectus. Quas eos voluptate nesciunt asperiores, quod a porro iusto dolores quasi hic.'
-        },
-        {
-          active: false,
-          question: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
-          answer: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam id vel labore corrupti dignissimos dicta, voluptate assumenda delectus. Quas eos voluptate nesciunt asperiores, quod a porro iusto dolores quasi hic.'
-        }
-      ]
+      faqs
     }
   }
 }
