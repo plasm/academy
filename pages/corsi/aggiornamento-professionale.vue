@@ -16,13 +16,13 @@
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
-          I <span class="text-violet-400">Corsi di aggiornamento professionale</span> di AIGES Academy sono <u>corsi di formazione continua</u>, destinati ad avvocati, praticanti abilitati, psichiatri, psicologi, assistenti sociali, mediatori familiari, coordinatori genitoriali, counselor, pedagogisti, educatori, criminologi, sociologi e laureati in area umanistica, sanitaria e/o sociale.
+          I <span class="text-violet-300">Corsi di aggiornamento professionale</span> di AIGES Academy sono <u>corsi di formazione continua</u>, destinati ad avvocati, praticanti abilitati, psichiatri, psicologi, assistenti sociali, mediatori familiari, coordinatori genitoriali, counselor, pedagogisti, educatori professionali, criminologi, sociologi e laureati in area umanistica, sanitaria e/o sociale.
         </div>
         <div>
           La modalità di svolgimento è <u>online</u>.
         </div>
         <div>
-          L’accesso è consentito a un <u>minimo di 50 partecipanti</u> e a un <u>massimo di 500</u>.
+          Il numero di partecipanti varia da un <u>minimo di 50</u> a un <u>massimo di 500</u>.
         </div>
         <div>
           Non sono previsti esami.
@@ -33,10 +33,10 @@
     <ac-separator class="mt-18 mb-12" />
 
     <!-- PUNTO DI FORZA -->
-    <ac-heading description="Dalla struttura ai moduli, abbiamo progettato ogni dettaglio con la cura necessaria per garantirti un’esperienza di altissima qualità.">
+    <ac-heading description="Scopri un rapporto qualità-prezzo senza eguali e fanne il tuo mantra: massima-resa-minima-spesa-massima-resa-minima-spesa...">
       <template #title>
         <div class="leading-none ">
-          <span class="text-violet-400">Punto di forza</span>
+          Punto di forza
         </div>
       </template>
     </ac-heading>
@@ -44,16 +44,10 @@
     <div class="mx-auto max-w-5xl px-6 py-10 md:p-20 md:pt-0">
       <div class="mb-8 flex flex-col gap-4 text-lg font-light text-white md:text-2xl">
         <div>
-          Scopri un rapporto <span class="font-semibold text-violet-200 lg:text-4xl">qualità-prezzo</span> senza eguali e fanne il tuo mantra: massima-resa-minima-spesa-massima-resa-minima-spesa...
+          In un settore in cui aggiornarsi professionalmente può risultare oneroso e fuori portata, noi abbiamo scelto di andare controcorrente, mettendo a punto un format di insegnamento smart, capace di garantire a tutti l’opportunità di perfezionarsi con <u>relatori di altissima qualità</u> a un <u>prezzo incredibilmente basso</u>.
         </div>
         <div>
-          In un settore in cui aggiornarsi professionalmente può spesso risultare oneroso e fuori dalla portata di molti, noi abbiamo scelto di andare controcorrente, mettendo a sistema un format di insegnamento smart, capace di garantire a tutti l’opportunità di perfezionarsi con relatori di altissimo livello a un costo incredibilmente basso.
-        </div>
-        <div>
-          L’obiettivo è semplice: <u>rendere i corsi di formazione continua estremamente accessibili.</u>
-        </div>
-        <div>
-          E non si tratta di mercanteggiamento, ma di sostenibilità.
+          L’obiettivo è semplice: <span class="font-semibold text-violet-300 lg:text-4xl">accessibilità al 100%</span>.
         </div>
       </div>
     </div>
