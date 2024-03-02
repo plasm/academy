@@ -47,53 +47,16 @@
 </template>
 
 <script>
+import teachers from '@/json/teachers.json'
 export default {
   name: 'page-organizzazione',
   data () {
     return {
-      teachers: [
-        {
-          title: 'Romolo Donzelli',
-          description: 'Avvocato civilista e cassazionista, professore ordinario di Diritto processuale civile presso l’Università di Macerata, docente presso la Scuola di specializzazione per le professioni legali delle Università di Camerino e Macerata.'
-        },
-        {
-          title: 'Tiziana Fragomeni',
-          description: 'Avvocata negoziatrice, mediatrice, formatrice in tecniche di negoziazione, mediazione e trasformazione dei conflitti, ideatrice del metodo OASI (Osservare, Ascoltare, Sentire, Integrare).'
-        },
-        {
-          title: 'Arturo Maniaci',
-          description: 'Avvocato civilista, professore associato di Istituzioni di diritto privato presso l’Università Statale di Milano.'
-        },
-        {
-          title: 'Paolo Palumbo',
-          description: 'Avvocato canonista, professore straordinario di Diritto canonico ed ecclesiastico e di Psicologia forense canonica presso l’Università Giustino Fortunato, docente di Diritto di famiglia presso la Pontificia Facoltà Teologica dell’Italia Meridionale di Napoli, giudice uditore presso il Tribunale Ecclesiastico Interdiocesano e di Appello di Benevento, presidente di sezione dell’Unione Giuristi Cattolici Italiani.'
-        },
-        {
-          title: 'Isabella Salmeri',
-          description: 'Mediatrice familiare, coordinatrice genitoriale, formatrice in leadership, intelligenza emotiva, comunicazione strategica e problem-solving.'
-        },
-        {
-          title: 'Alessandra Simonelli',
-          description: 'Psicologa, psicoterapeuta, professoressa di prima fascia di Psicologia dinamica e Psicopatologia dello sviluppo e direttrice del Dipartimento di Psicologia dello sviluppo e della Socializzazione presso l’Università di Padova.'
-        },
-        {
-          title: 'Sara Trabucchi',
-          description: 'Avvocata civilista, già consigliera e componente della Commissione famiglia e minori presso il Consiglio dell’Ordine degli Avvocati di Verona.'
-        },
-        {
-          title: 'Clara Veneto',
-          description: 'Avvocata penalista, responsabile dell’Osservatorio Scuole territoriali e Specializzazione presso l’Unione Camere Penali Italiane, componente della Commissione Reati in ambito familiare della Camera Penale di Roma.'
-        },
-        {
-          title: 'Cinzia Vitale',
-          description: 'Sociologa, criminologa, mediatrice familiare, membro del Consiglio direttivo e del Comitato di esperti del Centro per l’UNESCO di Firenze.'
-        },
-      ]
+      teachers
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-
 </style>
